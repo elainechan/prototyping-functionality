@@ -1,9 +1,9 @@
 # Prototyping Functionality
 
 ## Table Functionality
-- [ ] List different javascript libraries for managing tables.
+- [x] List different javascript libraries for managing tables.
 - [ ] Decide columns to display.
-- [ ] Sort columns.
+- [ ] Sort columns ([example](http://bl.ocks.org/AMDS/4a61497182b8fcb05906)).
 - [ ] Filter columns by value.
 - [ ] Edit values directly in table.
 - [ ] Show alert after clicking on row.
