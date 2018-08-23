@@ -1,0 +1,23 @@
+{
+  "name": "prototyping-functionality",
+  "version": "1.0.0",
+  "description": "## Table Functionality - [ ] List different javascript libraries for managing tables. - [ ] Decide columns to display. - [ ] Sort columns. - [ ] Filter columns by value. - [ ] Edit values directly in table. - [ ] Show alert after clicking on row.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elainechan/prototyping-functionality.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/elainechan/prototyping-functionality/issues"
+  },
+  "homepage": "https://github.com/elainechan/prototyping-functionality#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
