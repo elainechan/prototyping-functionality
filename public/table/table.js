@@ -18,7 +18,8 @@ d3.csv("./countries.csv").then(
 			var rows = tbody.selectAll("tr")
 				.data(data)
 				.enter()
-				.append("tr");
+				.append("tr")
+				.attr("class", "data-point")
 	
 			// create a cell in each row for each column
 			var cells = rows.selectAll("td")
@@ -45,6 +46,11 @@ d3.csv("./countries.csv").then(
 		arr.splice(0, 1);
 	
 		tabulate(data, arr); //The names of the columns in the CSV file
+
+		// Grey alternate rows
+		d3.selectAll(".data-point").style("background", function(d, i) {
+			return i % 2 ? "#fff" : "#eee";
+		});
 	
 		function formatMoney(n) {
 			return n.toString().replace(/(\d)(?=(\d{3})+(?!\d))/g, "$1,")
