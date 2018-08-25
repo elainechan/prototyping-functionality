@@ -89,7 +89,7 @@ d3.csv("./countries.csv").then((data) => {
 		.style("background", (row, i) => {
 			return i % 2 ? "#fff" : "#eee";
 		});
-
+		
 	// Add footer containing link to data source
 	d3.select('html')
 		.append('footer')
