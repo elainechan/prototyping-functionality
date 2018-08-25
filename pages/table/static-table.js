@@ -73,10 +73,6 @@ d3.csv("./countries.csv").then((data) => {
 	};
 	
 	// https://www.growingwiththeweb.com/2012/08/how-to-select-html-table-column-using.html
-	function selectCol(x) { // select column
-		return $(`table tr > td:nth-child(${x}), table tr > th:nth-child(${x})`);
-	}
-
 	function whichColSelected(target) { // find which column is selected through nthchild index
 		return Number(target.getAttribute('key')) + 1;
 	}
@@ -87,7 +83,7 @@ d3.csv("./countries.csv").then((data) => {
 			$(`table tr > td:nth-child(${n}), table tr > th:nth-child(${n})`).hide();
 		});
 	}
-	clickToHideCol();
+	//clickToHideCol();
 	// Grey alternate rows
 	d3.selectAll(".row")
 		.style("background", (row, i) => {
