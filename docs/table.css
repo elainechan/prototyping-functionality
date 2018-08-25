@@ -1,0 +1,41 @@
+@import url('//fonts.googleapis.com/css?family=Lato:400,400italic,700,700italic');
+	
+			body {
+				font-family: 'Lato', Arial, Helvetica, sans-serif;
+				font-size: 16px;
+			}
+	
+			.source, .prepaired, .update {
+				font-size: 0.625em;
+				color: grey;
+				line-height: 80%;
+			}
+	
+			th {
+				text-align: right;
+				font-weight: bold;
+			}
+	
+			table {
+				text-align: right;
+				padding-right: 2px;
+				margin-right: 3px;
+				width: 100%;
+				min-width: 400px;
+			}
+
+			.table-wrap {
+				width: 100%;
+				margin-right: 5px;
+			}
+	
+			td:nth-child(6) {
+				margin-right: 8px;
+			}
+	
+			td:nth-child(1) {
+				width: 200px;
+			}
+			/*tr:hover {
+				background-color: lightgrey;
+			}*/
