@@ -28,8 +28,8 @@
 ## D3.js Table Functionality
 - [x] List different javascript libraries for managing tables.
 - [ ] Decide columns to display.
-- [ ] Sort columns ([example](http://bl.ocks.org/AMDS/4a61497182b8fcb05906), [tutorial](http://arnicas.github.io/interactive-vis-course/Week4/)).
-- [ ] Filter columns by value.
+- [ ] Sort columns. ([sortable example](http://bl.ocks.org/AMDS/4a61497182b8fcb05906), [tutorial](http://arnicas.github.io/interactive-vis-course/Week4/))
+- [ ] Filter columns by value. [sortable/filterable example](http://bl.ocks.org/dhoboy/1ac430a7ca883e7a8c09)
 - [ ] Edit values directly in table.
 - [ ] Show alert after clicking on row.
 
