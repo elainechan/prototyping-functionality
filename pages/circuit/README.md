@@ -1,4 +1,5 @@
 # Libraries for Rendering Circuits
+- [Electrical symbols SVG icons](https://commons.wikimedia.org/wiki/File:Electrical_symbols_library.svg)
 
 ## Specialized Libraries for Graphs and Networks
 - [Cytoscape.js](http://js.cytoscape.org/)

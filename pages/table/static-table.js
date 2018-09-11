@@ -95,10 +95,16 @@ d3.csv("./countries.csv").then((data) => {
 		.append('footer')
 		.append('a')
 		.attr('href', 'https://www.kaggle.com/fernandol/countries-of-the-world/version/1#')
-		.text('Data source');	
+		.text('Data source');
 });
 	/*
 	TODO
 	add data indexing colx, row y
 	sort table by column value
+	*/
+
+	/*
+	choose the row
+	append a new row
+	
 	*/

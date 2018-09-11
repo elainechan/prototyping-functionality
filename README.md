@@ -1,5 +1,9 @@
 # Prototyping Functionality
 
+- [ ] Relationships
+- [ ] Class diagram
+- [ ] Data flow
+
 ## Table Functionality
 - [x] List different javascript libraries for managing tables.
 - [ ] Decide columns to display.
