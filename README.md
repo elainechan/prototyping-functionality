@@ -1,5 +1,6 @@
 # Prototyping Functionality
 
+## Blueprint
 - [ ] Relationships
 - [ ] Class diagram
 - [ ] Data flow
@@ -37,3 +38,7 @@
 - [ ] Render network edges using different stroke widths.
 - [ ] Show alert after clicking on feature.
 - [ ] Find ways to let user move positions of network nodes.
+
+## Resources
+- [UML course](https://courses.edx.org/courses/course-v1:KULeuvenX+UMLx+1T2018/course/)
+- [UML core reference](https://www.uml-diagrams.org/uml-core-reference.html)
