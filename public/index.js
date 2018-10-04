@@ -1,5 +1,6 @@
 'use strict';
 
+/*
 d3.text('./README.md').then(data => {
 	var converter = new showdown.Converter();
 	var mdHTML = converter.makeHtml(data);
@@ -8,3 +9,4 @@ d3.text('./README.md').then(data => {
 	$('body')
 		.append(mdHTML.toString()); // prepend html to top of body
 });
+*/
