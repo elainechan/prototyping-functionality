@@ -1,8 +1,8 @@
 # Prototyping Functionality
 
 ## Table Functionality
-- [x] List different javascript libraries for managing tables.
-- [ ] Decide columns to display.
+- [x] List different javascript libraries for managing tables. See [notes](./table/README.md)
+- [x] Decide columns to display.
 - [ ] Sort columns.
 - [ ] Filter columns by value.
 - [ ] Edit values directly in table.
