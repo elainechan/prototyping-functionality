@@ -10,44 +10,41 @@ d3.text('./README.md').then(data => {
 		.append(mdHTML.toString()); // prepend html to top of body
 });
 */
-fetch('/columns')
+fetch('/tcolumns')
 .then(res => {
 	return res.json();
 })
 .then(data => {
-	console.log(JSON.stringify(data));
-	let cols = data;
 	const table = new Tabulator("#example-table", {
 		height: 300,
-		columns: cols
+		columns: data
 	});
+	table.setData('/tdata');
 	return;
 });
 
 
-
-// specify the columns
-var columnDefs = [
-	{headerName: "Make", field: "make"},
-	{headerName: "Model", field: "model"},
-	{headerName: "Price", field: "price"}
-];
-
-// specify the data
-var rowData = [
-	{make: "Toyota", model: "Celica", price: 35000},
-	{make: "Ford", model: "Mondeo", price: 32000},
-	{make: "Porsche", model: "Boxter", price: 72000}
-];
-
-// let the grid know which columns and what data to use
-var gridOptions = {
-	columnDefs: columnDefs,
-	rowData: rowData
-};
-
+var gridOptions = {}
 // lookup the container we want the Grid to use
 var eGridDiv = document.querySelector('#myGrid');
 
 // create the grid passing in the div to use together with the columns & data we want to use
 new agGrid.Grid(eGridDiv, gridOptions);
+
+fetch('/agcolumns')
+.then(res => res.json())
+.then(data => {
+	console.log(`column data: ${JSON.stringify(data)}`)
+	gridOptions.api.setColumnDefs(data);
+})
+
+fetch('/agdata').then(function(response) {
+	return response.json();
+}).then(function(data) {
+	let newData = data.map((val, i) => {
+		delete val._id;
+		return val;
+	})
+	console.log(`newData: ${JSON.stringify(newData)}`)
+	gridOptions.api.setRowData(newData);
+})
