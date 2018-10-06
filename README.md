@@ -1,14 +1,9 @@
 # Prototyping Functionality
 
-## Blueprint
-- [ ] Relationships
-- [ ] Class diagram
-- [ ] Data flow
-
 ## Table Functionality
 - [x] List different javascript libraries for managing tables.
 - [ ] Decide columns to display.
-- [ ] Sort columns ([example](http://bl.ocks.org/AMDS/4a61497182b8fcb05906)).
+- [ ] Sort columns.
 - [ ] Filter columns by value.
 - [ ] Edit values directly in table.
 - [ ] Show alert after clicking on row.
@@ -38,6 +33,11 @@
 - [ ] Render network edges using different stroke widths.
 - [ ] Show alert after clicking on feature.
 - [ ] Find ways to let user move positions of network nodes.
+
+## Planning
+- [ ] Relationships
+- [ ] Class diagram
+- [ ] Data flow
 
 ## Resources
 - [UML course](https://courses.edx.org/courses/course-v1:KULeuvenX+UMLx+1T2018/course/)
