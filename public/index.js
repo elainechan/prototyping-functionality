@@ -1,15 +1,6 @@
 'use strict';
 
-/*
-d3.text('./README.md').then(data => {
-	var converter = new showdown.Converter();
-	var mdHTML = converter.makeHtml(data);
-	console.log(mdHTML);
-	console.log(typeof mdHTML); // string
-	$('body')
-		.append(mdHTML.toString()); // prepend html to top of body
-});
-*/
+// Tabulator
 fetch('/tcolumns')
 .then(res => {
 	return res.json();
@@ -23,7 +14,7 @@ fetch('/tcolumns')
 	return;
 });
 
-
+// ag-grid
 var gridOptions = {}
 // lookup the container we want the Grid to use
 var eGridDiv = document.querySelector('#myGrid');

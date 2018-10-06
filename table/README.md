@@ -1,4 +1,12 @@
 # Libraries for Rendering Tables
+
+## Specialized Grid Libraries
+- [x] [Tabulator](http://tabulator.info/)
+- [x] [ag-Grid](https://github.com/ag-grid/ag-grid)
+- [Fancy Grid](https://www.fancygrid.com/)
+
+## General Visualization Libraries
+- [Highcharts](https://www.highcharts.com/)
 - [D3.js](https://d3js.org/)
 	- Low-level
 	- Highly customizable
@@ -19,11 +27,6 @@
 - [vis.js DataView](http://visjs.org/docs/data/dataview.html)
 - [Vega](https://vega.github.io/vega/)
 - [NVD3](http://nvd3.org/index.html)
-
-## Specialized Grid Libraries
-- [ag-Grid](https://github.com/ag-grid/ag-grid)
-- [Fancy Grid](https://www.fancygrid.com/)
-- [Highcharts](https://www.highcharts.com/)
 
 ## D3.js Table Functionality
 - [x] List different javascript libraries for managing tables.
