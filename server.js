@@ -4,7 +4,7 @@ const express = require('express');
 const app = express();
 const mongoose = require('mongoose');
 const bodyParser = require('body-parser');
-const { getTColumns, getTData, getAgColumns, getAgData } = require('./table/table');
+const { getCols, getTColumns, getTData, getAgColumns, getAgData } = require('./table/table.controller');
 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
@@ -13,6 +13,7 @@ app.use(express.static('public'));
 app.get('/',(req, res) => {
 	res.sendFile('/Users/Leo/prototyping-functionality/index.html');
 });
+app.get('/cols', getCols);
 app.get('/tcolumns', getTColumns);
 app.get('/tdata', getTData);
 app.get('/agcolumns', getAgColumns);

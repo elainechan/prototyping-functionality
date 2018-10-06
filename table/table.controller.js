@@ -1,10 +1,18 @@
 const mongoose = require('mongoose');
 const Subway = require('../model/subway.model');
 
+exports.getCols = (req, res) => {
+	const cols = [];
+	Subway.schema.eachPath(path => {
+		cols.push(path);
+	});
+	return res.send(cols);
+}
+
 exports.getTColumns = (req, res) => {
 	const colNames = [];
-	Subway.schema.eachPath(path => {
-		if (path !== '__v') {
+	Subway.schema.eachPath((path, type) => {
+		if (path !== '__v' || path !== '_id') {
 			colNames.push({
 				title: path,
 				field: path.toLowerCase()
@@ -38,7 +46,6 @@ exports.getTData = (req, res) => {
 			val.id = i + 1;
 			return lowerKeys(val);
 		});
-		console.log(`newData: ${JSON.stringify(newData)}`);
 		return res.json(newData);
 	})
 }
