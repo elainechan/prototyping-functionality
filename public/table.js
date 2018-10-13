@@ -13,23 +13,25 @@ function renderColumnSelection() {
 	fetch('/cols')
 	.then(res => res.json())
 	.then(data => {
-		let cols = data
-		.filter(val => val !== '__v')
-		.filter(val => val !== '_id');
+		let cols = data;
+		let formDiv = document.createElement('div');
+		formDiv.setAttribute('class', 'form-group');
 		document.body.insertBefore(
-			document.createElement('form'), document.querySelector('#tabulator-table')
+			formDiv, document.querySelector('#tabulator-table')
 		);
-		let form = document.querySelector('form');
+		let form = document.createElement('div');
 		form.setAttribute('class', 'column-selection');
-		let fieldset = document.createElement('fieldset');
-		let legend = document.createElement('legend');
 		let ltext = document.createTextNode('Choose columns to display');
-		legend.appendChild(ltext);
-		form.appendChild(fieldset);
-		fieldset.appendChild(legend);
+		let textWrapper = document.createElement('div');
+		textWrapper.setAttribute('class', 'column-menu-title');
+		textWrapper.appendChild(ltext);
+		formDiv.appendChild(textWrapper);
+		formDiv.appendChild(form);
 		cols.forEach((val, i) => {
-			let input = document.createElement('input')
-			input.setAttribute('type', 'checkbox')
+			let columnCheck = document.createElement('div');
+			columnCheck.setAttribute('class', 'column-checkbox');
+			let input = document.createElement('input');
+			input.setAttribute('type', 'checkbox');
 			input.checked = true;
 			input.setAttribute('onclick','handleColumnSelect(this);')
 			input.setAttribute('name', 'column');
@@ -39,16 +41,17 @@ function renderColumnSelection() {
 			label.setAttribute('for', val.replace(/ /i, '-').toLowerCase())
 			let text = document.createTextNode(val);
 			label.appendChild(text);
-			fieldset.appendChild(input);
-			fieldset.appendChild(label);
-			fieldset.appendChild(br);
+			columnCheck.appendChild(input)
+			columnCheck.appendChild(label);
+			form.appendChild(columnCheck);
+			form.appendChild(br);
 		});
 	});
 }
 
 function handleColumnSelect(e) {
 console.log("Clicked, new value = " + e.checked)
-let id = e.getAttribute('id').replace(/-/i, ' ');
+let id = e.getAttribute('id');
 	if (e.checked === false) {
 		console.log(`deselected column: ${id}`)
 		tabulator.hideColumn(id);
@@ -79,6 +82,16 @@ function renderTabulator() {
 	});
 }
 
+function getTData() {
+	fetch('/tdata')
+	.then(res => {
+		return res.json();
+	})
+	.then(data => {
+		console.log(`getTData: ${JSON.stringify(data)}`)
+	})
+}
+
 // ag-Grid table
 function renderAgGrid() {
 	let table = document.querySelector('#ag-grid-table');
@@ -106,3 +119,4 @@ function renderAgGrid() {
 renderTabulator();
 renderColumnSelection();
 renderAgGrid();
+//getTData();
