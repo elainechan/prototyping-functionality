@@ -1,11 +1,23 @@
 'use strict';
 
-function handleTableButton() {
-	console.log('table button');
-	let tabulator = document.querySelector("#tabulator-table");
-	tabulator.style.display = 'block';
-	let ag = document.querySelector('#ag-grid-table');
-	ag.style.display = 'block';
+function handleTabulatorButton() {
+	console.log('handleTabulatorButton');
+	let tabulator = document.getElementById("tabulator-table");
+	if (tabulator.style.visibility === 'visible') {
+		tabulator.style.visibility = 'hidden';
+	} else {
+		tabulator.style.visibility = 'visible';
+	}
+}
+
+function handleAgGridButton() {
+	console.log('handleAgGridButton');
+	let ag = document.getElementById('ag-grid-table');
+	if (ag.style.visibility === 'visible') {
+		ag.style.visibility = 'hidden';
+	} else {
+		ag.style.visibility = 'visible';
+	}
 }
 
 // Create column selection menu
@@ -70,6 +82,8 @@ const tabulator = new Tabulator("#tabulator-table", {
 });
 
 function renderTabulator() {
+	let table = document.querySelector('#tabulator-table');
+	table.style.visibility = 'visible';
 	fetch('/tcolumns')
 	.then(res => {
 		return res.json();
@@ -82,19 +96,10 @@ function renderTabulator() {
 	});
 }
 
-function getTData() {
-	fetch('/tdata')
-	.then(res => {
-		return res.json();
-	})
-	.then(data => {
-		console.log(`getTData: ${JSON.stringify(data)}`)
-	})
-}
-
 // ag-Grid table
 function renderAgGrid() {
 	let table = document.querySelector('#ag-grid-table');
+	table.style.visibility = 'visible';
 	let gridOptions = {};
 	// create the grid passing in the div to use together with the columns & data we want to use
 	new agGrid.Grid(table, gridOptions);
@@ -119,4 +124,3 @@ function renderAgGrid() {
 renderTabulator();
 renderColumnSelection();
 renderAgGrid();
-//getTData();
