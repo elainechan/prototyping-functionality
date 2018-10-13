@@ -9,7 +9,7 @@ function renderColumnSelection() {
 		.filter(val => val !== '__v')
 		.filter(val => val !== '_id');
 		document.body.insertBefore(
-			document.createElement('form'), document.getElementById('example-table')
+			document.createElement('form'), document.querySelector('#tabulator-table')
 		);
 		let form = document.querySelector('form');
 		form.setAttribute('class', 'column-selection');
@@ -50,14 +50,17 @@ let id = e.getAttribute('id').replace(/-/i, ' ');
 		return (id, true)
 	}
 }
-// Tabulator.js table
-const tabulator = new Tabulator("#example-table", {
+// Construct table
+const tabulator = new Tabulator("#tabulator-table", {
 	height: 300,
 	selectable: true,
 	movableColumns: true,
 	movableRows: true,
 });
+
 function renderTabulator() {
+	let table = document.querySelector("#tabulator-table");
+	table.style.display = 'block';
 	fetch('/tcolumns')
 	.then(res => {
 		return res.json();
@@ -72,11 +75,11 @@ function renderTabulator() {
 
 // ag-Grid table
 function renderAgGrid() {
-	var gridOptions = {}
-	// lookup the container we want the Grid to use
-	var eGridDiv = document.querySelector('#myGrid');
+	let table = document.querySelector('#ag-grid-table');
+	table.style.display = 'block';
+	let gridOptions = {};
 	// create the grid passing in the div to use together with the columns & data we want to use
-	new agGrid.Grid(eGridDiv, gridOptions);
+	new agGrid.Grid(table, gridOptions);
 	
 	fetch('/agcolumns')
 	.then(res => res.json())
