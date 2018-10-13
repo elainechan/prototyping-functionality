@@ -1,8 +1,8 @@
 # Libraries for Rendering Tables
 
 ## Specialized Grid Libraries
-- [x] [Tabulator](http://tabulator.info/)
-- [x] [ag-Grid](https://github.com/ag-grid/ag-grid)
+- [x] [ag-Grid](https://github.com/ag-grid/ag-grid) (Watch: 187, Star: 4,351, Fork: 709)
+- [x] [Tabulator](http://tabulator.info/) (Watch: 78 Star: 997, Fork: 173)
 - [Fancy Grid](https://www.fancygrid.com/)
 
 ## General Visualization Libraries
