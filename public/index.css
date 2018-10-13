@@ -1,6 +1,15 @@
 body {
 	font-family: 'helvetica', sans-serif;
 }
-ul {
+ul>li {
+	display: inline-block;
 	list-style-type: none;
+}
+
+.column-selection {
+	display: inline-flex;
+	flex-wrap: wrap;
+}
+.column-checkbox {
+	padding: 5px;
 }

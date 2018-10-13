@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 const Subway = require('../model/subway.model');
-const { lowerKeys, replaceSpaceWithDash } = require('./utils');
+const { lowerKeysAndReplaceSpaceWithDash } = require('./utils');
 
 exports.getCols = (req, res) => {
 	const cols = [];
@@ -42,10 +42,10 @@ exports.getTData = (req, res) => {
 			console.log(err);
 		}
 		let newData = data.map((val, i) => {
-			delete val._id;
-			delete val.__V;
+			//delete val._id;
+			//delete val.__V;
 			val.id = i + 1;
-			return lowerKeys(val);
+			return lowerKeysAndReplaceSpaceWithDash(val);
 		});
 		return res.json(newData);
 	})
@@ -57,7 +57,7 @@ exports.getAgColumns = (req, res) => {
 		if (path !== '__v' && path !== '_id') {
 			colNames.push({
 				headerName: path,
-				field: path.toLowerCase()
+				field: path.toLowerCase().replace(/ /i, '-')
 			});
 		}
 	});
@@ -71,7 +71,7 @@ exports.getAgData = (req, res) => {
 		if (err) {
 			console.log(err);
 		}
-		let newData = data.map(val => lowerKeys(val));
+		let newData = data.map(val => lowerKeysAndReplaceSpaceWithDash(val));
 		return res.json(newData);
 	})
 }
