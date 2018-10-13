@@ -1,5 +1,13 @@
 'use strict';
 
+function handleTableButton() {
+	console.log('table button');
+	let tabulator = document.querySelector("#tabulator-table");
+	tabulator.style.display = 'block';
+	let ag = document.querySelector('#ag-grid-table');
+	ag.style.display = 'block';
+}
+
 // Create column selection menu
 function renderColumnSelection() {
 	fetch('/cols')
@@ -59,8 +67,6 @@ const tabulator = new Tabulator("#tabulator-table", {
 });
 
 function renderTabulator() {
-	let table = document.querySelector("#tabulator-table");
-	table.style.display = 'block';
 	fetch('/tcolumns')
 	.then(res => {
 		return res.json();
@@ -76,7 +82,6 @@ function renderTabulator() {
 // ag-Grid table
 function renderAgGrid() {
 	let table = document.querySelector('#ag-grid-table');
-	table.style.display = 'block';
 	let gridOptions = {};
 	// create the grid passing in the div to use together with the columns & data we want to use
 	new agGrid.Grid(table, gridOptions);
