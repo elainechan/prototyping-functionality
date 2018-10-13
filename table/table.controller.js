@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 const Subway = require('../model/subway.model');
-const { lowerKeys } = require('./utils');
+const { lowerKeys, replaceSpaceWithDash } = require('./utils');
 
 exports.getCols = (req, res) => {
 	const cols = [];
@@ -10,13 +10,24 @@ exports.getCols = (req, res) => {
 	return res.send(cols);
 }
 
+exports.getSchemaTypes = (req, res) => {
+	const paths = []; 
+	const types = [];
+	Subway.schema.eachPath((err, path, type) => {
+		if(err) console.log(err);
+			paths.push(path);
+			types.push(type);
+			return res.send(type);
+	});
+}
+
 exports.getTColumns = (req, res) => {
 	const colNames = [];
 	Subway.schema.eachPath((path, type) => {
 		if (path !== '__v' || path !== '_id') {
 			colNames.push({
 				title: path,
-				field: path.toLowerCase()
+				field: path.toLowerCase().replace(/ /i, '-')
 			});
 		}
 	});
