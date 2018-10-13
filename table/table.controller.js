@@ -1,5 +1,6 @@
 const mongoose = require('mongoose');
 const Subway = require('../model/subway.model');
+const { lowerKeys } = require('./utils');
 
 exports.getCols = (req, res) => {
 	const cols = [];
@@ -20,17 +21,6 @@ exports.getTColumns = (req, res) => {
 		}
 	});
 	return res.send(colNames);
-}
-
-function lowerKeys(obj) {
-	let key, keys = Object.keys(obj);
-	let n = keys.length;
-	let newobj={};
-	while (n--) {
-			key = keys[n];
-			newobj[key.toLowerCase()] = obj[key];
-	}
-	return newobj;
 }
 
 exports.getTData = (req, res) => {

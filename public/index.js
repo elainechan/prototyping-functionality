@@ -50,7 +50,7 @@ let id = e.getAttribute('id').replace(/-/i, ' ');
 		return (id, true)
 	}
 }
-
+// Tabulator.js table
 const tabulator = new Tabulator("#example-table", {
 	height: 300,
 	selectable: true,
@@ -77,6 +77,7 @@ table.setSort([
 ]);
 */
 
+// ag-Grid table
 function renderAgGrid() {
 	var gridOptions = {}
 	// lookup the container we want the Grid to use
@@ -103,3 +104,4 @@ function renderAgGrid() {
 
 renderTabulator();
 renderColumnSelection();
+renderAgGrid();
