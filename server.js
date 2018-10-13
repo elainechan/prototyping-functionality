@@ -4,7 +4,14 @@ const express = require('express');
 const app = express();
 const mongoose = require('mongoose');
 const bodyParser = require('body-parser');
-const { getCols, getTColumns, getTData, getAgColumns, getAgData } = require('./table/table.controller');
+const {
+	getCols,
+	getTColumns,
+	getTData,
+	getAgColumns,
+	getAgData,
+	getSchemaTypes
+} = require('./table/table.controller');
 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
@@ -18,6 +25,7 @@ app.get('/tcolumns', getTColumns);
 app.get('/tdata', getTData);
 app.get('/agcolumns', getAgColumns);
 app.get('/agdata', getAgData);
+app.get('/types', getSchemaTypes);
 
 let server;
 

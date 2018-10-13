@@ -3,7 +3,7 @@
 ## Table Functionality
 - [x] List different javascript libraries for managing tables. See [notes](./table/README.md)
 - [x] Decide columns to display.
-- [ ] Sort columns.
+- [x] Sort columns.
 - [ ] Filter columns by value.
 - [ ] Edit values directly in table.
 - [ ] Show alert after clicking on row.

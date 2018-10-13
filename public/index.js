@@ -69,13 +69,6 @@ function renderTabulator() {
 		return;
 	});
 }
-// tabulator.setSort({})
-/*
-table.setSort([
-	{column:"age", dir:"asc"}, //sort by this first
-	{column:"height", dir:"desc"}, //then sort by this second
-]);
-*/
 
 // ag-Grid table
 function renderAgGrid() {
