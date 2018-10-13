@@ -1,3 +1,6 @@
 body {
 	font-family: 'helvetica', sans-serif;
 }
+ul {
+	list-style-type: none;
+}
