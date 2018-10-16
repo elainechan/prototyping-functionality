@@ -6,20 +6,11 @@ ul>li {
 	list-style-type: none;
 }
 
+/* Table */
 .column-selection {
 	display: inline-flex;
 	flex-wrap: wrap;
 }
 .column-checkbox {
 	padding: 5px;
-}
-
-#cytoscape-circuit {
-		width: 300px;
-		height: 300px;
-		left: 0;
-		top: 0;
-		right: 0;
-		bottom: 0;
-		background: #000;
 }

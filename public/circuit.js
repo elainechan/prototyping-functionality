@@ -9,15 +9,14 @@ function handleCircuitButton() {
 	}
 }
 
-const columns = ['airline','airline id', 'source airport', 'source airport id', 'destination airport', 'destination airport id', 'codeshare', 'stops', 'equipment'];
-
 const cyData = {
 	'elements': {
 		'nodes': [
 		]
 	}
 }
-let graphData = fetch('/cdata')
+
+const graphData = fetch('/cdata')
 	.then(res => res.json())
 	.then(data => {
 		data.map(data => {
@@ -34,8 +33,8 @@ let graphData = fetch('/cdata')
 		console.log(`cyData: ${JSON.stringify(cyData)}`);
 		return cyData;
 	});
-
-let styleData = fetch('https://gist.githubusercontent.com/maxkfranz/2c23fe9a23d0cc8d43af/raw')
+// https://gist.githubusercontent.com/maxkfranz/2c23fe9a23d0cc8d43af/raw
+const styleData = fetch('./circuit.js')
 	.then(res => res.text());
 
 Promise.all([graphData, styleData]).then(initCy);
@@ -53,14 +52,18 @@ function initCy(then) {
 	mendData();
 } 
 
-function mendData() {
+function mendData(){
+	// because the source data doesn't connect nodes properly, use the cytoscape api to mend it:
+
 	cy.startBatch();
-	let nodes = cy.nodes();
-	let bin = {};
-	let metanames = [];
+
+	// put nodes in bins based on name
+	var nodes = cy.nodes();
+	var bin = {};
+	var metanames = [];
 	for( var i = 0; i < nodes.length; i++ ){
 		var node = nodes[i];
-		var name = node.data('station-name');
+		var name = node.data('station_name');
 		var nbin = bin[ name ] = bin[ name ] || [];
 
 		nbin.push( node );
@@ -70,21 +73,34 @@ function mendData() {
 		}
 	}
 
-	for( var j = 0; j < nbin.length; j++ ){
-		for( var k = j + 1; k < nbin.length; k++ ){
-			var nj = nbin[j];
-			var nk = nbin[k];
-			cy.add({
-				group: 'edges',
-				data: {
-					source: nj.id(),
-					target: nk.id(),
-					is_walking: true
-				}
-			});
+	// connect all nodes together with walking edges
+	for( var i = 0; i < metanames.length; i++ ){
+		var name = metanames[i];
+		var nbin = bin[ name ];
+
+		for( var j = 0; j < nbin.length; j++ ){
+			for( var k = j + 1; k < nbin.length; k++ ){
+				var nj = nbin[j];
+				var nk = nbin[k];
+				
+				cy.add({
+					group: 'edges',
+					data: {
+						source: nj.id(),
+						target: nk.id(),
+						is_walking: true
+					}
+				});
+				
+				//.css({
+			//    'line-color': 'yellow'
+				// });
+			}
 		}
+
 	}
-	cy.endBatch();
+
+	cy.endBatch(); //.autolock( true );
 }
 	// store fetch functions in vars
 // load fetch functions in Promise
