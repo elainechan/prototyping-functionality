@@ -1,5 +1,6 @@
 'use strict';
 
+
 function handleCircuitButton() {
 	let circuit = document.querySelector('#cytoscape-circuit');
 	if (circuit.style.visibility === 'visible') {
@@ -15,6 +16,23 @@ const cyData = {
 		]
 	}
 }
+
+function getStops() {
+	d3.csv('https://raw.githubusercontent.com/elainechan/prototyping-functionality/master/mtaStops.csv', data => {
+		debugger
+		console.log(`getStops: ${JSON.stringify(data)}`);
+	})
+}
+/*
+  [
+		{
+			"station_id":"101",
+			"station_name":"Van Cortlandt Park - 242 St","station_lat":"40.889248","station_lon":"-73.898583"},
+		{
+			"station_id":"103",
+			"station_name":"238 St","station_lat":"40.884667","station_lon":"-73.90087"}
+	]
+*/
 
 const graphData = fetch('/cdata')
 	.then(res => res.json())
@@ -34,11 +52,11 @@ const graphData = fetch('/cdata')
 		return cyData;
 	});
 // https://gist.githubusercontent.com/maxkfranz/2c23fe9a23d0cc8d43af/raw
-const styleData = fetch('./circuit.js')
+const styleData = fetch('./circuit.txt')
 	.then(res => res.text());
 
-Promise.all([graphData, styleData]).then(initCy);
-
+//Promise.all([graphData, styleData]).then(initCy);
+/*
 function initCy(then) {
 	var cy = window.cy = cytoscape({
 		container: document.getElementById('cytoscape-circuit'),
@@ -51,12 +69,14 @@ function initCy(then) {
 	});
 	mendData();
 } 
+*/
+
+
+/*
 
 function mendData(){
 	// because the source data doesn't connect nodes properly, use the cytoscape api to mend it:
-
 	cy.startBatch();
-
 	// put nodes in bins based on name
 	var nodes = cy.nodes();
 	var bin = {};
@@ -102,6 +122,7 @@ function mendData(){
 
 	cy.endBatch(); //.autolock( true );
 }
+*/
 	// store fetch functions in vars
 // load fetch functions in Promise
 // .then initiation function
@@ -181,3 +202,4 @@ var cy = cytoscape({
 
 });
 */
+getStops();

@@ -12,7 +12,10 @@ const {
 	getAgData,
 	getSchemaTypes
 } = require('./table/table.controller');
-const { getCircuitData } = require('./circuit/circuit.controller');
+const {
+	getCircuitData,
+	getMtaStops
+} = require('./circuit/circuit.controller');
 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
@@ -30,6 +33,7 @@ app.get('/agdata', getAgData);
 app.get('/types', getSchemaTypes);
 // Circuit
 app.get('/cdata', getCircuitData);
+app.get('/mtastops', getMtaStops)
 
 let server;
 

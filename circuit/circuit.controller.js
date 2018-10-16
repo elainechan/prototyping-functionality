@@ -1,6 +1,7 @@
 const mongoose = require('mongoose');
 const Subway = require('../model/subway.model');
 const { lowerKeysAndReplaceSpaceWithDash } = require('./utils');
+const d3 = require('d3-dsv')
 
 exports.getCircuitData = (req, res) => {
 	Subway.find()
@@ -24,6 +25,12 @@ exports.getCircuitData = (req, res) => {
 		return res.json(nodes);
 	})
 }
+
+exports.getMtaStops = (req, res) => {
+  d3.csvParse('https://raw.githubusercontent.com/elainechan/prototyping-functionality/master/mtaStops.csv')
+    .then(res => res.json());
+}
+
 /* data model
 "elements" : {
     "nodes" : [ {
