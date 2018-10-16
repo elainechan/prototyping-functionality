@@ -24,7 +24,7 @@
 - [ ] Test maximum number of renderable features.
 
 ## Circuit Functionality
-- [ ] List different javascript libraries for rendering network diagrams.
+- [x] List different javascript libraries for rendering network diagrams.
 - [ ] Create example networks using selected javascript libraries.
 - [ ] Select javascript library for rendering interactive circuits.
 - [ ] Render network nodes using different icons.

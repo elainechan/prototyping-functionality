@@ -12,20 +12,24 @@ const {
 	getAgData,
 	getSchemaTypes
 } = require('./table/table.controller');
+const { getCircuitData } = require('./circuit/circuit.controller');
 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
-app.use(express.static('public'));
 
+app.use(express.static('public'));
 app.get('/',(req, res) => {
 	res.sendFile('/Users/Leo/prototyping-functionality/index.html');
 });
+// Table
 app.get('/cols', getCols);
 app.get('/tcolumns', getTColumns);
 app.get('/tdata', getTData);
 app.get('/agcolumns', getAgColumns);
 app.get('/agdata', getAgData);
 app.get('/types', getSchemaTypes);
+// Circuit
+app.get('/cdata', getCircuitData);
 
 let server;
 

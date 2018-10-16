@@ -6,6 +6,7 @@ ul>li {
 	list-style-type: none;
 }
 
+/* Table */
 .column-selection {
 	display: inline-flex;
 	flex-wrap: wrap;
