@@ -25,8 +25,8 @@
 
 ## Circuit Functionality
 - [x] List different javascript libraries for rendering network diagrams.
-- [ ] Create example networks using selected javascript libraries.
-- [ ] Select javascript library for rendering interactive circuits.
+- [x] Create example networks using selected javascript libraries.
+- [x] Select javascript library for rendering interactive circuits.
 - [ ] Render network nodes using different icons.
 - [ ] Render network edges using different colors.
 - [ ] Render network edges using different stroke patterns.

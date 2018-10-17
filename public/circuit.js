@@ -1,6 +1,4 @@
 'use strict';
-
-
 function handleCircuitButton() {
 	let circuit = document.querySelector('#cytoscape-circuit');
 	if (circuit.style.visibility === 'visible') {
@@ -9,7 +7,6 @@ function handleCircuitButton() {
 		circuit.style.visibility = 'visible';
 	}
 }
-const elems = []
 // define nodes using `stops`
 const nodes = [];
 function getStops() {
@@ -17,20 +14,24 @@ function getStops() {
 		console.log(`getStops: ${JSON.stringify(data)}`);
 		data.map((val,i) => {
 			let entry = {
+				group: 'nodes',
 				data: {
-					group: 'nodes',
 					id: 'n' + val.station_id,
-					position: {
-						x: Number(val.station_lon) * 10000,
-						y: Number(val.station_lat) * -10000
-					},
-					selected: false,
-					selectable: true
-				}
+				},
+				position: {
+					x: (Number(val.station_lon))*10000,
+					y: -(Number(val.station_lat))*10000
+				},
+				selected: false,
+				selectable: true
 			};
-			elems.push(entry);
+			nodes.push(entry);
+			//cy.add(entry);
 		});
-		return elems;
+		console.log(nodes);
+		cy.add(nodes);
+		window.localStorage.setItem('nodes', nodes);
+		return nodes;
 	})
 }
 
@@ -46,72 +47,50 @@ function getEdges() {
 		console.log(`getEdges: ${JSON.stringify(data)}`);
 		data.map((val, i) => {
 			let entry = {
+				group: 'edges',
 				data: {
-					group: 'edges',
 					id: 'e' + (i+1).toString(),
 					source: 'n' + val.source_id,
 					target: 'n' + val.target_id,
 				}
 			};
-			elems.push(entry);
+			edges.push(entry);
+			//cy.add(entry);
 		});
-		console.log(elems);
-		cytoscape({
-			container: document.getElementById('cytoscape-circuit'),
-			elements: elems,
-			layout: {
-				name: 'preset'
-			},
-			style: [
-				{
-					selector: 'node',
-					style: {
-						'content': 'data(id)'
-					}
-				}
-			]
-		});
-		return elems;
+		console.log(edges);
+		cy.add(edges);
+		return edges;
 	})
 }
 
-
-
-// define colors of edges using `routes`
-
-/*
-  [
+const cy = cytoscape({
+	container: document.getElementById('cytoscape-circuit'),
+	elements: [
 		{
-			"station_id":"101",
-			"station_name":"Van Cortlandt Park - 242 St","station_lat":"40.889248","station_lon":"-73.898583"},
-		{
-			"station_id":"103",
-			"station_name":"238 St","station_lat":"40.884667","station_lon":"-73.90087"}
-	]
-*/
-const cyData = {
-	'elements': {
-		'nodes': [
-		]
+			data: {
+				id: 'n101'
+			},
+		
+			position: {x: -738985.8300000001, y: -408892.48000000004}
+		},
+		{ data: {
+			id: 'n103'
+		},
+		position: {x: -739008.7, y: -408846.67}
 	}
-}
-const graphData = fetch('/cdata')
-	.then(res => res.json())
-	.then(data => {
-		data.map(data => {
-			cyData['elements']['nodes'].push({
-				'data': data,
-				'position': {
-					'x': data['station-longitude'] * 10000,
-					'y': -(data['station-latitude'] * 10000)
-				},
-				'selected': false
-			});
-		});
-		console.log(`graphData: ${JSON.stringify(data)}`);
-		console.log(`cyData: ${JSON.stringify(cyData)}`);
-		return cyData;
-	});
+	],
+	layout: {
+		name: 'preset'
+	},
+	style: [
+		{
+			selector: 'node',
+			style: {
+				'content': 'data(id)'
+			}
+		}
+	]
+});
 
 getStops();
 getRoutes();
