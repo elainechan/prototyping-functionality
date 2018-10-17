@@ -2902,7 +2902,7 @@ S29,S28,route,120
 S29,S30,route,120
 S30,S29,route,120
 S30,S31,route,180
-31,S19,route,840
-31,S22,route,660
-31,S30,route,180
+S31,S19,route,840
+S31,S22,route,660
+S31,S30,route,180
 S31,140,route,1500
