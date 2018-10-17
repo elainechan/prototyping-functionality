@@ -14,11 +14,16 @@ const getStops =
 		.then(res => res.json())
 		.then(data => {
 			data.map((val,i) => {
+				let id = val.station_id;
+				let idstring = id.toString();
+				let line = idstring.charAt(0);
+				console.log(`line: ${line}`)
 				let entry = {
 					group: 'nodes',
 					data: {
 						id: 'n' + val.station_id,
-						name: val.station_name
+						name: val.station_name,
+						line: line
 					},
 					position: {
 						x: (Number(val.station_lon))*10000,
@@ -78,10 +83,28 @@ function initCy(then) {
 			{
 				selector: 'node',
 				style: {
-					'content': 'data(name)',
-					'background-image': `./icons/mta/si.png`
+					'content': 'data(name)'
 				}
 			}
 		]
 	});
+
+	cy.nodes().forEach(ele => {
+		// console.log(ele.data('line')); // this works
+		let id = ele.data('line');
+		let regex = /[a-zA-Z]/i;
+		if (id.match(regex)) {
+			id = id.toLowerCase();
+			ele.style({
+				'background-image': `./icons/mta/${id}.png`
+			});
+		}
+		ele.style({
+			'background-image': `./icons/mta/${id}.png`
+		});
+	})
+	let nodeArr = cy.nodes().toArray();
+	console.log(nodeArr);
+	cy.edges();
 }
+
