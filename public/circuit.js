@@ -78,7 +78,8 @@ function initCy(then) {
 			{
 				selector: 'node',
 				style: {
-					'content': 'data(name)'
+					'content': 'data(name)',
+					'background-image': `./icons/mta/si.png`
 				}
 			}
 		]
