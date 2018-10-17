@@ -14,7 +14,9 @@ const {
 } = require('./table/table.controller');
 const {
 	getCircuitData,
-	getMtaStops
+	getMtaStops,
+	getMtaEdges,
+	getMtaRoutes
 } = require('./circuit/circuit.controller');
 
 app.use(bodyParser.json());
@@ -33,7 +35,9 @@ app.get('/agdata', getAgData);
 app.get('/types', getSchemaTypes);
 // Circuit
 app.get('/cdata', getCircuitData);
-app.get('/mtastops', getMtaStops)
+app.get('/mtastops', getMtaStops);
+app.get('/mtaedges', getMtaEdges);
+app.get('/mtaroutes', getMtaRoutes);
 
 let server;
 
