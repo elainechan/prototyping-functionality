@@ -1,7 +1,9 @@
 const mongoose = require('mongoose');
 const Subway = require('../model/subway.model');
+const MtaStops = require('../model/mtaStops.model');
+const MtaEdges = require('../model/mtaEdges.model');
+const MtaRoutes = require('../model/mtaRoutes.model');
 const { lowerKeysAndReplaceSpaceWithDash } = require('./utils');
-const d3 = require('d3-dsv')
 
 exports.getCircuitData = (req, res) => {
 	Subway.find()
@@ -27,13 +29,28 @@ exports.getCircuitData = (req, res) => {
 }
 
 exports.getMtaStops = (req, res) => {
-  const stops = d3.csvParse('https://raw.githubusercontent.com/elainechan/prototyping-functionality/master/mtaStops.csv');
-  console.log(`getMtaStops: ${JSON.stringify(stops)}`);
-  return stops;
+	MtaStops.find()
+		.lean()
+		.exec((err, data) => {
+			if(err) { console.log(err) };
+			return res.json(data);
+		});
+}
+
+exports.getMtaEdges = (req, res) => {
+	MtaEdges.find()
+		.lean()
+		.exec((err, data) => {
+			if(err) { console.log(err) };
+			return res.json(data);
+		});
 }
 
 exports.getMtaRoutes = (req, res) => {
-  const routes = d3.csvParse('https://raw.githubusercontent.com/elainechan/prototyping-functionality/master/mtaRoutes.csv');
-  console.log(`getMtaRoutes: ${JSON.stringify(routes)}`);
-  return routes;
+	MtaRoutes.find()
+	.lean()
+	.exec((err, data) => {
+		if(err) { console.log(err) };
+		return res.json(data);
+	});
 }

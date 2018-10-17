@@ -89,7 +89,6 @@ function renderTabulator() {
 		return res.json();
 	})
 	.then(data => {
-		console.log(`setcolumns: ${JSON.stringify(data)}`)
 		tabulator.setColumns(data);
 		tabulator.setData('/tdata'); //efficient,inflexible
 		return;
