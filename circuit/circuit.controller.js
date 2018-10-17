@@ -27,8 +27,15 @@ exports.getCircuitData = (req, res) => {
 }
 
 exports.getMtaStops = (req, res) => {
-  d3.csvParse('https://raw.githubusercontent.com/elainechan/prototyping-functionality/master/mtaStops.csv')
-    .then(res => res.json());
+  const stops = d3.csvParse('https://raw.githubusercontent.com/elainechan/prototyping-functionality/master/mtaStops.csv');
+  console.log(`getMtaStops: ${JSON.stringify(stops)}`);
+  return stops;
+}
+
+exports.getMtaRoutes = (req, res) => {
+  const routes = d3.csvParse('https://raw.githubusercontent.com/elainechan/prototyping-functionality/master/mtaRoutes.csv');
+  console.log(`getMtaRoutes: ${JSON.stringify(routes)}`);
+  return routes;
 }
 
 /* data model
