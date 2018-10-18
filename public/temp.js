@@ -1,5 +1,5 @@
 const cy = cytoscape({
-  container: document.getElementById('cytoscape-circuit'),
+  container: document.getElementById('subway-circuit'),
   elements: [
     { // node n1
       data: { 
@@ -126,7 +126,7 @@ const graphData = fetch('/cdata')
   });
   
   const cy = cytoscape({
-    container: document.getElementById('cytoscape-circuit'),
+    container: document.getElementById('subway-circuit'),
     elements: [
       {
         data: {

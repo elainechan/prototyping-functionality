@@ -3,6 +3,7 @@ const Subway = require('../model/subway.model');
 const MtaStops = require('../model/mtaStops.model');
 const MtaEdges = require('../model/mtaEdges.model');
 const MtaRoutes = require('../model/mtaRoutes.model');
+const MtaStopsRoutes = require('../model/mtaStopsRoutes.model');
 const { lowerKeysAndReplaceSpaceWithDash } = require('./utils');
 
 exports.getCircuitData = (req, res) => {
@@ -53,4 +54,13 @@ exports.getMtaRoutes = (req, res) => {
 		if(err) { console.log(err) };
 		return res.json(data);
 	});
+}
+
+exports.getMtaStopsRoutes = (req, res) => {
+	MtaStopsRoutes.find()
+	.lean()
+	.exec((err, data) => {
+		if(err) {console.log(err)};
+		return res.json(data);
+	})
 }

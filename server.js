@@ -16,7 +16,8 @@ const {
 	getCircuitData,
 	getMtaStops,
 	getMtaEdges,
-	getMtaRoutes
+	getMtaRoutes,
+	getMtaStopsRoutes
 } = require('./circuit/circuit.controller');
 
 app.use(bodyParser.json());
@@ -26,18 +27,19 @@ app.use(express.static('public'));
 app.get('/',(req, res) => {
 	res.sendFile('/Users/Leo/prototyping-functionality/index.html');
 });
-// Table
+// Table routes
 app.get('/cols', getCols);
 app.get('/tcolumns', getTColumns);
 app.get('/tdata', getTData);
 app.get('/agcolumns', getAgColumns);
 app.get('/agdata', getAgData);
 app.get('/types', getSchemaTypes);
-// Circuit
+// Circuit routes
 app.get('/cdata', getCircuitData);
 app.get('/mtastops', getMtaStops);
 app.get('/mtaedges', getMtaEdges);
 app.get('/mtaroutes', getMtaRoutes);
+app.get('/mtastopsroutes', getMtaStopsRoutes);
 
 let server;
 
