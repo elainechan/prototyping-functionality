@@ -104,7 +104,7 @@ function initCy(then) {
 		});
 	})
 	let nodeArr = cy.nodes().toArray();
-	console.log(nodeArr);
+	console.log(`nodeArr: ${nodeArr}`);
 	cy.edges();
 }
 
