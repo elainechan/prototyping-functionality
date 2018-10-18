@@ -1,6 +1,6 @@
 'use strict';
 function handleCircuitButton() {
-	let circuit = document.querySelector('#cytoscape-circuit');
+	let circuit = document.querySelector('#subway-circuit');
 	if (circuit.style.visibility === 'visible') {
 		circuit.style.visibility = 'hidden';
 	} else {
@@ -38,7 +38,7 @@ const getStops =
 			console.log(nodes);
 			return nodes;
 			// cy
-		});
+	  });
 // define edges using `edges`
 const edges = [];
 const getEdges =
@@ -61,20 +61,27 @@ const getEdges =
 		return edges;
 	});
 // define edges color using `routes` data
-function getRoutes() {
+const getRoutes =
 	fetch('/mtaroutes')
 	.then(res => res.json())
 	.then(data => {
 	});
-}
 
+const getStopsRoutes = 
+	fetch('/mtastopsroutes')
+	.then(res => res.json())
+	.then(data => {
+		console.log(`getStopsRoutes: ${JSON.stringify(data)}`)
+	});
+
+// Fetch data then initiate Cytoscape instance
 Promise.all([getStops, getEdges]).then(initCy);
-
+// Renders network graph
 function initCy(then) {
 	let nodes = then[0];
 	let edges = then[1];
 	const cy = window.cy = cytoscape({
-		container: document.querySelector('#cytoscape-circuit'),
+		container: document.getElementById('subway-circuit'),
 		elements: nodes.concat(edges),
 		layout: {
 			name: 'preset'
@@ -88,9 +95,8 @@ function initCy(then) {
 			}
 		]
 	});
-
+// Adds icons to nodes
 	cy.nodes().forEach(ele => {
-		// console.log(ele.data('line')); // this works
 		let id = ele.data('line');
 		let regex = /[a-zA-Z]/i;
 		if (id.match(regex)) {
@@ -103,6 +109,8 @@ function initCy(then) {
 			'background-image': `./icons/mta/${id}.png`
 		});
 	})
+
+
 	let nodeArr = cy.nodes().toArray();
 	console.log(`nodeArr: ${nodeArr}`);
 	cy.edges();
