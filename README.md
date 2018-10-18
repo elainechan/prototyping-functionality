@@ -27,12 +27,12 @@
 - [x] List different javascript libraries for rendering network diagrams.
 - [x] Create example networks using selected javascript libraries.
 - [x] Select javascript library for rendering interactive circuits.
-- [ ] Render network nodes using different icons.
+- [x] Render network nodes using different icons.
 - [ ] Render network edges using different colors.
 - [ ] Render network edges using different stroke patterns.
 - [ ] Render network edges using different stroke widths.
 - [ ] Show alert after clicking on feature.
-- [ ] Find ways to let user move positions of network nodes.
+- [x] Find ways to let user move positions of network nodes.
 
 ## Planning
 - [ ] Relationships
