@@ -10,7 +10,7 @@
 - MTA data is downloaded from Tyler Green's [GTFS-Graph data](https://github.com/tyleragreen/gtfs-graph/tree/master/data/mta) GitHub repo, manually processed with Pandas, and imported into mLab MongoDB database.
 
 ## Circuit Functionality
-- [x] List different javascript libraries for rendering network diagrams. See [notes]((./circuit/README.md)).
+- [x] List different javascript libraries for rendering network diagrams. See [notes](./circuit/README.md)).
 - [x] Create example networks using selected javascript libraries.
 - [x] Select javascript library for rendering interactive circuits.
 - [x] Render network nodes using different icons.
