@@ -1,9 +1,15 @@
 # Libraries for Rendering Circuits
 
-## Metrics for Choosing Technology
-- GitHub Popularity (Watch, Star, Fork)
-- Date of last update (the more recent the better)
-- Quality of documentation (well-organized, comprehensive)
+## Methodology for Evaluating Technology
+### Metrics
+1. GitHub Popularity (Watch, Star, Fork)
+2. Date of last update (the more recent the better)
+3. Quality of documentation (well-organized, comprehensive)
+### Rubic
+- Excellent
+- Good
+- Mixed
+- Poor
 
 ## Specialized Libraries for Graphs and Networks
 - [x] [Cytoscape.js](http://js.cytoscape.org/)
