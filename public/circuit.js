@@ -9,8 +9,7 @@ function handleCircuitButton() {
 }
 // define nodes using `stops`
 const nodes = [];
-const getStops =
-	fetch('/mtastops')
+const getStops = fetch('/mtastops')
 		.then(res => res.json())
 		.then(data => {
 			data.map((val,i) => {
@@ -109,8 +108,6 @@ function initCy(then) {
 			'background-image': `./icons/mta/${id}.png`
 		});
 	})
-
-
 	let nodeArr = cy.nodes().toArray();
 	console.log(`nodeArr: ${nodeArr}`);
 	cy.edges();

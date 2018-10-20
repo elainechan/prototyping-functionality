@@ -1,7 +1,28 @@
 # Prototyping Functionality
 
+## Technology Stack
+- [MongoDB](https://www.mongodb.com/) database hosted on [mLab](https://mlab.com/), using [Mongoose](https://mongoosejs.com/) interface.
+- [Node.js](https://nodejs.org/) [Express](https://expressjs.com/) server and routing.
+- [Cytoscape.js](http://js.cytoscape.org/) for rendering network graph
+- [Tabulator.js](http://tabulator.info/) and [ag-Grid](https://www.ag-grid.com/) for rendering tables.
+
+## Circuit Functionality
+- [x] List different javascript libraries for rendering network diagrams. See [notes]((./circuit/README.md)).
+- [x] Create example networks using selected javascript libraries.
+- [x] Select javascript library for rendering interactive circuits.
+- [x] Render network nodes using different icons.
+	- [x] Icons should be rendered according to train service availability on nodes. 
+- [ ] Render network edges using different colors.
+	- [ ] Edges should be highlighted according to train service availability on edges.
+- [ ] Render network edges using different stroke patterns.
+- [ ] Render network edges using different stroke widths.
+- [ ] Show alert after clicking on a feature.
+- [ ] Show tooltip/popup after clicking on a feature.
+- [x] Find ways to let user move positions of network nodes.
+	- Note: Cytoscape has abstracted this functionality into a style attribute that can be specified in one line.
+
 ## Table Functionality
-- [x] List different javascript libraries for managing tables. See [notes](./table/README.md)
+- [x] List different javascript libraries for managing tables. See [notes](./table/README.md).
 - [x] Decide columns to display.
 - [x] Sort columns.
 - [ ] Filter columns by value.
@@ -23,16 +44,14 @@
 - [ ] Get current location from user and show in map.
 - [ ] Test maximum number of renderable features.
 
-## Circuit Functionality
-- [x] List different javascript libraries for rendering network diagrams.
-- [x] Create example networks using selected javascript libraries.
-- [x] Select javascript library for rendering interactive circuits.
-- [x] Render network nodes using different icons.
-- [ ] Render network edges using different colors.
-- [ ] Render network edges using different stroke patterns.
-- [ ] Render network edges using different stroke widths.
-- [ ] Show alert after clicking on feature.
-- [x] Find ways to let user move positions of network nodes.
+## Integrated functionality
+- [ ] Highlight map feature and network feature when user clicks on table row.
+- [ ] Highlight table row and network feature when user clicks on map feature.
+- [ ] Highlight table row and map feature when user clicks on network feature.
+- [ ] Render asset details form.
+- [ ] List different javascript libraries for autocompletion.
+- [ ] Draft interactive form.
+- [ ] Let user add note to maintenance log.
 
 ## Planning
 - [ ] Relationships
