@@ -1,4 +1,5 @@
 # Prototyping Functionality
+[Delpoyed app](https://prototyping-functionality.herokuapp.com/)
 
 ## Technology Stack
 - Database: [MongoDB](https://www.mongodb.com/) database hosted on [mLab](https://mlab.com/), using [Mongoose](https://mongoosejs.com/) interface.
