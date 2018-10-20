@@ -1,10 +1,13 @@
 # Prototyping Functionality
 
 ## Technology Stack
-- [MongoDB](https://www.mongodb.com/) database hosted on [mLab](https://mlab.com/), using [Mongoose](https://mongoosejs.com/) interface.
-- [Node.js](https://nodejs.org/) [Express](https://expressjs.com/) server and routing.
-- [Cytoscape.js](http://js.cytoscape.org/) for rendering network graph
-- [Tabulator.js](http://tabulator.info/) and [ag-Grid](https://www.ag-grid.com/) for rendering tables.
+- Database: [MongoDB](https://www.mongodb.com/) database hosted on [mLab](https://mlab.com/), using [Mongoose](https://mongoosejs.com/) interface.
+- Server and routing: [Node.js](https://nodejs.org/) server and routing using [Express](https://expressjs.com/) interface.
+- Network graph: [Cytoscape.js](http://js.cytoscape.org/) for rendering network graph.
+- Table: [Tabulator.js](http://tabulator.info/) and [ag-Grid](https://www.ag-grid.com/) for rendering tables.
+
+## Data Sources
+- MTA data is downloaded from Tyler Green's [GTFS-Graph data](https://github.com/tyleragreen/gtfs-graph/tree/master/data/mta) GitHub repo, manually processed with Pandas, and imported into mLab MongoDB database.
 
 ## Circuit Functionality
 - [x] List different javascript libraries for rendering network diagrams. See [notes]((./circuit/README.md)).

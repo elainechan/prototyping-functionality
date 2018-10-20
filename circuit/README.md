@@ -1,5 +1,9 @@
 # Libraries for Rendering Circuits
-- [Electrical symbols SVG icons](https://commons.wikimedia.org/wiki/File:Electrical_symbols_library.svg)
+
+## Metrics for Choosing Technology
+- GitHub Popularity (Watch, Star, Fork)
+- Date of last update (the more recent the better)
+- Quality of documentation (well-organized, comprehensive)
 
 ## Specialized Libraries for Graphs and Networks
 - [x] [Cytoscape.js](http://js.cytoscape.org/)
@@ -20,6 +24,9 @@
 ## Libraries Providing Functionalities Beyond Visualization
 - [NetworkX](https://networkx.github.io/documentation/stable/index.html)
 - [Airflow](https://airflow.apache.org/)
+
+## Assets
+- [Electrical symbols SVG icons](https://commons.wikimedia.org/wiki/File:Electrical_symbols_library.svg)
 
 ## Ideas
 - [Visualizing a NetworkX graph in the Notebook with D3.js](https://www.safaribooksonline.com/library/view/ipython-interactive-computing/9781785888632/ch06s05.html)
