@@ -36,7 +36,6 @@ const getStops = fetch('/mtastops')
 			});
 			console.log(nodes);
 			return nodes;
-			// cy
 	  });
 // define edges using `edges`
 const edges = [];
@@ -98,7 +97,9 @@ function initCy(then) {
 	cy.nodes().forEach(ele => {
 		let id = ele.data('line');
 		let regex = /[a-zA-Z]/i;
-		if (id.match(regex)) {
+		if (id === '9') {
+			id = 7;
+		} else if (id.match(regex)) {
 			id = id.toLowerCase();
 			ele.style({
 				'background-image': `./icons/mta/${id}.png`
