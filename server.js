@@ -23,10 +23,9 @@ const {
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
+// Use views
 app.use(express.static('public'));
-app.get('/',(req, res) => {
-	res.sendFile('/Users/Leo/prototyping-functionality/index.html');
-});
+
 // Table routes
 app.get('/cols', getCols);
 app.get('/tcolumns', getTColumns);

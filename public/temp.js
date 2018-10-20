@@ -153,3 +153,7 @@ const graphData = fetch('/cdata')
       }
     ]
   });
+
+  app.get('/',(req, res) => {
+    res.sendFile('/Users/Leo/prototyping-functionality/index.html');
+  });
