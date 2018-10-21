@@ -42,7 +42,7 @@ const getStops = fetch('/mtastops')
 // define edges using `edges`
 const edges = [];
 const getEdges =
-	fetch('/mtaedges')
+	fetch('/mtaedgesnames')
 	.then(res => res.json())
 	.then(data => {
 		data.map((val, i) => {
@@ -52,6 +52,8 @@ const getEdges =
 					id: 'e' + (i+1).toString(),
 					source: 'n' + val.source_id,
 					target: 'n' + val.target_id,
+					source_name: val.source_name,
+					target_name: val.target_name
 				},
 				style: {
 					'width': 5
@@ -166,7 +168,7 @@ function initCy(then) {
 // Alert on click node
 	cy.on('click', 'node', (e) => {
 		let targetNode = e.target;
-		alert(`Clicked node id: ${targetNode.id()}.`);
+		alert(`Node ID: ${targetNode.id()}\nStation Name: ${targetNode.data('name')}`);
 	});
 
 	cy.on('click', 'edge', (e) => {
@@ -174,7 +176,7 @@ function initCy(then) {
 		targetEdge.style({
 			'width': 14
 		})
-		alert(`Clicked edge id: ${targetEdge.id()}.`);
+		alert(`Edge ID: ${targetEdge.id()}\nOrigin: ${targetEdge.data('source_name')}\nDestination: ${targetEdge.data('target_name')}`);
 		cy.edges().forEach(edge => {
 			if (edge.id() !== e.target.id()) {
 				edge.style({
@@ -185,6 +187,52 @@ function initCy(then) {
 	})
 
 	let nodeArr = cy.nodes().toArray();
-	console.log(`nodeArr: ${nodeArr}`);
+	//console.log(`nodeArr: ${nodeArr}`);
 	cy.edges();
 }
+
+const sigmaData = {
+  "nodes": [
+    {
+      "id": "n0",
+      "label": "A node",
+      "x": 0,
+      "y": 0,
+      "size": 3
+    },
+    {
+      "id": "n1",
+      "label": "Another node",
+      "x": 3,
+      "y": 1,
+      "size": 2
+    },
+    {
+      "id": "n2",
+      "label": "And a last one",
+      "x": 1,
+      "y": 3,
+      "size": 1
+    }
+  ],
+  "edges": [
+    {
+      "id": "e0",
+      "source": "n0",
+      "target": "n1"
+    },
+    {
+      "id": "e1",
+      "source": "n1",
+      "target": "n2"
+    },
+    {
+      "id": "e2",
+      "source": "n2",
+      "target": "n0"
+    }
+  ]
+}
+
+const sigmaGraph = new sigma.classes.graph();
+sigmaGraph.read(sigmaData)

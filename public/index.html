@@ -6,8 +6,11 @@
 		<meta charset="utf-8" />
 		<link rel="stylesheet" href="./index.css">
 		<link rel="stylesheet" href="./circuit.css">
+		<link rel="stylesheet" href="./table.css">
 		<!--Cytoscape-->
 		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/cytoscape/3.2.17/cytoscape.js"></script>
+		<!--Sigma-->
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/sigma.js/1.2.1/sigma.min.js"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/1.8.6/showdown.js"></script>
 		<script
 		src="https://code.jquery.com/jquery-3.3.1.js"
@@ -28,12 +31,13 @@
 			<li><button id='ag-grid-button' onclick='handleAgGridButton()'>Ag-Grid</button><li>
 			<li><button id='circuit-button' onclick='handleCircuitButton()'>Circuit</button><li>
 		</ul>
+		<h1>Prototyping Functionality</h1>
 	</header>
 	<body>
-
-		<div id="subway-circuit"></div>		
 		<div id="tabulator-table"></div>
-		<div id="ag-grid-table" style="height: 600px;width:1400px;" class="ag-theme-balham"></div>
+		<div id="subway-circuit"></div>	
+		<div id="ag-grid-table" class="ag-theme-balham"></div>
+		<div id="sigma-circuit"></div>
 		<script type="text/javascript" src="./table.js"></script>
 		<script type="text/javascript" src="./circuit.js"></script>
 	</body>

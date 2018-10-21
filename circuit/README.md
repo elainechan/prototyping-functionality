@@ -3,8 +3,18 @@
 ## Methodology for Evaluating Technology
 ### Metrics
 1. GitHub Popularity (Watch, Star, Fork)
-2. Date of last update (the more recent the better)
-3. Quality of documentation (well-organized, comprehensive)
+2. Date of last update
+3. Maintenance status
+	- Is this project maintained?
+	- Is this project seeking a new maintainer?
+3. Quality of documentation
+	- Is content well-organized? 
+	- Is content comprehensive?
+	- Does content make too many assumptions?
+	- Can an average 10-year-old read the docs and tell me how it works?
+4. Ease of setting up
+	- Can I get something that works in 10 minutes?
+	- Do I need to spend more than 1 minute figuring out how to install it? (pip install vs cloning repo and compiling)
 ### Rubic
 - Excellent
 - Good

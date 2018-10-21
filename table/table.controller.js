@@ -1,5 +1,6 @@
 const mongoose = require('mongoose');
 const Subway = require('../model/subway.model');
+const MtaStops = require('../model/mtaStops.model');
 const { lowerKeysAndReplaceSpaceWithDash } = require('./utils');
 
 exports.getCols = (req, res) => {
@@ -35,17 +36,16 @@ exports.getTColumns = (req, res) => {
 }
 
 exports.getTData = (req, res) => {
-	Subway.find()
+	MtaStops.find()
 	.lean()
 	.exec((err, data) => {
 		if(err) {
 			console.log(err);
 		}
 		let newData = data.map((val, i) => {
-			//delete val._id;
-			//delete val.__V;
+			delete val._id;
 			val.id = i + 1;
-			return lowerKeysAndReplaceSpaceWithDash(val);
+			return val;
 		});
 		return res.json(newData);
 	})
