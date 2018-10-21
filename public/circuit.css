@@ -8,11 +8,25 @@ html, body {
 
 #subway-circuit {
   align-content: center;
-  width: 1200px;
-  height: 800px;
+  width: 900px;
+  height: 500px;
   left: 0;
   top: 0;
   right: 0;
   bottom: 0;
   background: white;
+  border-style: solid;
+  border-width: 1px;
+  border-color: lightgray;
+}
+
+#sigma-circuit {
+  position: fixed;
+  width: 900px;
+  height: 500px;
+  margin: auto;
+  border-style: solid;
+  border-width: 1px;
+  border-color: lightgray;
+  background: red;
 }

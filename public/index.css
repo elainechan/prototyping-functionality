@@ -5,6 +5,21 @@ ul>li {
 	display: inline-block;
 	list-style-type: none;
 }
+ul, h1 {
+	display: inline-block;
+}
+
+h1 {
+	margin-left: 100px;
+}
+
+#tabulator-table, #subway-circuit {
+	display: inline-block;
+}
+
+#ag-grid-table, #sigma-circuit {
+	display: inline-block;
+}
 
 /* Table */
 .column-selection {
