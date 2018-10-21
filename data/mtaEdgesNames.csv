@@ -1,0 +1,2908 @@
+source_id,target_id,edge_type,duration,source_name,target_name
+101,103,route,90,Van Cortlandt Park - 242 St,238 St
+101,103,route,150,Van Cortlandt Park - 242 St,238 St
+101,103,route,210,Van Cortlandt Park - 242 St,238 St
+103,101,route,90,238 St,Van Cortlandt Park - 242 St
+103,104,route,90,238 St,231 St
+104,103,route,90,231 St,238 St
+104,103,route,120,231 St,238 St
+104,103,route,150,231 St,238 St
+104,103,route,180,231 St,238 St
+104,103,route,210,231 St,238 St
+104,103,route,240,231 St,238 St
+104,103,route,270,231 St,238 St
+104,103,route,300,231 St,238 St
+104,103,route,330,231 St,238 St
+104,103,route,360,231 St,238 St
+104,103,route,390,231 St,238 St
+104,103,route,450,231 St,238 St
+104,106,route,90,231 St,Marble Hill - 225 St
+106,104,route,90,Marble Hill - 225 St,231 St
+106,107,route,90,Marble Hill - 225 St,215 St
+107,106,route,90,215 St,Marble Hill - 225 St
+107,106,route,120,215 St,Marble Hill - 225 St
+107,108,route,60,215 St,207 St
+108,107,route,60,207 St,215 St
+108,107,route,90,207 St,215 St
+108,109,route,90,207 St,Dyckman St
+108,109,route,150,207 St,Dyckman St
+109,108,route,90,Dyckman St,207 St
+109,110,route,90,Dyckman St,191 St
+110,109,route,60,191 St,Dyckman St
+110,109,route,90,191 St,Dyckman St
+110,109,route,120,191 St,Dyckman St
+110,109,route,180,191 St,Dyckman St
+110,109,route,240,191 St,Dyckman St
+110,111,route,90,191 St,181 St
+111,110,route,90,181 St,191 St
+111,112,route,120,181 St,168 St - Washington Hts
+111,112,route,180,181 St,168 St - Washington Hts
+112,111,route,120,168 St - Washington Hts,181 St
+112,113,route,90,168 St - Washington Hts,157 St
+112,113,route,120,168 St - Washington Hts,157 St
+112,A09,transfer,180,168 St - Washington Hts,168 St
+113,112,route,90,157 St,168 St - Washington Hts
+113,112,route,120,157 St,168 St - Washington Hts
+113,114,route,120,157 St,145 St
+114,113,route,120,145 St,157 St
+114,115,route,90,145 St,137 St - City College
+114,115,route,150,145 St,137 St - City College
+114,115,route,180,145 St,137 St - City College
+114,115,route,210,145 St,137 St - City College
+115,114,route,90,137 St - City College,145 St
+115,116,route,90,137 St - City College,125 St
+115,116,route,120,137 St - City College,125 St
+116,115,route,120,125 St,137 St - City College
+116,117,route,120,125 St,116 St - Columbia University
+116,117,route,150,125 St,116 St - Columbia University
+117,116,route,120,116 St - Columbia University,125 St
+117,116,route,150,116 St - Columbia University,125 St
+117,118,route,60,116 St - Columbia University,Cathedral Pkwy
+118,117,route,60,Cathedral Pkwy,116 St - Columbia University
+118,119,route,60,Cathedral Pkwy,103 St
+118,119,route,90,Cathedral Pkwy,103 St
+119,118,route,90,103 St,Cathedral Pkwy
+119,120,route,120,103 St,96 St
+119,120,route,150,103 St,96 St
+119,120,route,180,103 St,96 St
+120,119,route,90,96 St,103 St
+120,121,route,120,96 St,86 St
+120,123,route,150,96 St,72 St
+120,123,route,180,96 St,72 St
+120,123,route,210,96 St,72 St
+120,123,route,270,96 St,72 St
+120,123,route,330,96 St,72 St
+120,123,route,390,96 St,72 St
+120,123,route,450,96 St,72 St
+120,227,route,240,96 St,Central Park North (110 St)
+120,227,route,270,96 St,Central Park North (110 St)
+121,120,route,90,86 St,96 St
+121,120,route,120,86 St,96 St
+121,122,route,60,86 St,79 St
+121,122,route,90,86 St,79 St
+122,121,route,60,79 St,86 St
+122,121,route,90,79 St,86 St
+122,123,route,90,79 St,72 St
+123,120,route,150,72 St,96 St
+123,120,route,180,72 St,96 St
+123,120,route,210,72 St,96 St
+123,120,route,270,72 St,96 St
+123,120,route,300,72 St,96 St
+123,122,route,90,72 St,79 St
+123,122,route,120,72 St,79 St
+123,124,route,90,72 St,66 St - Lincoln Center
+123,127,route,240,72 St,Times Sq - 42 St
+123,127,route,270,72 St,Times Sq - 42 St
+123,127,route,300,72 St,Times Sq - 42 St
+123,127,route,330,72 St,Times Sq - 42 St
+124,123,route,60,66 St - Lincoln Center,72 St
+124,123,route,90,66 St - Lincoln Center,72 St
+124,125,route,90,66 St - Lincoln Center,59 St - Columbus Circle
+125,124,route,90,59 St - Columbus Circle,66 St - Lincoln Center
+125,126,route,120,59 St - Columbus Circle,50 St
+125,A24,transfer,180,59 St - Columbus Circle,59 St - Columbus Circle
+126,125,route,120,50 St,59 St - Columbus Circle
+126,125,route,150,50 St,59 St - Columbus Circle
+126,127,route,90,50 St,Times Sq - 42 St
+126,127,route,120,50 St,Times Sq - 42 St
+127,123,route,210,Times Sq - 42 St,72 St
+127,123,route,240,Times Sq - 42 St,72 St
+127,123,route,270,Times Sq - 42 St,72 St
+127,126,route,120,Times Sq - 42 St,50 St
+127,128,route,60,Times Sq - 42 St,34 St - Penn Station
+127,128,route,90,Times Sq - 42 St,34 St - Penn Station
+127,725,transfer,180,Times Sq - 42 St,Times Sq - 42 St
+127,902,transfer,180,Times Sq - 42 St,Times Sq - 42 St
+127,A27,transfer,300,Times Sq - 42 St,42 St - Port Authority Bus Terminal
+127,R16,transfer,180,Times Sq - 42 St,Times Sq - 42 St
+128,127,route,60,34 St - Penn Station,Times Sq - 42 St
+128,127,route,90,34 St - Penn Station,Times Sq - 42 St
+128,127,route,120,34 St - Penn Station,Times Sq - 42 St
+128,129,route,60,34 St - Penn Station,28 St
+128,129,route,90,34 St - Penn Station,28 St
+128,132,route,150,34 St - Penn Station,14 St
+128,132,route,180,34 St - Penn Station,14 St
+128,132,route,210,34 St - Penn Station,14 St
+129,128,route,60,28 St,34 St - Penn Station
+129,128,route,90,28 St,34 St - Penn Station
+129,130,route,60,28 St,23 St
+130,129,route,60,23 St,28 St
+130,129,route,90,23 St,28 St
+130,131,route,60,23 St,18 St
+131,130,route,60,18 St,23 St
+131,132,route,60,18 St,14 St
+132,128,route,150,14 St,34 St - Penn Station
+132,128,route,180,14 St,34 St - Penn Station
+132,131,route,60,14 St,18 St
+132,133,route,90,14 St,Christopher St - Sheridan Sq
+132,137,route,270,14 St,Chambers St
+132,137,route,300,14 St,Chambers St
+132,137,route,330,14 St,Chambers St
+132,137,route,360,14 St,Chambers St
+132,D19,transfer,300,14 St,14 St
+132,L02,transfer,180,14 St,6 Av
+133,132,route,90,Christopher St - Sheridan Sq,14 St
+133,132,route,120,Christopher St - Sheridan Sq,14 St
+133,134,route,90,Christopher St - Sheridan Sq,Houston St
+133,134,route,120,Christopher St - Sheridan Sq,Houston St
+134,133,route,90,Houston St,Christopher St - Sheridan Sq
+134,133,route,120,Houston St,Christopher St - Sheridan Sq
+134,135,route,90,Houston St,Canal St
+134,135,route,120,Houston St,Canal St
+135,134,route,90,Canal St,Houston St
+135,134,route,120,Canal St,Houston St
+135,136,route,60,Canal St,Franklin St
+136,135,route,60,Franklin St,Canal St
+136,137,route,60,Franklin St,Chambers St
+136,137,route,120,Franklin St,Chambers St
+136,137,route,180,Franklin St,Chambers St
+136,137,route,210,Franklin St,Chambers St
+136,137,route,270,Franklin St,Chambers St
+137,132,route,240,Chambers St,14 St
+137,132,route,270,Chambers St,14 St
+137,132,route,300,Chambers St,14 St
+137,136,route,60,Chambers St,Franklin St
+137,136,route,90,Chambers St,Franklin St
+137,138,route,90,Chambers St,Cortlandt St
+137,228,route,60,Chambers St,Park Pl
+137,228,route,90,Chambers St,Park Pl
+138,137,route,60,Cortlandt St,Chambers St
+138,137,route,90,Cortlandt St,Chambers St
+138,137,route,120,Cortlandt St,Chambers St
+138,137,route,150,Cortlandt St,Chambers St
+138,137,route,180,Cortlandt St,Chambers St
+138,139,route,150,Cortlandt St,Rector St
+138,139,route,210,Cortlandt St,Rector St
+139,138,route,60,Rector St,Cortlandt St
+139,140,route,150,Rector St,South Ferry Loop
+140,139,route,150,South Ferry Loop,Rector St
+140,R27,transfer,120,South Ferry Loop,Whitehall St
+201,204,route,90,Wakefield - 241 St,Nereid Av
+201,204,route,120,Wakefield - 241 St,Nereid Av
+201,204,route,150,Wakefield - 241 St,Nereid Av
+201,204,route,210,Wakefield - 241 St,Nereid Av
+201,204,route,240,Wakefield - 241 St,Nereid Av
+201,204,route,270,Wakefield - 241 St,Nereid Av
+201,204,route,330,Wakefield - 241 St,Nereid Av
+201,204,route,360,Wakefield - 241 St,Nereid Av
+201,204,route,390,Wakefield - 241 St,Nereid Av
+201,204,route,420,Wakefield - 241 St,Nereid Av
+204,201,route,120,Nereid Av,Wakefield - 241 St
+204,205,route,90,Nereid Av,233 St
+205,204,route,90,233 St,Nereid Av
+205,204,route,120,233 St,Nereid Av
+205,204,route,150,233 St,Nereid Av
+205,204,route,180,233 St,Nereid Av
+205,204,route,210,233 St,Nereid Av
+205,204,route,270,233 St,Nereid Av
+205,204,route,300,233 St,Nereid Av
+205,204,route,330,233 St,Nereid Av
+205,204,route,360,233 St,Nereid Av
+205,204,route,390,233 St,Nereid Av
+205,204,route,450,233 St,Nereid Av
+205,204,route,480,233 St,Nereid Av
+205,204,route,510,233 St,Nereid Av
+205,204,route,570,233 St,Nereid Av
+205,204,route,690,233 St,Nereid Av
+205,206,route,60,233 St,225 St
+205,206,route,90,233 St,225 St
+206,205,route,60,225 St,233 St
+206,205,route,90,225 St,233 St
+206,207,route,60,225 St,219 St
+206,207,route,90,225 St,219 St
+207,206,route,60,219 St,225 St
+207,206,route,90,219 St,225 St
+207,208,route,90,219 St,Gun Hill Rd
+207,208,route,120,219 St,Gun Hill Rd
+208,207,route,90,Gun Hill Rd,219 St
+208,207,route,120,Gun Hill Rd,219 St
+208,209,route,90,Gun Hill Rd,Burke Av
+208,209,route,120,Gun Hill Rd,Burke Av
+209,208,route,90,Burke Av,Gun Hill Rd
+209,208,route,120,Burke Av,Gun Hill Rd
+209,210,route,60,Burke Av,Allerton Av
+209,210,route,90,Burke Av,Allerton Av
+210,209,route,60,Allerton Av,Burke Av
+210,209,route,90,Allerton Av,Burke Av
+210,211,route,120,Allerton Av,Pelham Pkwy
+211,210,route,120,Pelham Pkwy,Allerton Av
+211,210,route,150,Pelham Pkwy,Allerton Av
+211,212,route,90,Pelham Pkwy,Bronx Park East
+211,212,route,120,Pelham Pkwy,Bronx Park East
+211,212,route,150,Pelham Pkwy,Bronx Park East
+212,211,route,120,Bronx Park East,Pelham Pkwy
+212,211,route,150,Bronx Park East,Pelham Pkwy
+212,213,route,120,Bronx Park East,E 180 St
+212,213,route,150,Bronx Park East,E 180 St
+212,213,route,180,Bronx Park East,E 180 St
+212,213,route,210,Bronx Park East,E 180 St
+212,213,route,240,Bronx Park East,E 180 St
+212,213,route,300,Bronx Park East,E 180 St
+213,212,route,120,E 180 St,Bronx Park East
+213,214,route,90,E 180 St,West Farms Sq - E Tremont Av
+213,214,route,120,E 180 St,West Farms Sq - E Tremont Av
+213,221,route,660,E 180 St,3 Av - 149 St
+213,221,route,690,E 180 St,3 Av - 149 St
+213,505,route,210,E 180 St,Morris Park
+214,213,route,90,West Farms Sq - E Tremont Av,E 180 St
+214,213,route,120,West Farms Sq - E Tremont Av,E 180 St
+214,213,route,150,West Farms Sq - E Tremont Av,E 180 St
+214,213,route,180,West Farms Sq - E Tremont Av,E 180 St
+214,213,route,210,West Farms Sq - E Tremont Av,E 180 St
+214,213,route,240,West Farms Sq - E Tremont Av,E 180 St
+214,215,route,120,West Farms Sq - E Tremont Av,174 St
+215,214,route,90,174 St,West Farms Sq - E Tremont Av
+215,214,route,120,174 St,West Farms Sq - E Tremont Av
+215,216,route,120,174 St,Freeman St
+215,216,route,150,174 St,Freeman St
+215,216,route,180,174 St,Freeman St
+216,215,route,120,Freeman St,174 St
+216,217,route,90,Freeman St,Simpson St
+216,217,route,120,Freeman St,Simpson St
+217,216,route,90,Simpson St,Freeman St
+217,216,route,120,Simpson St,Freeman St
+217,218,route,60,Simpson St,Intervale Av
+217,218,route,90,Simpson St,Intervale Av
+218,217,route,60,Intervale Av,Simpson St
+218,219,route,60,Intervale Av,Prospect Av
+218,219,route,90,Intervale Av,Prospect Av
+219,218,route,60,Prospect Av,Intervale Av
+219,218,route,90,Prospect Av,Intervale Av
+219,220,route,90,Prospect Av,Jackson Av
+219,220,route,120,Prospect Av,Jackson Av
+220,219,route,90,Jackson Av,Prospect Av
+220,221,route,120,Jackson Av,3 Av - 149 St
+220,221,route,150,Jackson Av,3 Av - 149 St
+221,213,route,510,3 Av - 149 St,E 180 St
+221,213,route,540,3 Av - 149 St,E 180 St
+221,213,route,570,3 Av - 149 St,E 180 St
+221,213,route,600,3 Av - 149 St,E 180 St
+221,213,route,630,3 Av - 149 St,E 180 St
+221,213,route,690,3 Av - 149 St,E 180 St
+221,213,route,720,3 Av - 149 St,E 180 St
+221,213,route,750,3 Av - 149 St,E 180 St
+221,213,route,840,3 Av - 149 St,E 180 St
+221,213,route,870,3 Av - 149 St,E 180 St
+221,220,route,120,3 Av - 149 St,Jackson Av
+221,220,route,150,3 Av - 149 St,Jackson Av
+221,222,route,90,3 Av - 149 St,149 St - Grand Concourse
+221,222,route,120,3 Av - 149 St,149 St - Grand Concourse
+221,222,route,150,3 Av - 149 St,149 St - Grand Concourse
+221,222,route,210,3 Av - 149 St,149 St - Grand Concourse
+222,221,route,90,149 St - Grand Concourse,3 Av - 149 St
+222,221,route,120,149 St - Grand Concourse,3 Av - 149 St
+222,224,route,180,149 St - Grand Concourse,135 St
+222,224,route,210,149 St - Grand Concourse,135 St
+222,224,route,240,149 St - Grand Concourse,135 St
+222,224,route,270,149 St - Grand Concourse,135 St
+222,224,route,300,149 St - Grand Concourse,135 St
+222,224,route,330,149 St - Grand Concourse,135 St
+222,224,route,390,149 St - Grand Concourse,135 St
+222,415,transfer,180,149 St - Grand Concourse,149 St - Grand Concourse
+222,416,route,150,149 St - Grand Concourse,138 St - Grand Concourse
+222,416,route,180,149 St - Grand Concourse,138 St - Grand Concourse
+222,416,route,210,149 St - Grand Concourse,138 St - Grand Concourse
+222,416,route,240,149 St - Grand Concourse,138 St - Grand Concourse
+222,416,route,270,149 St - Grand Concourse,138 St - Grand Concourse
+222,416,route,300,149 St - Grand Concourse,138 St - Grand Concourse
+222,416,route,330,149 St - Grand Concourse,138 St - Grand Concourse
+222,416,route,360,149 St - Grand Concourse,138 St - Grand Concourse
+224,222,route,180,135 St,149 St - Grand Concourse
+224,222,route,210,135 St,149 St - Grand Concourse
+224,222,route,240,135 St,149 St - Grand Concourse
+224,222,route,270,135 St,149 St - Grand Concourse
+224,222,route,330,135 St,149 St - Grand Concourse
+224,222,route,360,135 St,149 St - Grand Concourse
+224,225,route,90,135 St,125 St
+224,225,route,120,135 St,125 St
+224,302,route,120,135 St,145 St
+224,302,route,150,135 St,145 St
+224,302,route,180,135 St,145 St
+224,302,route,210,135 St,145 St
+224,302,route,240,135 St,145 St
+224,302,route,270,135 St,145 St
+224,302,route,300,135 St,145 St
+224,302,route,360,135 St,145 St
+224,302,route,390,135 St,145 St
+224,302,route,420,135 St,145 St
+224,302,route,480,135 St,145 St
+225,224,route,90,125 St,135 St
+225,224,route,120,125 St,135 St
+225,224,route,150,125 St,135 St
+225,224,route,180,125 St,135 St
+225,224,route,210,125 St,135 St
+225,224,route,240,125 St,135 St
+225,224,route,270,125 St,135 St
+225,226,route,90,125 St,116 St
+226,225,route,90,116 St,125 St
+226,227,route,60,116 St,Central Park North (110 St)
+227,120,route,240,Central Park North (110 St),96 St
+227,120,route,270,Central Park North (110 St),96 St
+227,120,route,300,Central Park North (110 St),96 St
+227,120,route,330,Central Park North (110 St),96 St
+227,226,route,60,Central Park North (110 St),116 St
+228,137,route,60,Park Pl,Chambers St
+228,137,route,90,Park Pl,Chambers St
+228,137,route,120,Park Pl,Chambers St
+228,137,route,150,Park Pl,Chambers St
+228,229,route,120,Park Pl,Fulton St
+228,229,route,150,Park Pl,Fulton St
+228,A36,transfer,180,Park Pl,Chambers St
+228,E01,transfer,180,Park Pl,World Trade Center
+229,228,route,120,Fulton St,Park Pl
+229,228,route,150,Fulton St,Park Pl
+229,230,route,60,Fulton St,Wall St
+229,230,route,90,Fulton St,Wall St
+229,418,transfer,300,Fulton St,Fulton St
+229,A38,transfer,180,Fulton St,Fulton St
+229,M22,transfer,300,Fulton St,Fulton St
+230,229,route,60,Wall St,Fulton St
+230,229,route,90,Wall St,Fulton St
+230,231,route,270,Wall St,Clark St
+230,231,route,300,Wall St,Clark St
+231,230,route,180,Clark St,Wall St
+231,230,route,210,Clark St,Wall St
+231,232,route,60,Clark St,Borough Hall
+231,232,route,90,Clark St,Borough Hall
+232,231,route,90,Borough Hall,Clark St
+232,231,route,120,Borough Hall,Clark St
+232,233,route,60,Borough Hall,Hoyt St
+232,233,route,90,Borough Hall,Hoyt St
+232,423,transfer,300,Borough Hall,Borough Hall
+232,R28,transfer,180,Borough Hall,Court St
+233,232,route,90,Hoyt St,Borough Hall
+233,234,route,60,Hoyt St,Nevins St
+233,234,route,90,Hoyt St,Nevins St
+233,234,route,120,Hoyt St,Nevins St
+233,234,route,150,Hoyt St,Nevins St
+233,234,route,180,Hoyt St,Nevins St
+233,234,route,240,Hoyt St,Nevins St
+234,233,route,90,Nevins St,Hoyt St
+234,235,route,90,Nevins St,Atlantic Av - Barclays Ctr
+234,423,route,90,Nevins St,Borough Hall
+234,423,route,120,Nevins St,Borough Hall
+235,234,route,90,Atlantic Av - Barclays Ctr,Nevins St
+235,234,route,120,Atlantic Av - Barclays Ctr,Nevins St
+235,234,route,150,Atlantic Av - Barclays Ctr,Nevins St
+235,234,route,180,Atlantic Av - Barclays Ctr,Nevins St
+235,234,route,210,Atlantic Av - Barclays Ctr,Nevins St
+235,234,route,240,Atlantic Av - Barclays Ctr,Nevins St
+235,236,route,60,Atlantic Av - Barclays Ctr,Bergen St
+235,236,route,90,Atlantic Av - Barclays Ctr,Bergen St
+235,239,route,210,Atlantic Av - Barclays Ctr,Franklin Av
+235,239,route,240,Atlantic Av - Barclays Ctr,Franklin Av
+235,239,route,270,Atlantic Av - Barclays Ctr,Franklin Av
+235,239,route,300,Atlantic Av - Barclays Ctr,Franklin Av
+235,239,route,330,Atlantic Av - Barclays Ctr,Franklin Av
+235,239,route,360,Atlantic Av - Barclays Ctr,Franklin Av
+235,D24,transfer,180,Atlantic Av - Barclays Ctr,Atlantic Av - Barclays Ctr
+235,R31,transfer,180,Atlantic Av - Barclays Ctr,Atlantic Av - Barclays Ctr
+236,235,route,60,Bergen St,Atlantic Av - Barclays Ctr
+236,235,route,90,Bergen St,Atlantic Av - Barclays Ctr
+236,237,route,90,Bergen St,Grand Army Plaza
+236,237,route,120,Bergen St,Grand Army Plaza
+237,236,route,120,Grand Army Plaza,Bergen St
+237,238,route,90,Grand Army Plaza,Eastern Pkwy - Brooklyn Museum
+237,238,route,120,Grand Army Plaza,Eastern Pkwy - Brooklyn Museum
+238,237,route,90,Eastern Pkwy - Brooklyn Museum,Grand Army Plaza
+238,237,route,120,Eastern Pkwy - Brooklyn Museum,Grand Army Plaza
+238,239,route,90,Eastern Pkwy - Brooklyn Museum,Franklin Av
+238,239,route,120,Eastern Pkwy - Brooklyn Museum,Franklin Av
+238,239,route,150,Eastern Pkwy - Brooklyn Museum,Franklin Av
+238,239,route,180,Eastern Pkwy - Brooklyn Museum,Franklin Av
+238,239,route,210,Eastern Pkwy - Brooklyn Museum,Franklin Av
+238,239,route,240,Eastern Pkwy - Brooklyn Museum,Franklin Av
+238,239,route,270,Eastern Pkwy - Brooklyn Museum,Franklin Av
+239,235,route,240,Franklin Av,Atlantic Av - Barclays Ctr
+239,235,route,270,Franklin Av,Atlantic Av - Barclays Ctr
+239,235,route,300,Franklin Av,Atlantic Av - Barclays Ctr
+239,235,route,330,Franklin Av,Atlantic Av - Barclays Ctr
+239,235,route,360,Franklin Av,Atlantic Av - Barclays Ctr
+239,238,route,90,Franklin Av,Eastern Pkwy - Brooklyn Museum
+239,238,route,120,Franklin Av,Eastern Pkwy - Brooklyn Museum
+239,241,route,150,Franklin Av,President St
+239,241,route,180,Franklin Av,President St
+239,248,route,90,Franklin Av,Nostrand Av
+239,248,route,150,Franklin Av,Nostrand Av
+239,250,route,210,Franklin Av,Crown Hts - Utica Av
+239,250,route,330,Franklin Av,Crown Hts - Utica Av
+239,250,route,420,Franklin Av,Crown Hts - Utica Av
+239,250,route,630,Franklin Av,Crown Hts - Utica Av
+239,S04,transfer,180,Franklin Av,Botanic Garden
+241,239,route,150,President St,Franklin Av
+241,239,route,180,President St,Franklin Av
+241,239,route,210,President St,Franklin Av
+241,239,route,240,President St,Franklin Av
+241,239,route,270,President St,Franklin Av
+241,239,route,330,President St,Franklin Av
+241,242,route,60,President St,Sterling St
+241,242,route,90,President St,Sterling St
+242,241,route,60,Sterling St,President St
+242,241,route,90,Sterling St,President St
+242,241,route,150,Sterling St,President St
+242,243,route,90,Sterling St,Winthrop St
+243,242,route,90,Winthrop St,Sterling St
+243,242,route,120,Winthrop St,Sterling St
+243,244,route,90,Winthrop St,Church Av
+243,244,route,120,Winthrop St,Church Av
+243,244,route,150,Winthrop St,Church Av
+243,244,route,180,Winthrop St,Church Av
+243,244,route,210,Winthrop St,Church Av
+243,244,route,240,Winthrop St,Church Av
+243,244,route,270,Winthrop St,Church Av
+243,244,route,300,Winthrop St,Church Av
+243,244,route,330,Winthrop St,Church Av
+243,244,route,390,Winthrop St,Church Av
+243,244,route,450,Winthrop St,Church Av
+243,244,route,510,Winthrop St,Church Av
+243,244,route,570,Winthrop St,Church Av
+244,243,route,60,Church Av,Winthrop St
+244,243,route,90,Church Av,Winthrop St
+244,243,route,120,Church Av,Winthrop St
+244,245,route,90,Church Av,Beverly Rd
+244,245,route,120,Church Av,Beverly Rd
+245,244,route,90,Beverly Rd,Church Av
+245,244,route,120,Beverly Rd,Church Av
+245,244,route,150,Beverly Rd,Church Av
+245,244,route,180,Beverly Rd,Church Av
+245,244,route,210,Beverly Rd,Church Av
+245,244,route,240,Beverly Rd,Church Av
+245,246,route,90,Beverly Rd,Newkirk Av
+246,245,route,60,Newkirk Av,Beverly Rd
+246,247,route,120,Newkirk Av,Flatbush Av - Brooklyn College
+246,247,route,150,Newkirk Av,Flatbush Av - Brooklyn College
+247,246,route,120,Flatbush Av - Brooklyn College,Newkirk Av
+248,239,route,90,Nostrand Av,Franklin Av
+248,239,route,120,Nostrand Av,Franklin Av
+248,239,route,150,Nostrand Av,Franklin Av
+248,239,route,180,Nostrand Av,Franklin Av
+248,239,route,210,Nostrand Av,Franklin Av
+248,239,route,240,Nostrand Av,Franklin Av
+248,239,route,270,Nostrand Av,Franklin Av
+248,249,route,90,Nostrand Av,Kingston Av
+249,248,route,90,Kingston Av,Nostrand Av
+249,248,route,120,Kingston Av,Nostrand Av
+249,250,route,120,Kingston Av,Crown Hts - Utica Av
+249,250,route,150,Kingston Av,Crown Hts - Utica Av
+249,250,route,180,Kingston Av,Crown Hts - Utica Av
+249,250,route,210,Kingston Av,Crown Hts - Utica Av
+249,250,route,240,Kingston Av,Crown Hts - Utica Av
+249,250,route,270,Kingston Av,Crown Hts - Utica Av
+249,250,route,300,Kingston Av,Crown Hts - Utica Av
+249,250,route,330,Kingston Av,Crown Hts - Utica Av
+249,250,route,360,Kingston Av,Crown Hts - Utica Av
+249,250,route,480,Kingston Av,Crown Hts - Utica Av
+249,250,route,540,Kingston Av,Crown Hts - Utica Av
+249,250,route,600,Kingston Av,Crown Hts - Utica Av
+249,250,route,720,Kingston Av,Crown Hts - Utica Av
+249,250,route,750,Kingston Av,Crown Hts - Utica Av
+250,239,route,180,Crown Hts - Utica Av,Franklin Av
+250,239,route,210,Crown Hts - Utica Av,Franklin Av
+250,239,route,240,Crown Hts - Utica Av,Franklin Av
+250,239,route,270,Crown Hts - Utica Av,Franklin Av
+250,239,route,300,Crown Hts - Utica Av,Franklin Av
+250,239,route,330,Crown Hts - Utica Av,Franklin Av
+250,249,route,120,Crown Hts - Utica Av,Kingston Av
+250,249,route,150,Crown Hts - Utica Av,Kingston Av
+250,251,route,150,Crown Hts - Utica Av,Sutter Av - Rutland Rd
+250,251,route,180,Crown Hts - Utica Av,Sutter Av - Rutland Rd
+251,250,route,150,Sutter Av - Rutland Rd,Crown Hts - Utica Av
+251,250,route,180,Sutter Av - Rutland Rd,Crown Hts - Utica Av
+251,250,route,210,Sutter Av - Rutland Rd,Crown Hts - Utica Av
+251,250,route,240,Sutter Av - Rutland Rd,Crown Hts - Utica Av
+251,250,route,270,Sutter Av - Rutland Rd,Crown Hts - Utica Av
+251,250,route,300,Sutter Av - Rutland Rd,Crown Hts - Utica Av
+251,250,route,330,Sutter Av - Rutland Rd,Crown Hts - Utica Av
+251,250,route,360,Sutter Av - Rutland Rd,Crown Hts - Utica Av
+251,252,route,90,Sutter Av - Rutland Rd,Saratoga Av
+252,251,route,90,Saratoga Av,Sutter Av - Rutland Rd
+252,251,route,120,Saratoga Av,Sutter Av - Rutland Rd
+252,253,route,90,Saratoga Av,Rockaway Av
+252,253,route,120,Saratoga Av,Rockaway Av
+253,252,route,90,Rockaway Av,Saratoga Av
+253,252,route,120,Rockaway Av,Saratoga Av
+253,254,route,60,Rockaway Av,Junius St
+254,253,route,60,Junius St,Rockaway Av
+254,253,route,90,Junius St,Rockaway Av
+254,255,route,90,Junius St,Pennsylvania Av
+254,255,route,120,Junius St,Pennsylvania Av
+254,L26,transfer,300,Junius St,Livonia Av
+255,254,route,90,Pennsylvania Av,Junius St
+255,256,route,60,Pennsylvania Av,Van Siclen Av
+255,256,route,90,Pennsylvania Av,Van Siclen Av
+256,255,route,60,Van Siclen Av,Pennsylvania Av
+256,257,route,60,Van Siclen Av,New Lots Av
+256,257,route,90,Van Siclen Av,New Lots Av
+257,256,route,90,New Lots Av,Van Siclen Av
+301,302,route,90,Harlem - 148 St,145 St
+301,302,route,120,Harlem - 148 St,145 St
+301,302,route,180,Harlem - 148 St,145 St
+301,302,route,240,Harlem - 148 St,145 St
+301,302,route,270,Harlem - 148 St,145 St
+302,224,route,120,145 St,135 St
+302,301,route,120,145 St,Harlem - 148 St
+401,402,route,120,Woodlawn,Mosholu Pkwy
+402,401,route,120,Mosholu Pkwy,Woodlawn
+402,405,route,90,Mosholu Pkwy,Bedford Park Blvd - Lehman College
+402,405,route,120,Mosholu Pkwy,Bedford Park Blvd - Lehman College
+405,402,route,90,Bedford Park Blvd - Lehman College,Mosholu Pkwy
+405,402,route,120,Bedford Park Blvd - Lehman College,Mosholu Pkwy
+405,406,route,120,Bedford Park Blvd - Lehman College,Kingsbridge Rd
+406,405,route,120,Kingsbridge Rd,Bedford Park Blvd - Lehman College
+406,407,route,60,Kingsbridge Rd,Fordham Rd
+406,407,route,90,Kingsbridge Rd,Fordham Rd
+407,406,route,60,Fordham Rd,Kingsbridge Rd
+407,406,route,90,Fordham Rd,Kingsbridge Rd
+407,408,route,60,Fordham Rd,183 St
+407,408,route,90,Fordham Rd,183 St
+408,407,route,60,183 St,Fordham Rd
+408,409,route,60,183 St,Burnside Av
+408,409,route,90,183 St,Burnside Av
+409,408,route,90,Burnside Av,183 St
+409,410,route,90,Burnside Av,176 St
+409,410,route,120,Burnside Av,176 St
+410,409,route,90,176 St,Burnside Av
+410,409,route,120,176 St,Burnside Av
+410,409,route,150,176 St,Burnside Av
+410,409,route,180,176 St,Burnside Av
+410,409,route,210,176 St,Burnside Av
+410,409,route,240,176 St,Burnside Av
+410,409,route,270,176 St,Burnside Av
+410,409,route,330,176 St,Burnside Av
+410,409,route,390,176 St,Burnside Av
+410,409,route,420,176 St,Burnside Av
+410,409,route,450,176 St,Burnside Av
+410,409,route,570,176 St,Burnside Av
+410,409,route,690,176 St,Burnside Av
+410,411,route,60,176 St,Mt Eden Av
+410,411,route,90,176 St,Mt Eden Av
+411,410,route,60,Mt Eden Av,176 St
+411,412,route,60,Mt Eden Av,170 St
+411,412,route,90,Mt Eden Av,170 St
+412,411,route,60,170 St,Mt Eden Av
+412,411,route,90,170 St,Mt Eden Av
+412,413,route,90,170 St,167 St
+412,413,route,120,170 St,167 St
+413,409,route,300,167 St,Burnside Av
+413,412,route,90,167 St,170 St
+413,414,route,120,167 St,161 St - Yankee Stadium
+413,414,route,150,167 St,161 St - Yankee Stadium
+414,413,route,90,161 St - Yankee Stadium,167 St
+414,413,route,120,161 St - Yankee Stadium,167 St
+414,415,route,150,161 St - Yankee Stadium,149 St - Grand Concourse
+414,415,route,180,161 St - Yankee Stadium,149 St - Grand Concourse
+414,415,route,210,161 St - Yankee Stadium,149 St - Grand Concourse
+414,415,route,360,161 St - Yankee Stadium,149 St - Grand Concourse
+414,D11,transfer,180,161 St - Yankee Stadium,161 St - Yankee Stadium
+415,222,transfer,180,149 St - Grand Concourse,149 St - Grand Concourse
+415,414,route,90,149 St - Grand Concourse,161 St - Yankee Stadium
+415,414,route,150,149 St - Grand Concourse,161 St - Yankee Stadium
+415,416,route,90,149 St - Grand Concourse,138 St - Grand Concourse
+415,416,route,120,149 St - Grand Concourse,138 St - Grand Concourse
+415,621,route,270,149 St - Grand Concourse,125 St
+415,621,route,330,149 St - Grand Concourse,125 St
+415,621,route,360,149 St - Grand Concourse,125 St
+415,621,route,390,149 St - Grand Concourse,125 St
+416,222,route,150,138 St - Grand Concourse,149 St - Grand Concourse
+416,222,route,300,138 St - Grand Concourse,149 St - Grand Concourse
+416,415,route,90,138 St - Grand Concourse,149 St - Grand Concourse
+416,415,route,120,138 St - Grand Concourse,149 St - Grand Concourse
+416,415,route,210,138 St - Grand Concourse,149 St - Grand Concourse
+416,415,route,240,138 St - Grand Concourse,149 St - Grand Concourse
+416,415,route,330,138 St - Grand Concourse,149 St - Grand Concourse
+416,415,route,360,138 St - Grand Concourse,149 St - Grand Concourse
+416,415,route,450,138 St - Grand Concourse,149 St - Grand Concourse
+416,415,route,570,138 St - Grand Concourse,149 St - Grand Concourse
+416,415,route,690,138 St - Grand Concourse,149 St - Grand Concourse
+416,621,route,120,138 St - Grand Concourse,125 St
+416,621,route,150,138 St - Grand Concourse,125 St
+416,621,route,180,138 St - Grand Concourse,125 St
+416,621,route,210,138 St - Grand Concourse,125 St
+416,621,route,240,138 St - Grand Concourse,125 St
+416,621,route,270,138 St - Grand Concourse,125 St
+416,621,route,330,138 St - Grand Concourse,125 St
+418,229,transfer,300,Fulton St,Fulton St
+418,419,route,60,Fulton St,Wall St
+418,419,route,90,Fulton St,Wall St
+418,640,route,90,Fulton St,Brooklyn Bridge - City Hall
+418,640,route,120,Fulton St,Brooklyn Bridge - City Hall
+418,640,route,150,Fulton St,Brooklyn Bridge - City Hall
+418,A38,transfer,180,Fulton St,Fulton St
+418,M22,transfer,300,Fulton St,Fulton St
+419,418,route,60,Wall St,Fulton St
+419,418,route,90,Wall St,Fulton St
+419,420,route,60,Wall St,Bowling Green
+419,420,route,90,Wall St,Bowling Green
+420,419,route,60,Bowling Green,Wall St
+420,419,route,90,Bowling Green,Wall St
+420,423,route,300,Bowling Green,Borough Hall
+420,423,route,330,Bowling Green,Borough Hall
+423,232,transfer,300,Borough Hall,Borough Hall
+423,234,route,90,Borough Hall,Nevins St
+423,234,route,120,Borough Hall,Nevins St
+423,234,route,150,Borough Hall,Nevins St
+423,234,route,180,Borough Hall,Nevins St
+423,234,route,210,Borough Hall,Nevins St
+423,420,route,300,Borough Hall,Bowling Green
+423,420,route,330,Borough Hall,Bowling Green
+423,420,route,360,Borough Hall,Bowling Green
+423,R28,transfer,180,Borough Hall,Court St
+501,502,route,120,Eastchester - Dyre Av,Baychester Av
+502,501,route,120,Baychester Av,Eastchester - Dyre Av
+502,501,route,150,Baychester Av,Eastchester - Dyre Av
+502,503,route,150,Baychester Av,Gun Hill Rd
+503,502,route,120,Gun Hill Rd,Baychester Av
+503,502,route,150,Gun Hill Rd,Baychester Av
+503,502,route,450,Gun Hill Rd,Baychester Av
+503,504,route,150,Gun Hill Rd,Pelham Pkwy
+504,503,route,150,Pelham Pkwy,Gun Hill Rd
+504,503,route,180,Pelham Pkwy,Gun Hill Rd
+504,505,route,60,Pelham Pkwy,Morris Park
+505,213,route,180,Morris Park,E 180 St
+505,213,route,210,Morris Park,E 180 St
+505,213,route,300,Morris Park,E 180 St
+505,213,route,330,Morris Park,E 180 St
+505,213,route,360,Morris Park,E 180 St
+505,504,route,60,Morris Park,Pelham Pkwy
+505,504,route,90,Morris Park,Pelham Pkwy
+601,602,route,150,Pelham Bay Park,Buhre Av
+602,601,route,150,Buhre Av,Pelham Bay Park
+602,603,route,90,Buhre Av,Middletown Rd
+603,602,route,90,Middletown Rd,Buhre Av
+603,604,route,90,Middletown Rd,Westchester Sq - E Tremont Av
+604,603,route,90,Westchester Sq - E Tremont Av,Middletown Rd
+604,606,route,60,Westchester Sq - E Tremont Av,Zerega Av
+604,606,route,90,Westchester Sq - E Tremont Av,Zerega Av
+606,604,route,60,Zerega Av,Westchester Sq - E Tremont Av
+606,607,route,60,Zerega Av,Castle Hill Av
+607,606,route,60,Castle Hill Av,Zerega Av
+607,608,route,90,Castle Hill Av,Parkchester
+607,608,route,120,Castle Hill Av,Parkchester
+607,608,route,150,Castle Hill Av,Parkchester
+607,608,route,180,Castle Hill Av,Parkchester
+607,608,route,210,Castle Hill Av,Parkchester
+608,607,route,90,Parkchester,Castle Hill Av
+608,607,route,120,Parkchester,Castle Hill Av
+608,609,route,90,Parkchester,St Lawrence Av
+608,613,route,330,Parkchester,Hunts Point Av
+609,608,route,60,St Lawrence Av,Parkchester
+609,608,route,90,St Lawrence Av,Parkchester
+609,608,route,120,St Lawrence Av,Parkchester
+609,608,route,150,St Lawrence Av,Parkchester
+609,608,route,180,St Lawrence Av,Parkchester
+609,608,route,210,St Lawrence Av,Parkchester
+609,608,route,240,St Lawrence Av,Parkchester
+609,608,route,300,St Lawrence Av,Parkchester
+609,608,route,330,St Lawrence Av,Parkchester
+609,608,route,390,St Lawrence Av,Parkchester
+609,610,route,90,St Lawrence Av,Morrison Av- Sound View
+610,609,route,60,Morrison Av- Sound View,St Lawrence Av
+610,609,route,90,Morrison Av- Sound View,St Lawrence Av
+610,611,route,60,Morrison Av- Sound View,Elder Av
+611,610,route,60,Elder Av,Morrison Av- Sound View
+611,612,route,90,Elder Av,Whitlock Av
+611,612,route,120,Elder Av,Whitlock Av
+612,611,route,90,Whitlock Av,Elder Av
+612,611,route,120,Whitlock Av,Elder Av
+612,613,route,120,Whitlock Av,Hunts Point Av
+613,608,route,330,Hunts Point Av,Parkchester
+613,608,route,360,Hunts Point Av,Parkchester
+613,608,route,390,Hunts Point Av,Parkchester
+613,608,route,420,Hunts Point Av,Parkchester
+613,608,route,450,Hunts Point Av,Parkchester
+613,608,route,480,Hunts Point Av,Parkchester
+613,608,route,510,Hunts Point Av,Parkchester
+613,608,route,540,Hunts Point Av,Parkchester
+613,608,route,570,Hunts Point Av,Parkchester
+613,612,route,90,Hunts Point Av,Whitlock Av
+613,612,route,120,Hunts Point Av,Whitlock Av
+613,614,route,90,Hunts Point Av,Longwood Av
+613,614,route,120,Hunts Point Av,Longwood Av
+613,619,route,420,Hunts Point Av,3 Av - 138 St
+613,619,route,480,Hunts Point Av,3 Av - 138 St
+613,619,route,510,Hunts Point Av,3 Av - 138 St
+613,619,route,540,Hunts Point Av,3 Av - 138 St
+614,613,route,90,Longwood Av,Hunts Point Av
+614,613,route,120,Longwood Av,Hunts Point Av
+614,613,route,150,Longwood Av,Hunts Point Av
+614,613,route,180,Longwood Av,Hunts Point Av
+614,613,route,210,Longwood Av,Hunts Point Av
+614,613,route,240,Longwood Av,Hunts Point Av
+614,613,route,270,Longwood Av,Hunts Point Av
+614,613,route,300,Longwood Av,Hunts Point Av
+614,613,route,330,Longwood Av,Hunts Point Av
+614,615,route,90,Longwood Av,E 149 St
+614,615,route,120,Longwood Av,E 149 St
+615,614,route,90,E 149 St,Longwood Av
+615,614,route,120,E 149 St,Longwood Av
+615,616,route,60,E 149 St,E 143 St - St Mary's St
+615,616,route,90,E 149 St,E 143 St - St Mary's St
+616,615,route,60,E 143 St - St Mary's St,E 149 St
+616,615,route,90,E 143 St - St Mary's St,E 149 St
+616,617,route,120,E 143 St - St Mary's St,Cypress Av
+617,616,route,120,Cypress Av,E 143 St - St Mary's St
+617,618,route,60,Cypress Av,Brook Av
+617,618,route,90,Cypress Av,Brook Av
+618,617,route,60,Brook Av,Cypress Av
+618,619,route,90,Brook Av,3 Av - 138 St
+618,619,route,120,Brook Av,3 Av - 138 St
+619,613,route,390,3 Av - 138 St,Hunts Point Av
+619,613,route,420,3 Av - 138 St,Hunts Point Av
+619,613,route,510,3 Av - 138 St,Hunts Point Av
+619,618,route,90,3 Av - 138 St,Brook Av
+619,621,route,180,3 Av - 138 St,125 St
+619,621,route,240,3 Av - 138 St,125 St
+619,621,route,300,3 Av - 138 St,125 St
+621,415,route,270,125 St,149 St - Grand Concourse
+621,416,route,150,125 St,138 St - Grand Concourse
+621,416,route,180,125 St,138 St - Grand Concourse
+621,416,route,210,125 St,138 St - Grand Concourse
+621,416,route,240,125 St,138 St - Grand Concourse
+621,416,route,270,125 St,138 St - Grand Concourse
+621,619,route,180,125 St,3 Av - 138 St
+621,619,route,210,125 St,3 Av - 138 St
+621,622,route,90,125 St,116 St
+621,622,route,120,125 St,116 St
+621,626,route,270,125 St,86 St
+621,626,route,300,125 St,86 St
+621,626,route,330,125 St,86 St
+622,621,route,90,116 St,125 St
+622,621,route,120,116 St,125 St
+622,623,route,60,116 St,110 St
+622,623,route,90,116 St,110 St
+623,622,route,60,110 St,116 St
+623,622,route,90,110 St,116 St
+623,624,route,60,110 St,103 St
+623,624,route,90,110 St,103 St
+624,623,route,60,103 St,110 St
+624,623,route,90,103 St,110 St
+624,625,route,90,103 St,96 St
+624,625,route,120,103 St,96 St
+625,624,route,90,96 St,103 St
+625,626,route,120,96 St,86 St
+626,621,route,270,86 St,125 St
+626,621,route,300,86 St,125 St
+626,621,route,330,86 St,125 St
+626,621,route,360,86 St,125 St
+626,621,route,390,86 St,125 St
+626,625,route,120,86 St,96 St
+626,627,route,90,86 St,77 St
+626,627,route,120,86 St,77 St
+626,627,route,150,86 St,77 St
+626,629,route,210,86 St,59 St
+626,629,route,240,86 St,59 St
+626,629,route,270,86 St,59 St
+626,629,route,300,86 St,59 St
+626,629,route,330,86 St,59 St
+626,629,route,360,86 St,59 St
+626,629,route,390,86 St,59 St
+627,626,route,90,77 St,86 St
+627,626,route,120,77 St,86 St
+627,628,route,90,77 St,68 St - Hunter College
+627,628,route,120,77 St,68 St - Hunter College
+628,627,route,90,68 St - Hunter College,77 St
+628,627,route,120,68 St - Hunter College,77 St
+628,629,route,90,68 St - Hunter College,59 St
+628,629,route,120,68 St - Hunter College,59 St
+628,629,route,150,68 St - Hunter College,59 St
+629,626,route,180,59 St,86 St
+629,626,route,210,59 St,86 St
+629,628,route,90,59 St,68 St - Hunter College
+629,628,route,120,59 St,68 St - Hunter College
+629,630,route,90,59 St,51 St
+629,630,route,120,59 St,51 St
+629,631,route,150,59 St,Grand Central - 42 St
+629,631,route,180,59 St,Grand Central - 42 St
+629,631,route,210,59 St,Grand Central - 42 St
+629,631,route,240,59 St,Grand Central - 42 St
+629,631,route,270,59 St,Grand Central - 42 St
+629,B08,transfer,300,59 St,Lexington Av/63 St
+629,R11,transfer,180,59 St,Lexington Av/59 St
+630,629,route,90,51 St,59 St
+630,631,route,120,51 St,Grand Central - 42 St
+630,631,route,150,51 St,Grand Central - 42 St
+630,631,route,180,51 St,Grand Central - 42 St
+630,F11,transfer,180,51 St,Lexington Av/53 St
+631,629,route,120,Grand Central - 42 St,59 St
+631,629,route,150,Grand Central - 42 St,59 St
+631,630,route,90,Grand Central - 42 St,51 St
+631,630,route,120,Grand Central - 42 St,51 St
+631,632,route,120,Grand Central - 42 St,33 St
+631,635,route,210,Grand Central - 42 St,14 St - Union Sq
+631,635,route,240,Grand Central - 42 St,14 St - Union Sq
+631,635,route,270,Grand Central - 42 St,14 St - Union Sq
+631,635,route,300,Grand Central - 42 St,14 St - Union Sq
+631,635,route,330,Grand Central - 42 St,14 St - Union Sq
+631,723,transfer,180,Grand Central - 42 St,Grand Central - 42 St
+631,901,transfer,180,Grand Central - 42 St,Grand Central - 42 St
+632,631,route,120,33 St,Grand Central - 42 St
+632,633,route,60,33 St,28 St
+632,633,route,90,33 St,28 St
+633,632,route,60,28 St,33 St
+633,632,route,90,28 St,33 St
+633,634,route,60,28 St,23 St
+633,634,route,90,28 St,23 St
+634,633,route,60,23 St,28 St
+634,633,route,90,23 St,28 St
+634,635,route,90,23 St,14 St - Union Sq
+634,635,route,120,23 St,14 St - Union Sq
+635,631,route,210,14 St - Union Sq,Grand Central - 42 St
+635,631,route,240,14 St - Union Sq,Grand Central - 42 St
+635,631,route,270,14 St - Union Sq,Grand Central - 42 St
+635,631,route,300,14 St - Union Sq,Grand Central - 42 St
+635,634,route,90,14 St - Union Sq,23 St
+635,634,route,120,14 St - Union Sq,23 St
+635,636,route,60,14 St - Union Sq,Astor Pl
+635,636,route,90,14 St - Union Sq,Astor Pl
+635,640,route,270,14 St - Union Sq,Brooklyn Bridge - City Hall
+635,640,route,300,14 St - Union Sq,Brooklyn Bridge - City Hall
+635,640,route,330,14 St - Union Sq,Brooklyn Bridge - City Hall
+635,640,route,360,14 St - Union Sq,Brooklyn Bridge - City Hall
+635,640,route,390,14 St - Union Sq,Brooklyn Bridge - City Hall
+635,L03,transfer,180,14 St - Union Sq,Union Sq - 14 St
+635,R20,transfer,180,14 St - Union Sq,14 St - Union Sq
+636,635,route,60,Astor Pl,14 St - Union Sq
+636,635,route,90,Astor Pl,14 St - Union Sq
+636,637,route,60,Astor Pl,Bleecker St
+636,637,route,90,Astor Pl,Bleecker St
+637,636,route,90,Bleecker St,Astor Pl
+637,638,route,60,Bleecker St,Spring St
+637,638,route,90,Bleecker St,Spring St
+637,D21,transfer,180,Bleecker St,Broadway-Lafayette St
+638,637,route,60,Spring St,Bleecker St
+638,637,route,90,Spring St,Bleecker St
+638,639,route,60,Spring St,Canal St
+638,639,route,90,Spring St,Canal St
+638,639,route,150,Spring St,Canal St
+638,639,route,210,Spring St,Canal St
+638,639,route,240,Spring St,Canal St
+638,639,route,270,Spring St,Canal St
+638,639,route,300,Spring St,Canal St
+638,639,route,330,Spring St,Canal St
+638,639,route,390,Spring St,Canal St
+638,639,route,450,Spring St,Canal St
+639,638,route,90,Canal St,Spring St
+639,640,route,120,Canal St,Brooklyn Bridge - City Hall
+639,M20,transfer,180,Canal St,Canal St
+639,Q01,transfer,180,Canal St,Canal St
+639,R23,transfer,180,Canal St,Canal St
+640,418,route,90,Brooklyn Bridge - City Hall,Fulton St
+640,418,route,120,Brooklyn Bridge - City Hall,Fulton St
+640,635,route,270,Brooklyn Bridge - City Hall,14 St - Union Sq
+640,635,route,300,Brooklyn Bridge - City Hall,14 St - Union Sq
+640,635,route,330,Brooklyn Bridge - City Hall,14 St - Union Sq
+640,635,route,360,Brooklyn Bridge - City Hall,14 St - Union Sq
+640,635,route,390,Brooklyn Bridge - City Hall,14 St - Union Sq
+640,639,route,120,Brooklyn Bridge - City Hall,Canal St
+640,M21,transfer,180,Brooklyn Bridge - City Hall,Chambers St
+701,702,route,150,Flushing - Main St,Mets - Willets Point
+701,702,route,180,Flushing - Main St,Mets - Willets Point
+701,702,route,210,Flushing - Main St,Mets - Willets Point
+701,702,route,240,Flushing - Main St,Mets - Willets Point
+701,702,route,270,Flushing - Main St,Mets - Willets Point
+702,701,route,210,Mets - Willets Point,Flushing - Main St
+702,705,route,90,Mets - Willets Point,111 St
+702,705,route,120,Mets - Willets Point,111 St
+702,705,route,180,Mets - Willets Point,111 St
+702,705,route,210,Mets - Willets Point,111 St
+702,705,route,240,Mets - Willets Point,111 St
+702,707,route,210,Mets - Willets Point,Junction Blvd
+702,707,route,240,Mets - Willets Point,Junction Blvd
+702,707,route,270,Mets - Willets Point,Junction Blvd
+702,707,route,300,Mets - Willets Point,Junction Blvd
+702,707,route,360,Mets - Willets Point,Junction Blvd
+702,707,route,390,Mets - Willets Point,Junction Blvd
+705,702,route,120,111 St,Mets - Willets Point
+705,702,route,150,111 St,Mets - Willets Point
+705,702,route,180,111 St,Mets - Willets Point
+705,702,route,210,111 St,Mets - Willets Point
+705,702,route,240,111 St,Mets - Willets Point
+705,702,route,270,111 St,Mets - Willets Point
+705,702,route,300,111 St,Mets - Willets Point
+705,702,route,330,111 St,Mets - Willets Point
+705,702,route,390,111 St,Mets - Willets Point
+705,702,route,450,111 St,Mets - Willets Point
+705,706,route,60,111 St,103 St - Corona Plaza
+705,706,route,90,111 St,103 St - Corona Plaza
+706,705,route,60,103 St - Corona Plaza,111 St
+706,705,route,90,103 St - Corona Plaza,111 St
+706,705,route,120,103 St - Corona Plaza,111 St
+706,707,route,60,103 St - Corona Plaza,Junction Blvd
+706,707,route,90,103 St - Corona Plaza,Junction Blvd
+707,702,route,210,Junction Blvd,Mets - Willets Point
+707,702,route,240,Junction Blvd,Mets - Willets Point
+707,702,route,270,Junction Blvd,Mets - Willets Point
+707,702,route,300,Junction Blvd,Mets - Willets Point
+707,702,route,330,Junction Blvd,Mets - Willets Point
+707,702,route,360,Junction Blvd,Mets - Willets Point
+707,702,route,420,Junction Blvd,Mets - Willets Point
+707,706,route,60,Junction Blvd,103 St - Corona Plaza
+707,706,route,90,Junction Blvd,103 St - Corona Plaza
+707,708,route,60,Junction Blvd,90 St - Elmhurst Av
+707,708,route,90,Junction Blvd,90 St - Elmhurst Av
+707,712,route,210,Junction Blvd,Woodside - 61 St
+707,712,route,240,Junction Blvd,Woodside - 61 St
+708,707,route,60,90 St - Elmhurst Av,Junction Blvd
+708,707,route,90,90 St - Elmhurst Av,Junction Blvd
+708,709,route,60,90 St - Elmhurst Av,82 St - Jackson Hts
+708,709,route,90,90 St - Elmhurst Av,82 St - Jackson Hts
+709,708,route,60,82 St - Jackson Hts,90 St - Elmhurst Av
+709,708,route,90,82 St - Jackson Hts,90 St - Elmhurst Av
+709,710,route,60,82 St - Jackson Hts,74 St - Broadway
+709,710,route,90,82 St - Jackson Hts,74 St - Broadway
+709,710,route,120,82 St - Jackson Hts,74 St - Broadway
+710,709,route,60,74 St - Broadway,82 St - Jackson Hts
+710,711,route,90,74 St - Broadway,69 St
+710,G14,transfer,180,74 St - Broadway,Jackson Hts - Roosevelt Av
+711,710,route,90,69 St,74 St - Broadway
+711,710,route,120,69 St,74 St - Broadway
+711,710,route,150,69 St,74 St - Broadway
+711,710,route,180,69 St,74 St - Broadway
+711,710,route,210,69 St,74 St - Broadway
+711,712,route,120,69 St,Woodside - 61 St
+711,712,route,150,69 St,Woodside - 61 St
+712,707,route,240,Woodside - 61 St,Junction Blvd
+712,711,route,120,Woodside - 61 St,69 St
+712,713,route,90,Woodside - 61 St,52 St
+712,713,route,120,Woodside - 61 St,52 St
+712,718,route,330,Woodside - 61 St,Queensboro Plaza
+712,718,route,360,Woodside - 61 St,Queensboro Plaza
+712,718,route,390,Woodside - 61 St,Queensboro Plaza
+712,718,route,450,Woodside - 61 St,Queensboro Plaza
+712,718,route,570,Woodside - 61 St,Queensboro Plaza
+713,712,route,90,52 St,Woodside - 61 St
+713,712,route,120,52 St,Woodside - 61 St
+713,714,route,60,52 St,46 St
+714,713,route,60,46 St,52 St
+714,715,route,60,46 St,40 St
+715,714,route,60,40 St,46 St
+715,716,route,60,40 St,33 St
+715,716,route,90,40 St,33 St
+716,715,route,60,33 St,40 St
+716,715,route,90,33 St,40 St
+716,718,route,120,33 St,Queensboro Plaza
+716,718,route,150,33 St,Queensboro Plaza
+716,718,route,180,33 St,Queensboro Plaza
+716,718,route,210,33 St,Queensboro Plaza
+716,718,route,240,33 St,Queensboro Plaza
+716,718,route,270,33 St,Queensboro Plaza
+716,718,route,300,33 St,Queensboro Plaza
+716,718,route,330,33 St,Queensboro Plaza
+716,718,route,450,33 St,Queensboro Plaza
+718,712,route,330,Queensboro Plaza,Woodside - 61 St
+718,716,route,120,Queensboro Plaza,33 St
+718,716,route,150,Queensboro Plaza,33 St
+718,719,route,90,Queensboro Plaza,Court Sq
+718,719,route,120,Queensboro Plaza,Court Sq
+718,R09,transfer,0,Queensboro Plaza,Queensboro Plaza
+719,718,route,90,Court Sq,Queensboro Plaza
+719,718,route,120,Court Sq,Queensboro Plaza
+719,720,route,90,Court Sq,Hunters Point Av
+719,720,route,120,Court Sq,Hunters Point Av
+719,F09,transfer,300,Court Sq,Court Sq
+719,G22,transfer,180,Court Sq,Court Sq
+720,719,route,90,Hunters Point Av,Court Sq
+720,719,route,120,Hunters Point Av,Court Sq
+720,721,route,60,Hunters Point Av,Vernon Blvd - Jackson Av
+721,720,route,30,Vernon Blvd - Jackson Av,Hunters Point Av
+721,720,route,60,Vernon Blvd - Jackson Av,Hunters Point Av
+721,723,route,270,Vernon Blvd - Jackson Av,Grand Central - 42 St
+721,723,route,300,Vernon Blvd - Jackson Av,Grand Central - 42 St
+721,723,route,330,Vernon Blvd - Jackson Av,Grand Central - 42 St
+723,631,transfer,180,Grand Central - 42 St,Grand Central - 42 St
+723,721,route,270,Grand Central - 42 St,Vernon Blvd - Jackson Av
+723,721,route,300,Grand Central - 42 St,Vernon Blvd - Jackson Av
+723,721,route,330,Grand Central - 42 St,Vernon Blvd - Jackson Av
+723,724,route,90,Grand Central - 42 St,5 Av
+723,901,transfer,300,Grand Central - 42 St,Grand Central - 42 St
+724,723,route,60,5 Av,Grand Central - 42 St
+724,723,route,90,5 Av,Grand Central - 42 St
+724,725,route,90,5 Av,Times Sq - 42 St
+724,725,route,120,5 Av,Times Sq - 42 St
+724,725,route,150,5 Av,Times Sq - 42 St
+724,725,route,180,5 Av,Times Sq - 42 St
+724,725,route,210,5 Av,Times Sq - 42 St
+724,725,route,240,5 Av,Times Sq - 42 St
+724,D16,transfer,180,5 Av,42 St - Bryant Pk
+725,127,transfer,180,Times Sq - 42 St,Times Sq - 42 St
+725,724,route,90,Times Sq - 42 St,5 Av
+725,726,route,210,Times Sq - 42 St,34 St - 11 Av
+725,726,route,240,Times Sq - 42 St,34 St - 11 Av
+725,902,transfer,300,Times Sq - 42 St,Times Sq - 42 St
+725,A27,transfer,180,Times Sq - 42 St,42 St - Port Authority Bus Terminal
+725,R16,transfer,180,Times Sq - 42 St,Times Sq - 42 St
+726,725,route,180,34 St - 11 Av,Times Sq - 42 St
+726,725,route,210,34 St - 11 Av,Times Sq - 42 St
+901,631,transfer,180,Grand Central - 42 St,Grand Central - 42 St
+901,723,transfer,300,Grand Central - 42 St,Grand Central - 42 St
+901,902,route,90,Grand Central - 42 St,Times Sq - 42 St
+902,127,transfer,180,Times Sq - 42 St,Times Sq - 42 St
+902,725,transfer,300,Times Sq - 42 St,Times Sq - 42 St
+902,901,route,90,Times Sq - 42 St,Grand Central - 42 St
+902,A27,transfer,300,Times Sq - 42 St,42 St - Port Authority Bus Terminal
+902,R16,transfer,180,Times Sq - 42 St,Times Sq - 42 St
+A02,A03,route,90,Inwood - 207 St,Dyckman St
+A02,A03,route,120,Inwood - 207 St,Dyckman St
+A02,A03,route,150,Inwood - 207 St,Dyckman St
+A03,A02,route,90,Dyckman St,Inwood - 207 St
+A03,A02,route,120,Dyckman St,Inwood - 207 St
+A03,A05,route,120,Dyckman St,190 St
+A03,A05,route,150,Dyckman St,190 St
+A05,A03,route,150,190 St,Dyckman St
+A05,A03,route,180,190 St,Dyckman St
+A05,A03,route,210,190 St,Dyckman St
+A05,A03,route,240,190 St,Dyckman St
+A05,A03,route,270,190 St,Dyckman St
+A05,A03,route,300,190 St,Dyckman St
+A05,A03,route,330,190 St,Dyckman St
+A05,A03,route,360,190 St,Dyckman St
+A05,A06,route,120,190 St,181 St
+A06,A05,route,120,181 St,190 St
+A06,A07,route,60,181 St,175 St
+A07,A06,route,60,175 St,181 St
+A07,A06,route,90,175 St,181 St
+A07,A09,route,120,175 St,168 St
+A07,A09,route,150,175 St,168 St
+A07,A09,route,180,175 St,168 St
+A07,A09,route,210,175 St,168 St
+A07,A09,route,270,175 St,168 St
+A09,112,transfer,180,168 St,168 St - Washington Hts
+A09,A07,route,120,168 St,175 St
+A09,A10,route,60,168 St,163 St - Amsterdam Av
+A09,A10,route,90,168 St,163 St - Amsterdam Av
+A09,A12,route,210,168 St,145 St
+A09,A12,route,240,168 St,145 St
+A09,A12,route,270,168 St,145 St
+A10,A09,route,90,163 St - Amsterdam Av,168 St
+A10,A09,route,120,163 St - Amsterdam Av,168 St
+A10,A09,route,210,163 St - Amsterdam Av,168 St
+A10,A09,route,240,163 St - Amsterdam Av,168 St
+A10,A11,route,60,163 St - Amsterdam Av,155 St
+A10,A11,route,90,163 St - Amsterdam Av,155 St
+A11,A10,route,90,155 St,163 St - Amsterdam Av
+A11,A12,route,90,155 St,145 St
+A11,A12,route,120,155 St,145 St
+A12,A09,route,180,145 St,168 St
+A12,A09,route,210,145 St,168 St
+A12,A09,route,240,145 St,168 St
+A12,A09,route,270,145 St,168 St
+A12,A09,route,300,145 St,168 St
+A12,A09,route,330,145 St,168 St
+A12,A09,route,360,145 St,168 St
+A12,A09,route,390,145 St,168 St
+A12,A09,route,420,145 St,168 St
+A12,A11,route,90,145 St,155 St
+A12,A14,route,90,145 St,135 St
+A12,A14,route,120,145 St,135 St
+A12,A14,route,150,145 St,135 St
+A12,A15,route,210,145 St,125 St
+A12,A15,route,240,145 St,125 St
+A12,D13,transfer,180,145 St,145 St
+A14,A12,route,90,135 St,145 St
+A14,A12,route,120,135 St,145 St
+A14,A12,route,150,135 St,145 St
+A14,A12,route,180,135 St,145 St
+A14,A12,route,210,135 St,145 St
+A14,A12,route,240,135 St,145 St
+A14,A15,route,90,135 St,125 St
+A14,A15,route,120,135 St,125 St
+A14,A15,route,150,135 St,125 St
+A14,A15,route,180,135 St,125 St
+A14,A15,route,210,135 St,125 St
+A14,D13,route,90,135 St,145 St
+A14,D13,route,120,135 St,145 St
+A14,D13,route,150,135 St,145 St
+A14,D13,route,180,135 St,145 St
+A14,D13,route,240,135 St,145 St
+A14,D13,route,270,135 St,145 St
+A15,A12,route,150,125 St,145 St
+A15,A12,route,180,125 St,145 St
+A15,A12,route,210,125 St,145 St
+A15,A12,route,240,125 St,145 St
+A15,A12,route,300,125 St,145 St
+A15,A14,route,90,125 St,135 St
+A15,A14,route,120,125 St,135 St
+A15,A14,route,150,125 St,135 St
+A15,A14,route,180,125 St,135 St
+A15,A14,route,210,125 St,135 St
+A15,A14,route,240,125 St,135 St
+A15,A14,route,270,125 St,135 St
+A15,A14,route,300,125 St,135 St
+A15,A16,route,90,125 St,116 St
+A15,A24,route,480,125 St,59 St - Columbus Circle
+A15,A24,route,510,125 St,59 St - Columbus Circle
+A15,A24,route,540,125 St,59 St - Columbus Circle
+A15,A24,route,570,125 St,59 St - Columbus Circle
+A15,D13,route,210,125 St,145 St
+A15,D13,route,240,125 St,145 St
+A15,D13,route,270,125 St,145 St
+A16,A15,route,90,116 St,125 St
+A16,A15,route,120,116 St,125 St
+A16,A15,route,150,116 St,125 St
+A16,A15,route,180,116 St,125 St
+A16,A15,route,210,116 St,125 St
+A16,A15,route,240,116 St,125 St
+A16,A17,route,90,116 St,Cathedral Pkwy (110 St)
+A17,A16,route,90,Cathedral Pkwy (110 St),116 St
+A17,A18,route,60,Cathedral Pkwy (110 St),103 St
+A17,A18,route,90,Cathedral Pkwy (110 St),103 St
+A18,A17,route,60,103 St,Cathedral Pkwy (110 St)
+A18,A19,route,60,103 St,96 St
+A18,A19,route,90,103 St,96 St
+A19,A18,route,90,96 St,103 St
+A19,A20,route,90,96 St,86 St
+A19,A20,route,120,96 St,86 St
+A20,A19,route,90,86 St,96 St
+A20,A21,route,90,86 St,81 St - Museum of Natural History
+A21,A20,route,90,81 St - Museum of Natural History,86 St
+A21,A22,route,90,81 St - Museum of Natural History,72 St
+A22,A21,route,90,72 St,81 St - Museum of Natural History
+A22,A24,route,90,72 St,59 St - Columbus Circle
+A22,A24,route,120,72 St,59 St - Columbus Circle
+A22,A24,route,150,72 St,59 St - Columbus Circle
+A22,A24,route,180,72 St,59 St - Columbus Circle
+A22,A24,route,210,72 St,59 St - Columbus Circle
+A22,A24,route,330,72 St,59 St - Columbus Circle
+A24,125,transfer,180,59 St - Columbus Circle,59 St - Columbus Circle
+A24,A15,route,480,59 St - Columbus Circle,125 St
+A24,A15,route,510,59 St - Columbus Circle,125 St
+A24,A22,route,90,59 St - Columbus Circle,72 St
+A24,A25,route,90,59 St - Columbus Circle,50 St
+A24,A25,route,120,59 St - Columbus Circle,50 St
+A24,A25,route,150,59 St - Columbus Circle,50 St
+A24,A25,route,180,59 St - Columbus Circle,50 St
+A24,A25,route,210,59 St - Columbus Circle,50 St
+A24,A25,route,270,59 St - Columbus Circle,50 St
+A24,A27,route,150,59 St - Columbus Circle,42 St - Port Authority Bus Terminal
+A24,A27,route,180,59 St - Columbus Circle,42 St - Port Authority Bus Terminal
+A24,A27,route,210,59 St - Columbus Circle,42 St - Port Authority Bus Terminal
+A24,A27,route,240,59 St - Columbus Circle,42 St - Port Authority Bus Terminal
+A24,A27,route,270,59 St - Columbus Circle,42 St - Port Authority Bus Terminal
+A24,A27,route,300,59 St - Columbus Circle,42 St - Port Authority Bus Terminal
+A24,D14,route,90,59 St - Columbus Circle,7 Av
+A24,D14,route,120,59 St - Columbus Circle,7 Av
+A25,A24,route,120,50 St,59 St - Columbus Circle
+A25,A24,route,150,50 St,59 St - Columbus Circle
+A25,A24,route,180,50 St,59 St - Columbus Circle
+A25,A24,route,210,50 St,59 St - Columbus Circle
+A25,A24,route,270,50 St,59 St - Columbus Circle
+A25,A24,route,300,50 St,59 St - Columbus Circle
+A25,A27,route,120,50 St,42 St - Port Authority Bus Terminal
+A25,A27,route,150,50 St,42 St - Port Authority Bus Terminal
+A25,A27,route,210,50 St,42 St - Port Authority Bus Terminal
+A25,A27,route,240,50 St,42 St - Port Authority Bus Terminal
+A25,D14,route,90,50 St,7 Av
+A25,D14,route,120,50 St,7 Av
+A25,D14,route,150,50 St,7 Av
+A25,D14,route,180,50 St,7 Av
+A25,D14,route,210,50 St,7 Av
+A25,D14,route,240,50 St,7 Av
+A27,127,transfer,300,42 St - Port Authority Bus Terminal,Times Sq - 42 St
+A27,725,transfer,180,42 St - Port Authority Bus Terminal,Times Sq - 42 St
+A27,902,transfer,300,42 St - Port Authority Bus Terminal,Times Sq - 42 St
+A27,A24,route,180,42 St - Port Authority Bus Terminal,59 St - Columbus Circle
+A27,A24,route,210,42 St - Port Authority Bus Terminal,59 St - Columbus Circle
+A27,A24,route,240,42 St - Port Authority Bus Terminal,59 St - Columbus Circle
+A27,A25,route,90,42 St - Port Authority Bus Terminal,50 St
+A27,A25,route,120,42 St - Port Authority Bus Terminal,50 St
+A27,A25,route,150,42 St - Port Authority Bus Terminal,50 St
+A27,A25,route,180,42 St - Port Authority Bus Terminal,50 St
+A27,A25,route,210,42 St - Port Authority Bus Terminal,50 St
+A27,A25,route,240,42 St - Port Authority Bus Terminal,50 St
+A27,A25,route,270,42 St - Port Authority Bus Terminal,50 St
+A27,A28,route,60,42 St - Port Authority Bus Terminal,34 St - Penn Station
+A27,A28,route,90,42 St - Port Authority Bus Terminal,34 St - Penn Station
+A27,R16,transfer,300,42 St - Port Authority Bus Terminal,Times Sq - 42 St
+A28,A27,route,60,34 St - Penn Station,42 St - Port Authority Bus Terminal
+A28,A27,route,90,34 St - Penn Station,42 St - Port Authority Bus Terminal
+A28,A27,route,120,34 St - Penn Station,42 St - Port Authority Bus Terminal
+A28,A27,route,150,34 St - Penn Station,42 St - Port Authority Bus Terminal
+A28,A27,route,180,34 St - Penn Station,42 St - Port Authority Bus Terminal
+A28,A27,route,210,34 St - Penn Station,42 St - Port Authority Bus Terminal
+A28,A27,route,240,34 St - Penn Station,42 St - Port Authority Bus Terminal
+A28,A30,route,90,34 St - Penn Station,23 St
+A28,A30,route,120,34 St - Penn Station,23 St
+A28,A31,route,150,34 St - Penn Station,14 St
+A28,A31,route,180,34 St - Penn Station,14 St
+A28,A31,route,210,34 St - Penn Station,14 St
+A30,A28,route,90,23 St,34 St - Penn Station
+A30,A28,route,120,23 St,34 St - Penn Station
+A30,A28,route,150,23 St,34 St - Penn Station
+A30,A31,route,90,23 St,14 St
+A31,A28,route,180,14 St,34 St - Penn Station
+A31,A28,route,210,14 St,34 St - Penn Station
+A31,A30,route,90,14 St,23 St
+A31,A32,route,120,14 St,W 4 St
+A31,A32,route,150,14 St,W 4 St
+A31,A32,route,180,14 St,W 4 St
+A31,L01,transfer,90,14 St,8 Av
+A32,A31,route,120,W 4 St,14 St
+A32,A31,route,150,W 4 St,14 St
+A32,A31,route,180,W 4 St,14 St
+A32,A33,route,90,W 4 St,Spring St
+A32,A34,route,150,W 4 St,Canal St
+A32,A34,route,180,W 4 St,Canal St
+A32,A34,route,210,W 4 St,Canal St
+A32,A34,route,240,W 4 St,Canal St
+A32,A34,route,270,W 4 St,Canal St
+A32,D20,transfer,180,W 4 St,W 4 St
+A33,A32,route,120,Spring St,W 4 St
+A33,A32,route,150,Spring St,W 4 St
+A33,A34,route,90,Spring St,Canal St
+A33,A34,route,120,Spring St,Canal St
+A33,A34,route,150,Spring St,Canal St
+A33,A34,route,180,Spring St,Canal St
+A33,A34,route,210,Spring St,Canal St
+A33,A34,route,240,Spring St,Canal St
+A33,A34,route,330,Spring St,Canal St
+A34,A32,route,150,Canal St,W 4 St
+A34,A32,route,180,Canal St,W 4 St
+A34,A32,route,210,Canal St,W 4 St
+A34,A33,route,90,Canal St,Spring St
+A34,A36,route,120,Canal St,Chambers St
+A34,A36,route,210,Canal St,Chambers St
+A34,E01,route,120,Canal St,World Trade Center
+A36,228,transfer,180,Chambers St,Park Pl
+A36,A34,route,90,Chambers St,Canal St
+A36,A34,route,120,Chambers St,Canal St
+A36,A34,route,150,Chambers St,Canal St
+A36,A34,route,180,Chambers St,Canal St
+A36,A34,route,210,Chambers St,Canal St
+A36,A38,route,120,Chambers St,Fulton St
+A36,E01,transfer,300,Chambers St,World Trade Center
+A38,229,transfer,180,Fulton St,Fulton St
+A38,418,transfer,180,Fulton St,Fulton St
+A38,A36,route,120,Fulton St,Chambers St
+A38,A40,route,180,Fulton St,High St
+A38,A40,route,210,Fulton St,High St
+A38,M22,transfer,180,Fulton St,Fulton St
+A40,A38,route,180,High St,Fulton St
+A40,A38,route,210,High St,Fulton St
+A40,A38,route,240,High St,Fulton St
+A40,A41,route,120,High St,Jay St - MetroTech
+A40,A41,route,150,High St,Jay St - MetroTech
+A40,A41,route,180,High St,Jay St - MetroTech
+A40,A41,route,210,High St,Jay St - MetroTech
+A40,A41,route,240,High St,Jay St - MetroTech
+A41,A40,route,120,Jay St - MetroTech,High St
+A41,A42,route,90,Jay St - MetroTech,Hoyt - Schermerhorn Sts
+A41,A42,route,120,Jay St - MetroTech,Hoyt - Schermerhorn Sts
+A41,F18,route,90,Jay St - MetroTech,York St
+A41,F20,route,150,Jay St - MetroTech,Bergen St
+A41,F20,route,180,Jay St - MetroTech,Bergen St
+A41,R29,transfer,90,Jay St - MetroTech,Jay St - MetroTech
+A42,A41,route,90,Hoyt - Schermerhorn Sts,Jay St - MetroTech
+A42,A41,route,120,Hoyt - Schermerhorn Sts,Jay St - MetroTech
+A42,A41,route,150,Hoyt - Schermerhorn Sts,Jay St - MetroTech
+A42,A41,route,180,Hoyt - Schermerhorn Sts,Jay St - MetroTech
+A42,A41,route,210,Hoyt - Schermerhorn Sts,Jay St - MetroTech
+A42,A43,route,120,Hoyt - Schermerhorn Sts,Lafayette Av
+A42,A46,route,270,Hoyt - Schermerhorn Sts,Nostrand Av
+A42,A46,route,300,Hoyt - Schermerhorn Sts,Nostrand Av
+A42,F20,route,90,Hoyt - Schermerhorn Sts,Bergen St
+A42,F20,route,120,Hoyt - Schermerhorn Sts,Bergen St
+A42,G36,route,90,Hoyt - Schermerhorn Sts,Fulton St
+A42,G36,route,120,Hoyt - Schermerhorn Sts,Fulton St
+A43,A42,route,90,Lafayette Av,Hoyt - Schermerhorn Sts
+A43,A42,route,120,Lafayette Av,Hoyt - Schermerhorn Sts
+A43,A42,route,150,Lafayette Av,Hoyt - Schermerhorn Sts
+A43,A42,route,180,Lafayette Av,Hoyt - Schermerhorn Sts
+A43,A44,route,90,Lafayette Av,Clinton - Washington Avs
+A43,A44,route,120,Lafayette Av,Clinton - Washington Avs
+A44,A43,route,90,Clinton - Washington Avs,Lafayette Av
+A44,A45,route,90,Clinton - Washington Avs,Franklin Av
+A44,A45,route,120,Clinton - Washington Avs,Franklin Av
+A45,A44,route,90,Franklin Av,Clinton - Washington Avs
+A45,A44,route,120,Franklin Av,Clinton - Washington Avs
+A45,A46,route,60,Franklin Av,Nostrand Av
+A45,A46,route,90,Franklin Av,Nostrand Av
+A45,S01,transfer,180,Franklin Av,Franklin Av
+A46,A42,route,300,Nostrand Av,Hoyt - Schermerhorn Sts
+A46,A42,route,330,Nostrand Av,Hoyt - Schermerhorn Sts
+A46,A42,route,360,Nostrand Av,Hoyt - Schermerhorn Sts
+A46,A45,route,60,Nostrand Av,Franklin Av
+A46,A47,route,90,Nostrand Av,Kingston - Throop Avs
+A46,A47,route,120,Nostrand Av,Kingston - Throop Avs
+A46,A48,route,120,Nostrand Av,Utica Av
+A46,A48,route,150,Nostrand Av,Utica Av
+A47,A46,route,90,Kingston - Throop Avs,Nostrand Av
+A47,A46,route,120,Kingston - Throop Avs,Nostrand Av
+A47,A48,route,90,Kingston - Throop Avs,Utica Av
+A47,A48,route,120,Kingston - Throop Avs,Utica Av
+A48,A46,route,180,Utica Av,Nostrand Av
+A48,A46,route,210,Utica Av,Nostrand Av
+A48,A47,route,90,Utica Av,Kingston - Throop Avs
+A48,A47,route,120,Utica Av,Kingston - Throop Avs
+A48,A49,route,120,Utica Av,Ralph Av
+A48,A51,route,180,Utica Av,Broadway Jct
+A48,A51,route,210,Utica Av,Broadway Jct
+A48,A51,route,240,Utica Av,Broadway Jct
+A49,A48,route,90,Ralph Av,Utica Av
+A49,A48,route,120,Ralph Av,Utica Av
+A49,A50,route,90,Ralph Av,Rockaway Av
+A50,A49,route,90,Rockaway Av,Ralph Av
+A50,A49,route,120,Rockaway Av,Ralph Av
+A50,A51,route,90,Rockaway Av,Broadway Jct
+A50,A51,route,120,Rockaway Av,Broadway Jct
+A50,A51,route,150,Rockaway Av,Broadway Jct
+A50,A51,route,180,Rockaway Av,Broadway Jct
+A50,A51,route,210,Rockaway Av,Broadway Jct
+A50,A51,route,240,Rockaway Av,Broadway Jct
+A50,A51,route,270,Rockaway Av,Broadway Jct
+A50,A51,route,360,Rockaway Av,Broadway Jct
+A51,A48,route,180,Broadway Jct,Utica Av
+A51,A48,route,210,Broadway Jct,Utica Av
+A51,A48,route,330,Broadway Jct,Utica Av
+A51,A50,route,60,Broadway Jct,Rockaway Av
+A51,A50,route,90,Broadway Jct,Rockaway Av
+A51,A52,route,120,Broadway Jct,Liberty Av
+A51,A55,route,240,Broadway Jct,Euclid Av
+A51,A55,route,270,Broadway Jct,Euclid Av
+A51,A55,route,300,Broadway Jct,Euclid Av
+A51,A55,route,330,Broadway Jct,Euclid Av
+A51,J27,transfer,180,Broadway Jct,Broadway Jct
+A51,L22,transfer,180,Broadway Jct,Broadway Jct
+A52,A51,route,120,Liberty Av,Broadway Jct
+A52,A51,route,150,Liberty Av,Broadway Jct
+A52,A51,route,180,Liberty Av,Broadway Jct
+A52,A53,route,90,Liberty Av,Van Siclen Av
+A53,A52,route,90,Van Siclen Av,Liberty Av
+A53,A52,route,120,Van Siclen Av,Liberty Av
+A53,A54,route,90,Van Siclen Av,Shepherd Av
+A54,A53,route,90,Shepherd Av,Van Siclen Av
+A54,A53,route,120,Shepherd Av,Van Siclen Av
+A54,A53,route,150,Shepherd Av,Van Siclen Av
+A54,A55,route,90,Shepherd Av,Euclid Av
+A54,A55,route,180,Shepherd Av,Euclid Av
+A54,A55,route,210,Shepherd Av,Euclid Av
+A55,A51,route,240,Euclid Av,Broadway Jct
+A55,A51,route,270,Euclid Av,Broadway Jct
+A55,A51,route,330,Euclid Av,Broadway Jct
+A55,A51,route,360,Euclid Av,Broadway Jct
+A55,A54,route,90,Euclid Av,Shepherd Av
+A55,A54,route,120,Euclid Av,Shepherd Av
+A55,A57,route,90,Euclid Av,Grant Av
+A55,A57,route,180,Euclid Av,Grant Av
+A57,A55,route,90,Grant Av,Euclid Av
+A57,A55,route,120,Grant Av,Euclid Av
+A57,A55,route,150,Grant Av,Euclid Av
+A57,A55,route,180,Grant Av,Euclid Av
+A57,A55,route,210,Grant Av,Euclid Av
+A57,A55,route,240,Grant Av,Euclid Av
+A57,A55,route,270,Grant Av,Euclid Av
+A57,A59,route,90,Grant Av,80 St
+A59,A57,route,60,80 St,Grant Av
+A59,A57,route,90,80 St,Grant Av
+A59,A60,route,60,80 St,88 St
+A59,A60,route,90,80 St,88 St
+A60,A59,route,60,88 St,80 St
+A60,A59,route,90,88 St,80 St
+A60,A59,route,120,88 St,80 St
+A60,A61,route,60,88 St,Rockaway Blvd
+A60,A61,route,90,88 St,Rockaway Blvd
+A60,A61,route,150,88 St,Rockaway Blvd
+A61,A60,route,60,Rockaway Blvd,88 St
+A61,A60,route,90,Rockaway Blvd,88 St
+A61,A63,route,90,Rockaway Blvd,104 St
+A61,A63,route,120,Rockaway Blvd,104 St
+A61,A63,route,150,Rockaway Blvd,104 St
+A61,A63,route,180,Rockaway Blvd,104 St
+A61,A63,route,210,Rockaway Blvd,104 St
+A61,A63,route,240,Rockaway Blvd,104 St
+A61,A63,route,270,Rockaway Blvd,104 St
+A61,A63,route,390,Rockaway Blvd,104 St
+A61,A63,route,420,Rockaway Blvd,104 St
+A61,A63,route,450,Rockaway Blvd,104 St
+A61,A63,route,480,Rockaway Blvd,104 St
+A61,A63,route,510,Rockaway Blvd,104 St
+A61,A63,route,540,Rockaway Blvd,104 St
+A61,H02,route,240,Rockaway Blvd,Aqueduct - N Conduit Av
+A61,H02,route,270,Rockaway Blvd,Aqueduct - N Conduit Av
+A63,A61,route,90,104 St,Rockaway Blvd
+A63,A61,route,120,104 St,Rockaway Blvd
+A63,A64,route,90,104 St,111 St
+A63,A64,route,120,104 St,111 St
+A64,A63,route,60,111 St,104 St
+A64,A63,route,90,111 St,104 St
+A64,A65,route,60,111 St,Ozone Park - Lefferts Blvd
+A64,A65,route,90,111 St,Ozone Park - Lefferts Blvd
+A65,A64,route,60,Ozone Park - Lefferts Blvd,111 St
+A65,A64,route,90,Ozone Park - Lefferts Blvd,111 St
+B04,B06,route,120,21 St - Queensbridge,Roosevelt Island
+B04,B06,route,150,21 St - Queensbridge,Roosevelt Island
+B04,G14,route,360,21 St - Queensbridge,Jackson Hts - Roosevelt Av
+B04,G14,route,390,21 St - Queensbridge,Jackson Hts - Roosevelt Av
+B04,G14,route,420,21 St - Queensbridge,Jackson Hts - Roosevelt Av
+B06,B04,route,120,Roosevelt Island,21 St - Queensbridge
+B06,B04,route,150,Roosevelt Island,21 St - Queensbridge
+B06,B04,route,180,Roosevelt Island,21 St - Queensbridge
+B06,B04,route,210,Roosevelt Island,21 St - Queensbridge
+B06,B04,route,240,Roosevelt Island,21 St - Queensbridge
+B06,B04,route,270,Roosevelt Island,21 St - Queensbridge
+B06,B08,route,150,Roosevelt Island,Lexington Av/63 St
+B06,B08,route,180,Roosevelt Island,Lexington Av/63 St
+B08,629,transfer,300,Lexington Av/63 St,59 St
+B08,B06,route,150,Lexington Av/63 St,Roosevelt Island
+B08,B06,route,180,Lexington Av/63 St,Roosevelt Island
+B08,B10,route,150,Lexington Av/63 St,57 St
+B08,B10,route,180,Lexington Av/63 St,57 St
+B08,B10,route,210,Lexington Av/63 St,57 St
+B08,B10,route,240,Lexington Av/63 St,57 St
+B08,B10,route,270,Lexington Av/63 St,57 St
+B08,R11,transfer,300,Lexington Av/63 St,Lexington Av/59 St
+B10,B08,route,150,57 St,Lexington Av/63 St
+B10,B08,route,180,57 St,Lexington Av/63 St
+B10,B08,route,210,57 St,Lexington Av/63 St
+B10,B08,route,240,57 St,Lexington Av/63 St
+B10,B08,route,270,57 St,Lexington Av/63 St
+B10,D15,route,90,57 St,47-50 Sts - Rockefeller Ctr
+B10,D15,route,180,57 St,47-50 Sts - Rockefeller Ctr
+B12,B13,route,120,9 Av,Fort Hamilton Pkwy
+B12,B13,route,150,9 Av,Fort Hamilton Pkwy
+B12,R36,route,240,9 Av,36 St
+B12,R36,route,360,9 Av,36 St
+B13,B12,route,120,Fort Hamilton Pkwy,9 Av
+B13,B12,route,150,Fort Hamilton Pkwy,9 Av
+B13,B14,route,90,Fort Hamilton Pkwy,50 St
+B14,B13,route,90,50 St,Fort Hamilton Pkwy
+B14,B15,route,90,50 St,55 St
+B14,B15,route,120,50 St,55 St
+B15,B14,route,90,55 St,50 St
+B15,B14,route,120,55 St,50 St
+B15,B16,route,90,55 St,62 St
+B15,B16,route,120,55 St,62 St
+B16,B15,route,90,62 St,55 St
+B16,B15,route,120,62 St,55 St
+B16,B17,route,120,62 St,71 St
+B16,N04,transfer,180,62 St,New Utrecht Av
+B17,B16,route,120,71 St,62 St
+B17,B18,route,90,71 St,79 St
+B17,B18,route,120,71 St,79 St
+B18,B17,route,90,79 St,71 St
+B18,B17,route,120,79 St,71 St
+B18,B19,route,90,79 St,18 Av
+B19,B18,route,90,18 Av,79 St
+B19,B20,route,90,18 Av,20 Av
+B20,B19,route,60,20 Av,18 Av
+B20,B19,route,90,20 Av,18 Av
+B20,B21,route,60,20 Av,Bay Pkwy
+B20,B21,route,90,20 Av,Bay Pkwy
+B20,B21,route,120,20 Av,Bay Pkwy
+B20,B21,route,150,20 Av,Bay Pkwy
+B20,B21,route,180,20 Av,Bay Pkwy
+B20,B21,route,420,20 Av,Bay Pkwy
+B21,B20,route,60,Bay Pkwy,20 Av
+B21,B20,route,90,Bay Pkwy,20 Av
+B21,B22,route,90,Bay Pkwy,25 Av
+B22,B21,route,90,25 Av,Bay Pkwy
+B22,B21,route,150,25 Av,Bay Pkwy
+B22,B23,route,120,25 Av,Bay 50 St
+B22,B23,route,150,25 Av,Bay 50 St
+B22,B23,route,180,25 Av,Bay 50 St
+B22,B23,route,210,25 Av,Bay 50 St
+B22,B23,route,240,25 Av,Bay 50 St
+B22,B23,route,270,25 Av,Bay 50 St
+B22,B23,route,300,25 Av,Bay 50 St
+B22,B23,route,330,25 Av,Bay 50 St
+B22,B23,route,360,25 Av,Bay 50 St
+B22,B23,route,390,25 Av,Bay 50 St
+B22,B23,route,420,25 Av,Bay 50 St
+B22,B23,route,480,25 Av,Bay 50 St
+B22,B23,route,510,25 Av,Bay 50 St
+B23,B22,route,120,Bay 50 St,25 Av
+B23,B22,route,150,Bay 50 St,25 Av
+B23,D43,route,240,Bay 50 St,Coney Island - Stillwell Av
+D01,D03,route,240,Norwood - 205 St,Bedford Park Blvd
+D03,D01,route,150,Bedford Park Blvd,Norwood - 205 St
+D03,D04,route,90,Bedford Park Blvd,Kingsbridge Rd
+D03,D04,route,120,Bedford Park Blvd,Kingsbridge Rd
+D04,D03,route,120,Kingsbridge Rd,Bedford Park Blvd
+D04,D03,route,240,Kingsbridge Rd,Bedford Park Blvd
+D04,D05,route,60,Kingsbridge Rd,Fordham Rd
+D04,D05,route,90,Kingsbridge Rd,Fordham Rd
+D04,D05,route,120,Kingsbridge Rd,Fordham Rd
+D05,D04,route,90,Fordham Rd,Kingsbridge Rd
+D05,D06,route,90,Fordham Rd,182-183 Sts
+D05,D07,route,150,Fordham Rd,Tremont Av
+D06,D05,route,90,182-183 Sts,Fordham Rd
+D06,D07,route,90,182-183 Sts,Tremont Av
+D06,D07,route,120,182-183 Sts,Tremont Av
+D07,D05,route,150,Tremont Av,Fordham Rd
+D07,D05,route,210,Tremont Av,Fordham Rd
+D07,D06,route,90,Tremont Av,182-183 Sts
+D07,D08,route,90,Tremont Av,174-175 Sts
+D07,D13,route,450,Tremont Av,145 St
+D07,D13,route,510,Tremont Av,145 St
+D08,D07,route,90,174-175 Sts,Tremont Av
+D08,D07,route,120,174-175 Sts,Tremont Av
+D08,D07,route,150,174-175 Sts,Tremont Av
+D08,D07,route,180,174-175 Sts,Tremont Av
+D08,D07,route,210,174-175 Sts,Tremont Av
+D08,D07,route,240,174-175 Sts,Tremont Av
+D08,D07,route,270,174-175 Sts,Tremont Av
+D08,D07,route,450,174-175 Sts,Tremont Av
+D08,D09,route,150,174-175 Sts,170 St
+D09,D08,route,120,170 St,174-175 Sts
+D09,D08,route,150,170 St,174-175 Sts
+D09,D10,route,120,170 St,167 St
+D10,D09,route,120,167 St,170 St
+D10,D11,route,150,167 St,161 St - Yankee Stadium
+D11,414,transfer,180,161 St - Yankee Stadium,161 St - Yankee Stadium
+D11,D10,route,150,161 St - Yankee Stadium,167 St
+D11,D12,route,90,161 St - Yankee Stadium,155 St
+D11,D12,route,120,161 St - Yankee Stadium,155 St
+D12,D11,route,90,155 St,161 St - Yankee Stadium
+D12,D11,route,120,155 St,161 St - Yankee Stadium
+D12,D13,route,90,155 St,145 St
+D12,D13,route,120,155 St,145 St
+D13,A12,transfer,180,145 St,145 St
+D13,A14,route,120,145 St,135 St
+D13,A14,route,150,145 St,135 St
+D13,A15,route,210,145 St,125 St
+D13,A15,route,240,145 St,125 St
+D13,A15,route,270,145 St,125 St
+D13,D07,route,600,145 St,Tremont Av
+D13,D12,route,90,145 St,155 St
+D14,A24,route,90,7 Av,59 St - Columbus Circle
+D14,A24,route,120,7 Av,59 St - Columbus Circle
+D14,A24,route,150,7 Av,59 St - Columbus Circle
+D14,A24,route,180,7 Av,59 St - Columbus Circle
+D14,A24,route,210,7 Av,59 St - Columbus Circle
+D14,A24,route,270,7 Av,59 St - Columbus Circle
+D14,A24,route,300,7 Av,59 St - Columbus Circle
+D14,A24,route,360,7 Av,59 St - Columbus Circle
+D14,A25,route,90,7 Av,50 St
+D14,A25,route,120,7 Av,50 St
+D14,A25,route,150,7 Av,50 St
+D14,A25,route,180,7 Av,50 St
+D14,A25,route,210,7 Av,50 St
+D14,A25,route,240,7 Av,50 St
+D14,A25,route,270,7 Av,50 St
+D14,A25,route,330,7 Av,50 St
+D14,A25,route,360,7 Av,50 St
+D14,D15,route,90,7 Av,47-50 Sts - Rockefeller Ctr
+D14,D15,route,120,7 Av,47-50 Sts - Rockefeller Ctr
+D14,D15,route,150,7 Av,47-50 Sts - Rockefeller Ctr
+D14,D15,route,180,7 Av,47-50 Sts - Rockefeller Ctr
+D14,D15,route,210,7 Av,47-50 Sts - Rockefeller Ctr
+D14,D15,route,240,7 Av,47-50 Sts - Rockefeller Ctr
+D14,F12,route,60,7 Av,5 Av/53 St
+D14,F12,route,90,7 Av,5 Av/53 St
+D14,F12,route,120,7 Av,5 Av/53 St
+D14,F12,route,150,7 Av,5 Av/53 St
+D15,B10,route,90,47-50 Sts - Rockefeller Ctr,57 St
+D15,B10,route,120,47-50 Sts - Rockefeller Ctr,57 St
+D15,B10,route,150,47-50 Sts - Rockefeller Ctr,57 St
+D15,B10,route,180,47-50 Sts - Rockefeller Ctr,57 St
+D15,D14,route,90,47-50 Sts - Rockefeller Ctr,7 Av
+D15,D14,route,120,47-50 Sts - Rockefeller Ctr,7 Av
+D15,D14,route,150,47-50 Sts - Rockefeller Ctr,7 Av
+D15,D14,route,180,47-50 Sts - Rockefeller Ctr,7 Av
+D15,D14,route,210,47-50 Sts - Rockefeller Ctr,7 Av
+D15,D14,route,240,47-50 Sts - Rockefeller Ctr,7 Av
+D15,D16,route,90,47-50 Sts - Rockefeller Ctr,42 St - Bryant Pk
+D15,F12,route,120,47-50 Sts - Rockefeller Ctr,5 Av/53 St
+D15,F12,route,150,47-50 Sts - Rockefeller Ctr,5 Av/53 St
+D15,F12,route,180,47-50 Sts - Rockefeller Ctr,5 Av/53 St
+D15,F12,route,210,47-50 Sts - Rockefeller Ctr,5 Av/53 St
+D15,F12,route,240,47-50 Sts - Rockefeller Ctr,5 Av/53 St
+D15,F12,route,270,47-50 Sts - Rockefeller Ctr,5 Av/53 St
+D15,F12,route,300,47-50 Sts - Rockefeller Ctr,5 Av/53 St
+D16,724,transfer,180,42 St - Bryant Pk,5 Av
+D16,D15,route,90,42 St - Bryant Pk,47-50 Sts - Rockefeller Ctr
+D16,D15,route,120,42 St - Bryant Pk,47-50 Sts - Rockefeller Ctr
+D16,D15,route,150,42 St - Bryant Pk,47-50 Sts - Rockefeller Ctr
+D16,D15,route,180,42 St - Bryant Pk,47-50 Sts - Rockefeller Ctr
+D16,D17,route,90,42 St - Bryant Pk,34 St - Herald Sq
+D16,D17,route,120,42 St - Bryant Pk,34 St - Herald Sq
+D17,D16,route,90,34 St - Herald Sq,42 St - Bryant Pk
+D17,D16,route,120,34 St - Herald Sq,42 St - Bryant Pk
+D17,D18,route,90,34 St - Herald Sq,23 St
+D17,D18,route,120,34 St - Herald Sq,23 St
+D17,D20,route,180,34 St - Herald Sq,W 4 St
+D17,D20,route,210,34 St - Herald Sq,W 4 St
+D17,D20,route,240,34 St - Herald Sq,W 4 St
+D17,R17,transfer,180,34 St - Herald Sq,34 St - Herald Sq
+D18,D17,route,90,23 St,34 St - Herald Sq
+D18,D17,route,120,23 St,34 St - Herald Sq
+D18,D19,route,90,23 St,14 St
+D19,132,transfer,300,14 St,14 St
+D19,D18,route,90,14 St,23 St
+D19,D20,route,90,14 St,W 4 St
+D19,D20,route,120,14 St,W 4 St
+D19,D20,route,150,14 St,W 4 St
+D19,D20,route,210,14 St,W 4 St
+D19,D20,route,240,14 St,W 4 St
+D19,L02,transfer,180,14 St,6 Av
+D20,A32,transfer,180,W 4 St,W 4 St
+D20,D17,route,180,W 4 St,34 St - Herald Sq
+D20,D19,route,90,W 4 St,14 St
+D20,D21,route,120,W 4 St,Broadway-Lafayette St
+D20,D21,route,150,W 4 St,Broadway-Lafayette St
+D21,637,transfer,180,Broadway-Lafayette St,Bleecker St
+D21,D20,route,120,Broadway-Lafayette St,W 4 St
+D21,D20,route,150,Broadway-Lafayette St,W 4 St
+D21,D20,route,180,Broadway-Lafayette St,W 4 St
+D21,D20,route,210,Broadway-Lafayette St,W 4 St
+D21,D20,route,240,Broadway-Lafayette St,W 4 St
+D21,D22,route,120,Broadway-Lafayette St,Grand St
+D21,F14,route,90,Broadway-Lafayette St,2 Av
+D21,M18,route,180,Broadway-Lafayette St,Essex St
+D21,M18,route,210,Broadway-Lafayette St,Essex St
+D21,M18,route,240,Broadway-Lafayette St,Essex St
+D21,M18,route,270,Broadway-Lafayette St,Essex St
+D21,M18,route,300,Broadway-Lafayette St,Essex St
+D21,M18,route,360,Broadway-Lafayette St,Essex St
+D22,D21,route,120,Grand St,Broadway-Lafayette St
+D22,D21,route,150,Grand St,Broadway-Lafayette St
+D22,R30,route,480,Grand St,DeKalb Av
+D22,R30,route,510,Grand St,DeKalb Av
+D22,R30,route,540,Grand St,DeKalb Av
+D22,R30,route,570,Grand St,DeKalb Av
+D22,R30,route,600,Grand St,DeKalb Av
+D22,R31,route,630,Grand St,Atlantic Av - Barclays Ctr
+D22,R31,route,660,Grand St,Atlantic Av - Barclays Ctr
+D22,R31,route,690,Grand St,Atlantic Av - Barclays Ctr
+D22,R31,route,720,Grand St,Atlantic Av - Barclays Ctr
+D22,R31,route,750,Grand St,Atlantic Av - Barclays Ctr
+D22,R31,route,780,Grand St,Atlantic Av - Barclays Ctr
+D22,R31,route,840,Grand St,Atlantic Av - Barclays Ctr
+D22,R31,route,870,Grand St,Atlantic Av - Barclays Ctr
+D24,235,transfer,180,Atlantic Av - Barclays Ctr,Atlantic Av - Barclays Ctr
+D24,D25,route,120,Atlantic Av - Barclays Ctr,7 Av
+D24,D25,route,150,Atlantic Av - Barclays Ctr,7 Av
+D24,R30,route,90,Atlantic Av - Barclays Ctr,DeKalb Av
+D24,R30,route,120,Atlantic Av - Barclays Ctr,DeKalb Av
+D24,R30,route,210,Atlantic Av - Barclays Ctr,DeKalb Av
+D24,R31,transfer,300,Atlantic Av - Barclays Ctr,Atlantic Av - Barclays Ctr
+D25,D24,route,120,7 Av,Atlantic Av - Barclays Ctr
+D25,D24,route,150,7 Av,Atlantic Av - Barclays Ctr
+D25,D26,route,240,7 Av,Prospect Park
+D25,D26,route,270,7 Av,Prospect Park
+D26,D25,route,210,Prospect Park,7 Av
+D26,D25,route,240,Prospect Park,7 Av
+D26,D25,route,270,Prospect Park,7 Av
+D26,D25,route,300,Prospect Park,7 Av
+D26,D27,route,90,Prospect Park,Parkside Av
+D26,D27,route,120,Prospect Park,Parkside Av
+D26,D28,route,120,Prospect Park,Church Av
+D26,S04,route,180,Prospect Park,Botanic Garden
+D27,D26,route,90,Parkside Av,Prospect Park
+D27,D26,route,150,Parkside Av,Prospect Park
+D27,D26,route,360,Parkside Av,Prospect Park
+D27,D28,route,60,Parkside Av,Church Av
+D27,D28,route,90,Parkside Av,Church Av
+D28,D26,route,120,Church Av,Prospect Park
+D28,D26,route,180,Church Av,Prospect Park
+D28,D26,route,390,Church Av,Prospect Park
+D28,D27,route,90,Church Av,Parkside Av
+D28,D29,route,90,Church Av,Beverley Rd
+D28,D29,route,120,Church Av,Beverley Rd
+D28,D31,route,150,Church Av,Newkirk Plaza
+D29,D28,route,90,Beverley Rd,Church Av
+D29,D30,route,30,Beverley Rd,Cortelyou Rd
+D29,D30,route,60,Beverley Rd,Cortelyou Rd
+D30,D29,route,30,Cortelyou Rd,Beverley Rd
+D30,D29,route,60,Cortelyou Rd,Beverley Rd
+D30,D31,route,90,Cortelyou Rd,Newkirk Plaza
+D30,D31,route,120,Cortelyou Rd,Newkirk Plaza
+D31,D28,route,150,Newkirk Plaza,Church Av
+D31,D28,route,180,Newkirk Plaza,Church Av
+D31,D30,route,90,Newkirk Plaza,Cortelyou Rd
+D31,D32,route,60,Newkirk Plaza,Avenue H
+D31,D32,route,90,Newkirk Plaza,Avenue H
+D31,D35,route,240,Newkirk Plaza,Kings Hwy
+D31,D35,route,270,Newkirk Plaza,Kings Hwy
+D32,D31,route,60,Avenue H,Newkirk Plaza
+D32,D31,route,90,Avenue H,Newkirk Plaza
+D32,D33,route,60,Avenue H,Avenue J
+D32,D33,route,90,Avenue H,Avenue J
+D33,D32,route,60,Avenue J,Avenue H
+D33,D32,route,90,Avenue J,Avenue H
+D33,D34,route,90,Avenue J,Avenue M
+D33,D34,route,120,Avenue J,Avenue M
+D34,D33,route,90,Avenue M,Avenue J
+D34,D33,route,120,Avenue M,Avenue J
+D34,D35,route,120,Avenue M,Kings Hwy
+D34,D35,route,150,Avenue M,Kings Hwy
+D34,D35,route,210,Avenue M,Kings Hwy
+D35,D31,route,270,Kings Hwy,Newkirk Plaza
+D35,D31,route,300,Kings Hwy,Newkirk Plaza
+D35,D34,route,120,Kings Hwy,Avenue M
+D35,D34,route,150,Kings Hwy,Avenue M
+D35,D37,route,150,Kings Hwy,Avenue U
+D35,D37,route,180,Kings Hwy,Avenue U
+D35,D39,route,330,Kings Hwy,Sheepshead Bay
+D35,D39,route,360,Kings Hwy,Sheepshead Bay
+D35,D39,route,390,Kings Hwy,Sheepshead Bay
+D35,D39,route,420,Kings Hwy,Sheepshead Bay
+D35,D39,route,510,Kings Hwy,Sheepshead Bay
+D35,D39,route,540,Kings Hwy,Sheepshead Bay
+D37,D35,route,120,Avenue U,Kings Hwy
+D37,D35,route,150,Avenue U,Kings Hwy
+D37,D35,route,180,Avenue U,Kings Hwy
+D37,D35,route,210,Avenue U,Kings Hwy
+D37,D38,route,60,Avenue U,Neck Rd
+D38,D37,route,60,Neck Rd,Avenue U
+D38,D39,route,150,Neck Rd,Sheepshead Bay
+D39,D35,route,240,Sheepshead Bay,Kings Hwy
+D39,D35,route,270,Sheepshead Bay,Kings Hwy
+D39,D38,route,120,Sheepshead Bay,Neck Rd
+D39,D38,route,150,Sheepshead Bay,Neck Rd
+D39,D40,route,120,Sheepshead Bay,Brighton Beach
+D39,D40,route,150,Sheepshead Bay,Brighton Beach
+D39,D40,route,180,Sheepshead Bay,Brighton Beach
+D39,D40,route,210,Sheepshead Bay,Brighton Beach
+D39,D40,route,240,Sheepshead Bay,Brighton Beach
+D39,D40,route,270,Sheepshead Bay,Brighton Beach
+D39,D40,route,300,Sheepshead Bay,Brighton Beach
+D39,D40,route,330,Sheepshead Bay,Brighton Beach
+D39,D40,route,420,Sheepshead Bay,Brighton Beach
+D40,D39,route,120,Brighton Beach,Sheepshead Bay
+D40,D41,route,120,Brighton Beach,Ocean Pkwy
+D41,D40,route,120,Ocean Pkwy,Brighton Beach
+D41,D42,route,120,Ocean Pkwy,W 8 St - NY Aquarium
+D42,D41,route,90,W 8 St - NY Aquarium,Ocean Pkwy
+D42,D43,route,90,W 8 St - NY Aquarium,Coney Island - Stillwell Av
+D42,F39,route,90,W 8 St - NY Aquarium,Neptune Av
+D43,B23,route,240,Coney Island - Stillwell Av,Bay 50 St
+D43,D42,route,90,Coney Island - Stillwell Av,W 8 St - NY Aquarium
+D43,N10,route,240,Coney Island - Stillwell Av,86 St
+D43,N10,route,270,Coney Island - Stillwell Av,86 St
+D43,N10,route,330,Coney Island - Stillwell Av,86 St
+D43,N10,route,360,Coney Island - Stillwell Av,86 St
+D43,N10,route,540,Coney Island - Stillwell Av,86 St
+E01,228,transfer,180,World Trade Center,Park Pl
+E01,A34,route,120,World Trade Center,Canal St
+E01,A34,route,150,World Trade Center,Canal St
+E01,A34,route,180,World Trade Center,Canal St
+E01,A34,route,210,World Trade Center,Canal St
+E01,A34,route,240,World Trade Center,Canal St
+E01,A36,transfer,300,World Trade Center,Chambers St
+F01,F02,route,90,Jamaica - 179 St,169 St
+F01,F02,route,120,Jamaica - 179 St,169 St
+F01,F03,route,150,Jamaica - 179 St,Parsons Blvd
+F01,F03,route,180,Jamaica - 179 St,Parsons Blvd
+F02,F01,route,120,169 St,Jamaica - 179 St
+F02,F03,route,120,169 St,Parsons Blvd
+F03,F01,route,180,Parsons Blvd,Jamaica - 179 St
+F03,F02,route,90,Parsons Blvd,169 St
+F03,F02,route,120,Parsons Blvd,169 St
+F03,F02,route,150,Parsons Blvd,169 St
+F03,F02,route,180,Parsons Blvd,169 St
+F03,F02,route,210,Parsons Blvd,169 St
+F03,F02,route,240,Parsons Blvd,169 St
+F03,F02,route,270,Parsons Blvd,169 St
+F03,F02,route,300,Parsons Blvd,169 St
+F03,F02,route,330,Parsons Blvd,169 St
+F03,F02,route,360,Parsons Blvd,169 St
+F03,F02,route,390,Parsons Blvd,169 St
+F03,F02,route,420,Parsons Blvd,169 St
+F03,F02,route,480,Parsons Blvd,169 St
+F03,F02,route,510,Parsons Blvd,169 St
+F03,F04,route,60,Parsons Blvd,Sutphin Blvd
+F03,F04,route,90,Parsons Blvd,Sutphin Blvd
+F03,F06,route,210,Parsons Blvd,Kew Gardens - Union Tpke
+F03,F06,route,240,Parsons Blvd,Kew Gardens - Union Tpke
+F04,F03,route,60,Sutphin Blvd,Parsons Blvd
+F04,F03,route,120,Sutphin Blvd,Parsons Blvd
+F04,F03,route,150,Sutphin Blvd,Parsons Blvd
+F04,F03,route,180,Sutphin Blvd,Parsons Blvd
+F04,F03,route,210,Sutphin Blvd,Parsons Blvd
+F04,F03,route,240,Sutphin Blvd,Parsons Blvd
+F04,F03,route,270,Sutphin Blvd,Parsons Blvd
+F04,F03,route,300,Sutphin Blvd,Parsons Blvd
+F04,F03,route,360,Sutphin Blvd,Parsons Blvd
+F04,F03,route,480,Sutphin Blvd,Parsons Blvd
+F04,F03,route,510,Sutphin Blvd,Parsons Blvd
+F04,F05,route,120,Sutphin Blvd,Briarwood - Van Wyck Blvd
+F05,F04,route,60,Briarwood - Van Wyck Blvd,Sutphin Blvd
+F05,F04,route,90,Briarwood - Van Wyck Blvd,Sutphin Blvd
+F05,F04,route,120,Briarwood - Van Wyck Blvd,Sutphin Blvd
+F05,F06,route,90,Briarwood - Van Wyck Blvd,Kew Gardens - Union Tpke
+F05,F06,route,120,Briarwood - Van Wyck Blvd,Kew Gardens - Union Tpke
+F05,G07,route,90,Briarwood - Van Wyck Blvd,Jamaica - Van Wyck
+F06,F03,route,210,Kew Gardens - Union Tpke,Parsons Blvd
+F06,F03,route,240,Kew Gardens - Union Tpke,Parsons Blvd
+F06,F05,route,120,Kew Gardens - Union Tpke,Briarwood - Van Wyck Blvd
+F06,F05,route,360,Kew Gardens - Union Tpke,Briarwood - Van Wyck Blvd
+F06,F07,route,90,Kew Gardens - Union Tpke,75 Av
+F06,F07,route,120,Kew Gardens - Union Tpke,75 Av
+F06,G07,route,180,Kew Gardens - Union Tpke,Jamaica - Van Wyck
+F06,G07,route,270,Kew Gardens - Union Tpke,Jamaica - Van Wyck
+F06,G08,route,120,Kew Gardens - Union Tpke,Forest Hills - 71 Av
+F06,G08,route,150,Kew Gardens - Union Tpke,Forest Hills - 71 Av
+F06,G08,route,180,Kew Gardens - Union Tpke,Forest Hills - 71 Av
+F07,F06,route,90,75 Av,Kew Gardens - Union Tpke
+F07,G08,route,90,75 Av,Forest Hills - 71 Av
+F07,G08,route,120,75 Av,Forest Hills - 71 Av
+F07,G08,route,150,75 Av,Forest Hills - 71 Av
+F07,G08,route,210,75 Av,Forest Hills - 71 Av
+F07,G08,route,240,75 Av,Forest Hills - 71 Av
+F09,719,transfer,300,Court Sq,Court Sq
+F09,F11,route,180,Court Sq,Lexington Av/53 St
+F09,F11,route,210,Court Sq,Lexington Av/53 St
+F09,G21,route,90,Court Sq,Queens Plaza
+F09,G21,route,120,Court Sq,Queens Plaza
+F09,G21,route,150,Court Sq,Queens Plaza
+F09,G21,route,180,Court Sq,Queens Plaza
+F09,G21,route,210,Court Sq,Queens Plaza
+F09,G22,transfer,180,Court Sq,Court Sq
+F11,630,transfer,180,Lexington Av/53 St,51 St
+F11,F09,route,180,Lexington Av/53 St,Court Sq
+F11,F09,route,210,Lexington Av/53 St,Court Sq
+F11,F12,route,90,Lexington Av/53 St,5 Av/53 St
+F11,F12,route,120,Lexington Av/53 St,5 Av/53 St
+F12,D14,route,90,5 Av/53 St,7 Av
+F12,D14,route,120,5 Av/53 St,7 Av
+F12,D15,route,120,5 Av/53 St,47-50 Sts - Rockefeller Ctr
+F12,D15,route,150,5 Av/53 St,47-50 Sts - Rockefeller Ctr
+F12,D15,route,180,5 Av/53 St,47-50 Sts - Rockefeller Ctr
+F12,D15,route,210,5 Av/53 St,47-50 Sts - Rockefeller Ctr
+F12,D15,route,240,5 Av/53 St,47-50 Sts - Rockefeller Ctr
+F12,D15,route,270,5 Av/53 St,47-50 Sts - Rockefeller Ctr
+F12,F11,route,90,5 Av/53 St,Lexington Av/53 St
+F12,F11,route,120,5 Av/53 St,Lexington Av/53 St
+F12,F11,route,150,5 Av/53 St,Lexington Av/53 St
+F14,D21,route,90,2 Av,Broadway-Lafayette St
+F14,F15,route,90,2 Av,Delancey St
+F14,F15,route,120,2 Av,Delancey St
+F15,F14,route,90,Delancey St,2 Av
+F15,F16,route,90,Delancey St,East Broadway
+F15,M18,transfer,180,Delancey St,Essex St
+F16,F15,route,60,East Broadway,Delancey St
+F16,F15,route,90,East Broadway,Delancey St
+F16,F18,route,150,East Broadway,York St
+F16,F18,route,180,East Broadway,York St
+F18,A41,route,90,York St,Jay St - MetroTech
+F18,A41,route,120,York St,Jay St - MetroTech
+F18,A41,route,150,York St,Jay St - MetroTech
+F18,A41,route,180,York St,Jay St - MetroTech
+F18,A41,route,210,York St,Jay St - MetroTech
+F18,F16,route,150,York St,East Broadway
+F18,F16,route,180,York St,East Broadway
+F18,F16,route,210,York St,East Broadway
+F18,F16,route,240,York St,East Broadway
+F20,A41,route,120,Bergen St,Jay St - MetroTech
+F20,A41,route,150,Bergen St,Jay St - MetroTech
+F20,A41,route,180,Bergen St,Jay St - MetroTech
+F20,A41,route,210,Bergen St,Jay St - MetroTech
+F20,A41,route,240,Bergen St,Jay St - MetroTech
+F20,A41,route,270,Bergen St,Jay St - MetroTech
+F20,A42,route,90,Bergen St,Hoyt - Schermerhorn Sts
+F20,A42,route,120,Bergen St,Hoyt - Schermerhorn Sts
+F20,A42,route,150,Bergen St,Hoyt - Schermerhorn Sts
+F20,A42,route,180,Bergen St,Hoyt - Schermerhorn Sts
+F20,A42,route,210,Bergen St,Hoyt - Schermerhorn Sts
+F20,A42,route,240,Bergen St,Hoyt - Schermerhorn Sts
+F20,A42,route,270,Bergen St,Hoyt - Schermerhorn Sts
+F20,F21,route,90,Bergen St,Carroll St
+F20,F21,route,120,Bergen St,Carroll St
+F21,F20,route,90,Carroll St,Bergen St
+F21,F20,route,120,Carroll St,Bergen St
+F21,F22,route,90,Carroll St,Smith - 9 Sts
+F21,F22,route,120,Carroll St,Smith - 9 Sts
+F21,F22,route,150,Carroll St,Smith - 9 Sts
+F22,F21,route,120,Smith - 9 Sts,Carroll St
+F22,F23,route,90,Smith - 9 Sts,4 Av
+F22,F23,route,120,Smith - 9 Sts,4 Av
+F22,F23,route,150,Smith - 9 Sts,4 Av
+F23,F22,route,90,4 Av,Smith - 9 Sts
+F23,F22,route,120,4 Av,Smith - 9 Sts
+F23,F24,route,90,4 Av,7 Av
+F23,F24,route,120,4 Av,7 Av
+F23,R33,transfer,180,4 Av,9 St
+F24,F23,route,90,7 Av,4 Av
+F24,F23,route,120,7 Av,4 Av
+F24,F23,route,150,7 Av,4 Av
+F24,F25,route,90,7 Av,15 St - Prospect Park
+F25,F24,route,90,15 St - Prospect Park,7 Av
+F25,F24,route,120,15 St - Prospect Park,7 Av
+F25,F24,route,150,15 St - Prospect Park,7 Av
+F25,F26,route,120,15 St - Prospect Park,Fort Hamilton Pkwy
+F25,F26,route,150,15 St - Prospect Park,Fort Hamilton Pkwy
+F26,F25,route,150,Fort Hamilton Pkwy,15 St - Prospect Park
+F26,F25,route,180,Fort Hamilton Pkwy,15 St - Prospect Park
+F26,F25,route,210,Fort Hamilton Pkwy,15 St - Prospect Park
+F26,F27,route,90,Fort Hamilton Pkwy,Church Av
+F26,F27,route,120,Fort Hamilton Pkwy,Church Av
+F26,F27,route,150,Fort Hamilton Pkwy,Church Av
+F26,F27,route,180,Fort Hamilton Pkwy,Church Av
+F26,F27,route,210,Fort Hamilton Pkwy,Church Av
+F27,F26,route,90,Church Av,Fort Hamilton Pkwy
+F27,F26,route,120,Church Av,Fort Hamilton Pkwy
+F27,F29,route,120,Church Av,Ditmas Av
+F29,F27,route,120,Ditmas Av,Church Av
+F29,F30,route,120,Ditmas Av,18 Av
+F30,F29,route,90,18 Av,Ditmas Av
+F30,F29,route,120,18 Av,Ditmas Av
+F30,F31,route,60,18 Av,Avenue I
+F31,F30,route,60,Avenue I,18 Av
+F31,F30,route,90,Avenue I,18 Av
+F31,F32,route,60,Avenue I,Bay Pkwy
+F32,F31,route,60,Bay Pkwy,Avenue I
+F32,F33,route,120,Bay Pkwy,Avenue N
+F33,F32,route,90,Avenue N,Bay Pkwy
+F33,F32,route,120,Avenue N,Bay Pkwy
+F33,F34,route,90,Avenue N,Avenue P
+F34,F33,route,90,Avenue P,Avenue N
+F34,F35,route,90,Avenue P,Kings Hwy
+F34,F35,route,120,Avenue P,Kings Hwy
+F34,F35,route,150,Avenue P,Kings Hwy
+F34,F35,route,180,Avenue P,Kings Hwy
+F34,F35,route,210,Avenue P,Kings Hwy
+F34,F35,route,240,Avenue P,Kings Hwy
+F34,F35,route,270,Avenue P,Kings Hwy
+F34,F35,route,300,Avenue P,Kings Hwy
+F34,F35,route,330,Avenue P,Kings Hwy
+F34,F35,route,360,Avenue P,Kings Hwy
+F34,F35,route,390,Avenue P,Kings Hwy
+F34,F35,route,420,Avenue P,Kings Hwy
+F34,F35,route,540,Avenue P,Kings Hwy
+F35,F34,route,90,Kings Hwy,Avenue P
+F35,F36,route,120,Kings Hwy,Avenue U
+F36,F35,route,120,Avenue U,Kings Hwy
+F36,F35,route,150,Avenue U,Kings Hwy
+F36,F35,route,180,Avenue U,Kings Hwy
+F36,F35,route,210,Avenue U,Kings Hwy
+F36,F35,route,240,Avenue U,Kings Hwy
+F36,F38,route,120,Avenue U,Avenue X
+F36,F38,route,150,Avenue U,Avenue X
+F36,F38,route,180,Avenue U,Avenue X
+F36,F38,route,210,Avenue U,Avenue X
+F36,F38,route,240,Avenue U,Avenue X
+F36,F38,route,270,Avenue U,Avenue X
+F36,F38,route,300,Avenue U,Avenue X
+F36,F38,route,330,Avenue U,Avenue X
+F36,F38,route,360,Avenue U,Avenue X
+F36,F38,route,390,Avenue U,Avenue X
+F36,F38,route,420,Avenue U,Avenue X
+F36,F38,route,540,Avenue U,Avenue X
+F38,F36,route,90,Avenue X,Avenue U
+F38,F36,route,120,Avenue X,Avenue U
+F38,F39,route,120,Avenue X,Neptune Av
+F38,F39,route,150,Avenue X,Neptune Av
+F39,D42,route,90,Neptune Av,W 8 St - NY Aquarium
+F39,F38,route,120,Neptune Av,Avenue X
+F39,F38,route,150,Neptune Av,Avenue X
+F39,F38,route,180,Neptune Av,Avenue X
+G05,G06,route,60,Jamaica Center - Parsons/Archer,Sutphin Blvd - Archer Av - JFK Airport
+G05,G06,route,90,Jamaica Center - Parsons/Archer,Sutphin Blvd - Archer Av - JFK Airport
+G05,G06,route,120,Jamaica Center - Parsons/Archer,Sutphin Blvd - Archer Av - JFK Airport
+G05,G06,route,150,Jamaica Center - Parsons/Archer,Sutphin Blvd - Archer Av - JFK Airport
+G05,G06,route,180,Jamaica Center - Parsons/Archer,Sutphin Blvd - Archer Av - JFK Airport
+G05,G06,route,210,Jamaica Center - Parsons/Archer,Sutphin Blvd - Archer Av - JFK Airport
+G06,G05,route,60,Sutphin Blvd - Archer Av - JFK Airport,Jamaica Center - Parsons/Archer
+G06,G05,route,120,Sutphin Blvd - Archer Av - JFK Airport,Jamaica Center - Parsons/Archer
+G06,G05,route,150,Sutphin Blvd - Archer Av - JFK Airport,Jamaica Center - Parsons/Archer
+G06,G07,route,120,Sutphin Blvd - Archer Av - JFK Airport,Jamaica - Van Wyck
+G06,G07,route,150,Sutphin Blvd - Archer Av - JFK Airport,Jamaica - Van Wyck
+G06,J12,route,240,Sutphin Blvd - Archer Av - JFK Airport,121 St
+G06,J13,route,300,Sutphin Blvd - Archer Av - JFK Airport,111 St
+G07,F05,route,90,Jamaica - Van Wyck,Briarwood - Van Wyck Blvd
+G07,F06,route,180,Jamaica - Van Wyck,Kew Gardens - Union Tpke
+G07,F06,route,210,Jamaica - Van Wyck,Kew Gardens - Union Tpke
+G07,F06,route,240,Jamaica - Van Wyck,Kew Gardens - Union Tpke
+G07,F06,route,270,Jamaica - Van Wyck,Kew Gardens - Union Tpke
+G07,F06,route,300,Jamaica - Van Wyck,Kew Gardens - Union Tpke
+G07,G06,route,150,Jamaica - Van Wyck,Sutphin Blvd - Archer Av - JFK Airport
+G07,G06,route,180,Jamaica - Van Wyck,Sutphin Blvd - Archer Av - JFK Airport
+G07,G06,route,210,Jamaica - Van Wyck,Sutphin Blvd - Archer Av - JFK Airport
+G07,G06,route,240,Jamaica - Van Wyck,Sutphin Blvd - Archer Av - JFK Airport
+G07,G06,route,270,Jamaica - Van Wyck,Sutphin Blvd - Archer Av - JFK Airport
+G07,G06,route,300,Jamaica - Van Wyck,Sutphin Blvd - Archer Av - JFK Airport
+G07,G06,route,330,Jamaica - Van Wyck,Sutphin Blvd - Archer Av - JFK Airport
+G07,G06,route,360,Jamaica - Van Wyck,Sutphin Blvd - Archer Av - JFK Airport
+G07,G06,route,390,Jamaica - Van Wyck,Sutphin Blvd - Archer Av - JFK Airport
+G07,G06,route,420,Jamaica - Van Wyck,Sutphin Blvd - Archer Av - JFK Airport
+G07,G06,route,480,Jamaica - Van Wyck,Sutphin Blvd - Archer Av - JFK Airport
+G07,G06,route,510,Jamaica - Van Wyck,Sutphin Blvd - Archer Av - JFK Airport
+G07,G06,route,540,Jamaica - Van Wyck,Sutphin Blvd - Archer Av - JFK Airport
+G07,G06,route,570,Jamaica - Van Wyck,Sutphin Blvd - Archer Av - JFK Airport
+G07,G06,route,600,Jamaica - Van Wyck,Sutphin Blvd - Archer Av - JFK Airport
+G08,F06,route,150,Forest Hills - 71 Av,Kew Gardens - Union Tpke
+G08,F06,route,180,Forest Hills - 71 Av,Kew Gardens - Union Tpke
+G08,F06,route,210,Forest Hills - 71 Av,Kew Gardens - Union Tpke
+G08,F06,route,270,Forest Hills - 71 Av,Kew Gardens - Union Tpke
+G08,F07,route,120,Forest Hills - 71 Av,75 Av
+G08,G09,route,90,Forest Hills - 71 Av,67 Av
+G08,G09,route,120,Forest Hills - 71 Av,67 Av
+G08,G14,route,420,Forest Hills - 71 Av,Jackson Hts - Roosevelt Av
+G08,G14,route,450,Forest Hills - 71 Av,Jackson Hts - Roosevelt Av
+G08,G14,route,480,Forest Hills - 71 Av,Jackson Hts - Roosevelt Av
+G08,G14,route,510,Forest Hills - 71 Av,Jackson Hts - Roosevelt Av
+G09,G08,route,90,67 Av,Forest Hills - 71 Av
+G09,G08,route,120,67 Av,Forest Hills - 71 Av
+G09,G08,route,150,67 Av,Forest Hills - 71 Av
+G09,G08,route,210,67 Av,Forest Hills - 71 Av
+G09,G10,route,90,67 Av,63 Dr - Rego Park
+G09,G10,route,120,67 Av,63 Dr - Rego Park
+G10,G09,route,90,63 Dr - Rego Park,67 Av
+G10,G09,route,120,63 Dr - Rego Park,67 Av
+G10,G11,route,60,63 Dr - Rego Park,Woodhaven Blvd
+G10,G11,route,90,63 Dr - Rego Park,Woodhaven Blvd
+G11,G10,route,60,Woodhaven Blvd,63 Dr - Rego Park
+G11,G10,route,90,Woodhaven Blvd,63 Dr - Rego Park
+G11,G12,route,90,Woodhaven Blvd,Grand Av - Newtown
+G11,G12,route,120,Woodhaven Blvd,Grand Av - Newtown
+G12,G11,route,90,Grand Av - Newtown,Woodhaven Blvd
+G12,G11,route,120,Grand Av - Newtown,Woodhaven Blvd
+G12,G13,route,90,Grand Av - Newtown,Elmhurst Av
+G13,G12,route,90,Elmhurst Av,Grand Av - Newtown
+G13,G14,route,90,Elmhurst Av,Jackson Hts - Roosevelt Av
+G13,G14,route,120,Elmhurst Av,Jackson Hts - Roosevelt Av
+G14,710,transfer,180,Jackson Hts - Roosevelt Av,74 St - Broadway
+G14,B04,route,390,Jackson Hts - Roosevelt Av,21 St - Queensbridge
+G14,B04,route,420,Jackson Hts - Roosevelt Av,21 St - Queensbridge
+G14,B04,route,450,Jackson Hts - Roosevelt Av,21 St - Queensbridge
+G14,B04,route,480,Jackson Hts - Roosevelt Av,21 St - Queensbridge
+G14,B04,route,510,Jackson Hts - Roosevelt Av,21 St - Queensbridge
+G14,G08,route,420,Jackson Hts - Roosevelt Av,Forest Hills - 71 Av
+G14,G08,route,450,Jackson Hts - Roosevelt Av,Forest Hills - 71 Av
+G14,G08,route,510,Jackson Hts - Roosevelt Av,Forest Hills - 71 Av
+G14,G13,route,90,Jackson Hts - Roosevelt Av,Elmhurst Av
+G14,G13,route,120,Jackson Hts - Roosevelt Av,Elmhurst Av
+G14,G15,route,90,Jackson Hts - Roosevelt Av,65 St
+G14,G21,route,360,Jackson Hts - Roosevelt Av,Queens Plaza
+G14,G21,route,390,Jackson Hts - Roosevelt Av,Queens Plaza
+G14,G21,route,420,Jackson Hts - Roosevelt Av,Queens Plaza
+G14,G21,route,450,Jackson Hts - Roosevelt Av,Queens Plaza
+G15,G14,route,90,65 St,Jackson Hts - Roosevelt Av
+G15,G14,route,120,65 St,Jackson Hts - Roosevelt Av
+G15,G14,route,150,65 St,Jackson Hts - Roosevelt Av
+G15,G14,route,180,65 St,Jackson Hts - Roosevelt Av
+G15,G14,route,210,65 St,Jackson Hts - Roosevelt Av
+G15,G14,route,240,65 St,Jackson Hts - Roosevelt Av
+G15,G14,route,270,65 St,Jackson Hts - Roosevelt Av
+G15,G14,route,300,65 St,Jackson Hts - Roosevelt Av
+G15,G14,route,330,65 St,Jackson Hts - Roosevelt Av
+G15,G14,route,390,65 St,Jackson Hts - Roosevelt Av
+G15,G14,route,420,65 St,Jackson Hts - Roosevelt Av
+G15,G14,route,450,65 St,Jackson Hts - Roosevelt Av
+G15,G16,route,90,65 St,Northern Blvd
+G16,G15,route,60,Northern Blvd,65 St
+G16,G15,route,90,Northern Blvd,65 St
+G16,G18,route,90,Northern Blvd,46 St
+G18,G16,route,90,46 St,Northern Blvd
+G18,G19,route,90,46 St,Steinway St
+G18,G19,route,120,46 St,Steinway St
+G19,G18,route,90,Steinway St,46 St
+G19,G18,route,120,Steinway St,46 St
+G19,G20,route,120,Steinway St,36 St
+G20,G19,route,120,36 St,Steinway St
+G20,G21,route,120,36 St,Queens Plaza
+G20,G21,route,150,36 St,Queens Plaza
+G20,G21,route,180,36 St,Queens Plaza
+G20,G21,route,210,36 St,Queens Plaza
+G20,G21,route,240,36 St,Queens Plaza
+G20,G21,route,270,36 St,Queens Plaza
+G21,F09,route,90,Queens Plaza,Court Sq
+G21,F09,route,120,Queens Plaza,Court Sq
+G21,F09,route,150,Queens Plaza,Court Sq
+G21,F09,route,180,Queens Plaza,Court Sq
+G21,G14,route,330,Queens Plaza,Jackson Hts - Roosevelt Av
+G21,G14,route,360,Queens Plaza,Jackson Hts - Roosevelt Av
+G21,G14,route,390,Queens Plaza,Jackson Hts - Roosevelt Av
+G21,G14,route,420,Queens Plaza,Jackson Hts - Roosevelt Av
+G21,G14,route,450,Queens Plaza,Jackson Hts - Roosevelt Av
+G21,G20,route,120,Queens Plaza,36 St
+G21,G20,route,150,Queens Plaza,36 St
+G21,R11,route,330,Queens Plaza,Lexington Av/59 St
+G21,R11,route,360,Queens Plaza,Lexington Av/59 St
+G21,R11,route,390,Queens Plaza,Lexington Av/59 St
+G21,R11,route,420,Queens Plaza,Lexington Av/59 St
+G21,R11,route,450,Queens Plaza,Lexington Av/59 St
+G21,R11,route,480,Queens Plaza,Lexington Av/59 St
+G21,R11,route,510,Queens Plaza,Lexington Av/59 St
+G21,R11,route,540,Queens Plaza,Lexington Av/59 St
+G22,719,transfer,180,Court Sq,Court Sq
+G22,F09,transfer,180,Court Sq,Court Sq
+G22,G24,route,60,Court Sq,21 St
+G24,G22,route,60,21 St,Court Sq
+G24,G26,route,150,21 St,Greenpoint Av
+G24,G26,route,180,21 St,Greenpoint Av
+G26,G24,route,150,Greenpoint Av,21 St
+G26,G24,route,180,Greenpoint Av,21 St
+G26,G28,route,60,Greenpoint Av,Nassau Av
+G26,G28,route,90,Greenpoint Av,Nassau Av
+G28,G26,route,60,Nassau Av,Greenpoint Av
+G28,G26,route,90,Nassau Av,Greenpoint Av
+G28,G29,route,150,Nassau Av,Metropolitan Av
+G28,G29,route,180,Nassau Av,Metropolitan Av
+G28,G29,route,210,Nassau Av,Metropolitan Av
+G29,G28,route,150,Metropolitan Av,Nassau Av
+G29,G28,route,180,Metropolitan Av,Nassau Av
+G29,G28,route,210,Metropolitan Av,Nassau Av
+G29,G30,route,90,Metropolitan Av,Broadway
+G29,G30,route,120,Metropolitan Av,Broadway
+G29,L10,transfer,180,Metropolitan Av,Lorimer St
+G30,G29,route,60,Broadway,Metropolitan Av
+G30,G29,route,90,Broadway,Metropolitan Av
+G30,G31,route,60,Broadway,Flushing Av
+G30,G31,route,90,Broadway,Flushing Av
+G31,G30,route,60,Flushing Av,Broadway
+G31,G30,route,90,Flushing Av,Broadway
+G31,G32,route,60,Flushing Av,Myrtle - Willoughby Avs
+G31,G32,route,90,Flushing Av,Myrtle - Willoughby Avs
+G32,G31,route,60,Myrtle - Willoughby Avs,Flushing Av
+G32,G31,route,90,Myrtle - Willoughby Avs,Flushing Av
+G32,G33,route,90,Myrtle - Willoughby Avs,Bedford - Nostrand Avs
+G32,G33,route,120,Myrtle - Willoughby Avs,Bedford - Nostrand Avs
+G32,G33,route,180,Myrtle - Willoughby Avs,Bedford - Nostrand Avs
+G33,G32,route,90,Bedford - Nostrand Avs,Myrtle - Willoughby Avs
+G33,G32,route,120,Bedford - Nostrand Avs,Myrtle - Willoughby Avs
+G33,G34,route,60,Bedford - Nostrand Avs,Classon Av
+G34,G33,route,60,Classon Av,Bedford - Nostrand Avs
+G34,G35,route,90,Classon Av,Clinton - Washington Avs
+G35,G34,route,90,Clinton - Washington Avs,Classon Av
+G35,G36,route,90,Clinton - Washington Avs,Fulton St
+G36,A42,route,90,Fulton St,Hoyt - Schermerhorn Sts
+G36,A42,route,120,Fulton St,Hoyt - Schermerhorn Sts
+G36,A42,route,150,Fulton St,Hoyt - Schermerhorn Sts
+G36,A42,route,180,Fulton St,Hoyt - Schermerhorn Sts
+G36,A42,route,210,Fulton St,Hoyt - Schermerhorn Sts
+G36,A42,route,240,Fulton St,Hoyt - Schermerhorn Sts
+G36,A42,route,330,Fulton St,Hoyt - Schermerhorn Sts
+G36,G35,route,90,Fulton St,Clinton - Washington Avs
+H01,A61,route,180,Aqueduct Racetrack,Rockaway Blvd
+H01,A61,route,210,Aqueduct Racetrack,Rockaway Blvd
+H01,A61,route,240,Aqueduct Racetrack,Rockaway Blvd
+H01,A61,route,270,Aqueduct Racetrack,Rockaway Blvd
+H02,H01,route,30,Aqueduct - N Conduit Av,Aqueduct Racetrack
+H02,H01,route,60,Aqueduct - N Conduit Av,Aqueduct Racetrack
+H02,H03,route,120,Aqueduct - N Conduit Av,Howard Beach - JFK Airport
+H02,H03,route,150,Aqueduct - N Conduit Av,Howard Beach - JFK Airport
+H02,H03,route,180,Aqueduct - N Conduit Av,Howard Beach - JFK Airport
+H02,H03,route,300,Aqueduct - N Conduit Av,Howard Beach - JFK Airport
+H03,H02,route,120,Howard Beach - JFK Airport,Aqueduct - N Conduit Av
+H03,H02,route,150,Howard Beach - JFK Airport,Aqueduct - N Conduit Av
+H03,H04,route,390,Howard Beach - JFK Airport,Broad Channel
+H03,H04,route,510,Howard Beach - JFK Airport,Broad Channel
+H04,H03,route,390,Broad Channel,Howard Beach - JFK Airport
+H04,H03,route,420,Broad Channel,Howard Beach - JFK Airport
+H04,H03,route,450,Broad Channel,Howard Beach - JFK Airport
+H04,H03,route,480,Broad Channel,Howard Beach - JFK Airport
+H04,H03,route,510,Broad Channel,Howard Beach - JFK Airport
+H04,H06,route,240,Broad Channel,Beach 67 St
+H04,H06,route,270,Broad Channel,Beach 67 St
+H04,H06,route,300,Broad Channel,Beach 67 St
+H04,H06,route,330,Broad Channel,Beach 67 St
+H04,H06,route,360,Broad Channel,Beach 67 St
+H04,H06,route,390,Broad Channel,Beach 67 St
+H04,H06,route,450,Broad Channel,Beach 67 St
+H04,H06,route,480,Broad Channel,Beach 67 St
+H04,H12,route,240,Broad Channel,Beach 90 St
+H04,H12,route,360,Broad Channel,Beach 90 St
+H04,H12,route,390,Broad Channel,Beach 90 St
+H06,H04,route,240,Beach 67 St,Broad Channel
+H06,H07,route,90,Beach 67 St,Beach 60 St
+H06,H07,route,120,Beach 67 St,Beach 60 St
+H06,H07,route,150,Beach 67 St,Beach 60 St
+H06,H07,route,180,Beach 67 St,Beach 60 St
+H06,H07,route,210,Beach 67 St,Beach 60 St
+H06,H07,route,240,Beach 67 St,Beach 60 St
+H06,H07,route,300,Beach 67 St,Beach 60 St
+H06,H07,route,330,Beach 67 St,Beach 60 St
+H07,H06,route,90,Beach 60 St,Beach 67 St
+H07,H06,route,120,Beach 60 St,Beach 67 St
+H07,H06,route,240,Beach 60 St,Beach 67 St
+H07,H08,route,120,Beach 60 St,Beach 44 St
+H08,H07,route,120,Beach 44 St,Beach 60 St
+H08,H07,route,150,Beach 44 St,Beach 60 St
+H08,H09,route,90,Beach 44 St,Beach 36 St
+H09,H08,route,90,Beach 36 St,Beach 44 St
+H09,H10,route,120,Beach 36 St,Beach 25 St
+H10,H09,route,90,Beach 25 St,Beach 36 St
+H10,H09,route,120,Beach 25 St,Beach 36 St
+H10,H11,route,90,Beach 25 St,Far Rockaway - Mott Av
+H11,H10,route,90,Far Rockaway - Mott Av,Beach 25 St
+H11,H10,route,120,Far Rockaway - Mott Av,Beach 25 St
+H12,H04,route,210,Beach 90 St,Broad Channel
+H12,H04,route,300,Beach 90 St,Broad Channel
+H12,H04,route,330,Beach 90 St,Broad Channel
+H12,H04,route,360,Beach 90 St,Broad Channel
+H12,H13,route,90,Beach 90 St,Beach 98 St
+H13,H12,route,90,Beach 98 St,Beach 90 St
+H13,H12,route,120,Beach 98 St,Beach 90 St
+H13,H14,route,60,Beach 98 St,Beach 105 St
+H13,H14,route,90,Beach 98 St,Beach 105 St
+H14,H13,route,90,Beach 105 St,Beach 98 St
+H14,H13,route,120,Beach 105 St,Beach 98 St
+H14,H15,route,90,Beach 105 St,Rockaway Park - Beach 116 St
+H14,H15,route,120,Beach 105 St,Rockaway Park - Beach 116 St
+H15,H14,route,120,Rockaway Park - Beach 116 St,Beach 105 St
+H15,H14,route,150,Rockaway Park - Beach 116 St,Beach 105 St
+J12,G06,route,240,121 St,Sutphin Blvd - Archer Av - JFK Airport
+J12,J13,route,90,121 St,111 St
+J12,J14,route,180,121 St,104 St
+J13,G06,route,300,111 St,Sutphin Blvd - Archer Av - JFK Airport
+J13,J12,route,90,111 St,121 St
+J13,J12,route,150,111 St,121 St
+J13,J14,route,120,111 St,104 St
+J13,J15,route,180,111 St,Woodhaven Blvd
+J14,J12,route,180,104 St,121 St
+J14,J13,route,120,104 St,111 St
+J14,J15,route,90,104 St,Woodhaven Blvd
+J15,J13,route,180,Woodhaven Blvd,111 St
+J15,J14,route,90,Woodhaven Blvd,104 St
+J15,J16,route,90,Woodhaven Blvd,85 St - Forest Pkwy
+J15,J16,route,120,Woodhaven Blvd,85 St - Forest Pkwy
+J15,J17,route,180,Woodhaven Blvd,75 St
+J16,J15,route,90,85 St - Forest Pkwy,Woodhaven Blvd
+J16,J15,route,120,85 St - Forest Pkwy,Woodhaven Blvd
+J16,J17,route,90,85 St - Forest Pkwy,75 St
+J16,J19,route,150,85 St - Forest Pkwy,Cypress Hills
+J17,J15,route,180,75 St,Woodhaven Blvd
+J17,J16,route,90,75 St,85 St - Forest Pkwy
+J17,J19,route,60,75 St,Cypress Hills
+J17,J19,route,90,75 St,Cypress Hills
+J17,J20,route,150,75 St,Crescent St
+J19,J16,route,150,Cypress Hills,85 St - Forest Pkwy
+J19,J17,route,60,Cypress Hills,75 St
+J19,J17,route,90,Cypress Hills,75 St
+J19,J20,route,90,Cypress Hills,Crescent St
+J19,J20,route,120,Cypress Hills,Crescent St
+J20,J17,route,150,Crescent St,75 St
+J20,J19,route,90,Crescent St,Cypress Hills
+J20,J19,route,120,Crescent St,Cypress Hills
+J20,J21,route,90,Crescent St,Norwood Av
+J20,J21,route,120,Crescent St,Norwood Av
+J20,J22,route,150,Crescent St,Cleveland St
+J21,J20,route,90,Norwood Av,Crescent St
+J21,J20,route,120,Norwood Av,Crescent St
+J21,J22,route,60,Norwood Av,Cleveland St
+J21,J22,route,90,Norwood Av,Cleveland St
+J21,J23,route,150,Norwood Av,Van Siclen Av
+J22,J20,route,150,Cleveland St,Crescent St
+J22,J21,route,60,Cleveland St,Norwood Av
+J22,J23,route,90,Cleveland St,Van Siclen Av
+J22,J24,route,150,Cleveland St,Alabama Av
+J23,J21,route,150,Van Siclen Av,Norwood Av
+J23,J22,route,90,Van Siclen Av,Cleveland St
+J23,J24,route,60,Van Siclen Av,Alabama Av
+J23,J24,route,90,Van Siclen Av,Alabama Av
+J24,J22,route,150,Alabama Av,Cleveland St
+J24,J23,route,60,Alabama Av,Van Siclen Av
+J24,J23,route,90,Alabama Av,Van Siclen Av
+J24,J27,route,90,Alabama Av,Broadway Jct
+J24,J27,route,120,Alabama Av,Broadway Jct
+J24,J27,route,150,Alabama Av,Broadway Jct
+J24,J27,route,180,Alabama Av,Broadway Jct
+J24,J27,route,210,Alabama Av,Broadway Jct
+J24,J27,route,240,Alabama Av,Broadway Jct
+J27,A51,transfer,180,Broadway Jct,Broadway Jct
+J27,J24,route,90,Broadway Jct,Alabama Av
+J27,J24,route,120,Broadway Jct,Alabama Av
+J27,J28,route,60,Broadway Jct,Chauncey St
+J27,J28,route,90,Broadway Jct,Chauncey St
+J27,J29,route,150,Broadway Jct,Halsey St
+J27,L22,transfer,180,Broadway Jct,Broadway Jct
+J28,J27,route,60,Chauncey St,Broadway Jct
+J28,J27,route,90,Chauncey St,Broadway Jct
+J28,J27,route,150,Chauncey St,Broadway Jct
+J28,J27,route,210,Chauncey St,Broadway Jct
+J28,J29,route,90,Chauncey St,Halsey St
+J28,J30,route,150,Chauncey St,Gates Av
+J29,J27,route,150,Halsey St,Broadway Jct
+J29,J28,route,90,Halsey St,Chauncey St
+J29,J30,route,90,Halsey St,Gates Av
+J29,J31,route,150,Halsey St,Kosciuszko St
+J30,J28,route,150,Gates Av,Chauncey St
+J30,J29,route,90,Gates Av,Halsey St
+J30,J31,route,90,Gates Av,Kosciuszko St
+J30,M11,route,180,Gates Av,Myrtle Av
+J30,M11,route,240,Gates Av,Myrtle Av
+J31,J29,route,150,Kosciuszko St,Halsey St
+J31,J30,route,90,Kosciuszko St,Gates Av
+J31,M11,route,90,Kosciuszko St,Myrtle Av
+J31,M11,route,120,Kosciuszko St,Myrtle Av
+L01,A31,transfer,90,8 Av,14 St
+L01,L02,route,90,8 Av,6 Av
+L02,132,transfer,180,6 Av,14 St
+L02,D19,transfer,180,6 Av,14 St
+L02,L01,route,60,6 Av,8 Av
+L02,L01,route,90,6 Av,8 Av
+L02,L03,route,90,6 Av,Union Sq - 14 St
+L02,L03,route,120,6 Av,Union Sq - 14 St
+L03,635,transfer,180,Union Sq - 14 St,14 St - Union Sq
+L03,L02,route,90,Union Sq - 14 St,6 Av
+L03,L05,route,30,Union Sq - 14 St,3 Av
+L03,L05,route,60,Union Sq - 14 St,3 Av
+L03,R20,transfer,180,Union Sq - 14 St,14 St - Union Sq
+L05,L03,route,60,3 Av,Union Sq - 14 St
+L05,L03,route,90,3 Av,Union Sq - 14 St
+L05,L03,route,180,3 Av,Union Sq - 14 St
+L05,L03,route,240,3 Av,Union Sq - 14 St
+L05,L06,route,60,3 Av,1 Av
+L06,L05,route,60,1 Av,3 Av
+L06,L08,route,240,1 Av,Bedford Av
+L08,L06,route,240,Bedford Av,1 Av
+L08,L10,route,90,Bedford Av,Lorimer St
+L08,L10,route,120,Bedford Av,Lorimer St
+L08,L10,route,150,Bedford Av,Lorimer St
+L08,L10,route,180,Bedford Av,Lorimer St
+L08,L10,route,210,Bedford Av,Lorimer St
+L10,G29,transfer,180,Lorimer St,Metropolitan Av
+L10,L08,route,90,Lorimer St,Bedford Av
+L10,L08,route,120,Lorimer St,Bedford Av
+L10,L11,route,60,Lorimer St,Graham Av
+L11,L10,route,60,Graham Av,Lorimer St
+L11,L10,route,90,Graham Av,Lorimer St
+L11,L10,route,120,Graham Av,Lorimer St
+L11,L12,route,90,Graham Av,Grand St
+L12,L11,route,60,Grand St,Graham Av
+L12,L11,route,90,Grand St,Graham Av
+L12,L13,route,60,Grand St,Montrose Av
+L13,L12,route,60,Montrose Av,Grand St
+L13,L14,route,90,Montrose Av,Morgan Av
+L13,L14,route,120,Montrose Av,Morgan Av
+L14,L13,route,90,Morgan Av,Montrose Av
+L14,L13,route,120,Morgan Av,Montrose Av
+L14,L15,route,120,Morgan Av,Jefferson St
+L15,L14,route,120,Jefferson St,Morgan Av
+L15,L14,route,150,Jefferson St,Morgan Av
+L15,L16,route,90,Jefferson St,DeKalb Av
+L16,L15,route,60,DeKalb Av,Jefferson St
+L16,L15,route,90,DeKalb Av,Jefferson St
+L16,L17,route,90,DeKalb Av,Myrtle - Wyckoff Avs
+L16,L17,route,120,DeKalb Av,Myrtle - Wyckoff Avs
+L16,L17,route,150,DeKalb Av,Myrtle - Wyckoff Avs
+L16,L17,route,180,DeKalb Av,Myrtle - Wyckoff Avs
+L16,L17,route,210,DeKalb Av,Myrtle - Wyckoff Avs
+L16,L17,route,240,DeKalb Av,Myrtle - Wyckoff Avs
+L17,L16,route,90,Myrtle - Wyckoff Avs,DeKalb Av
+L17,L16,route,120,Myrtle - Wyckoff Avs,DeKalb Av
+L17,L19,route,90,Myrtle - Wyckoff Avs,Halsey St
+L17,M08,transfer,180,Myrtle - Wyckoff Avs,Myrtle - Wyckoff Avs
+L19,L17,route,90,Halsey St,Myrtle - Wyckoff Avs
+L19,L17,route,150,Halsey St,Myrtle - Wyckoff Avs
+L19,L20,route,150,Halsey St,Wilson Av
+L20,L19,route,120,Wilson Av,Halsey St
+L20,L19,route,150,Wilson Av,Halsey St
+L20,L21,route,90,Wilson Av,Bushwick Av - Aberdeen St
+L21,L20,route,90,Bushwick Av - Aberdeen St,Wilson Av
+L21,L22,route,60,Bushwick Av - Aberdeen St,Broadway Jct
+L21,L22,route,90,Bushwick Av - Aberdeen St,Broadway Jct
+L21,L22,route,120,Bushwick Av - Aberdeen St,Broadway Jct
+L21,L22,route,150,Bushwick Av - Aberdeen St,Broadway Jct
+L21,L22,route,180,Bushwick Av - Aberdeen St,Broadway Jct
+L21,L22,route,270,Bushwick Av - Aberdeen St,Broadway Jct
+L21,L22,route,300,Bushwick Av - Aberdeen St,Broadway Jct
+L22,A51,transfer,180,Broadway Jct,Broadway Jct
+L22,J27,transfer,180,Broadway Jct,Broadway Jct
+L22,L21,route,60,Broadway Jct,Bushwick Av - Aberdeen St
+L22,L24,route,60,Broadway Jct,Atlantic Av
+L22,L24,route,90,Broadway Jct,Atlantic Av
+L24,L22,route,90,Atlantic Av,Broadway Jct
+L24,L22,route,120,Atlantic Av,Broadway Jct
+L24,L22,route,150,Atlantic Av,Broadway Jct
+L24,L22,route,180,Atlantic Av,Broadway Jct
+L24,L22,route,210,Atlantic Av,Broadway Jct
+L24,L22,route,240,Atlantic Av,Broadway Jct
+L24,L25,route,90,Atlantic Av,Sutter Av
+L25,L24,route,90,Sutter Av,Atlantic Av
+L25,L26,route,60,Sutter Av,Livonia Av
+L25,L26,route,90,Sutter Av,Livonia Av
+L26,254,transfer,300,Livonia Av,Junius St
+L26,L25,route,90,Livonia Av,Sutter Av
+L26,L27,route,90,Livonia Av,New Lots Av
+L27,L26,route,90,New Lots Av,Livonia Av
+L27,L28,route,120,New Lots Av,E 105 St
+L27,L28,route,150,New Lots Av,E 105 St
+L27,L28,route,180,New Lots Av,E 105 St
+L27,L28,route,240,New Lots Av,E 105 St
+L28,L27,route,120,E 105 St,New Lots Av
+L28,L27,route,150,E 105 St,New Lots Av
+L28,L29,route,90,E 105 St,Canarsie - Rockaway Pkwy
+L29,L28,route,90,Canarsie - Rockaway Pkwy,E 105 St
+L29,L28,route,120,Canarsie - Rockaway Pkwy,E 105 St
+L29,L28,route,150,Canarsie - Rockaway Pkwy,E 105 St
+M01,M04,route,120,Middle Village - Metropolitan Av,Fresh Pond Rd
+M04,M01,route,120,Fresh Pond Rd,Middle Village - Metropolitan Av
+M04,M05,route,90,Fresh Pond Rd,Forest Av
+M04,M05,route,120,Fresh Pond Rd,Forest Av
+M05,M04,route,90,Forest Av,Fresh Pond Rd
+M05,M04,route,120,Forest Av,Fresh Pond Rd
+M05,M06,route,60,Forest Av,Seneca Av
+M05,M06,route,90,Forest Av,Seneca Av
+M06,M05,route,60,Seneca Av,Forest Av
+M06,M05,route,90,Seneca Av,Forest Av
+M06,M08,route,90,Seneca Av,Myrtle - Wyckoff Avs
+M08,L17,transfer,180,Myrtle - Wyckoff Avs,Myrtle - Wyckoff Avs
+M08,M06,route,90,Myrtle - Wyckoff Avs,Seneca Av
+M08,M09,route,120,Myrtle - Wyckoff Avs,Knickerbocker Av
+M09,M08,route,120,Knickerbocker Av,Myrtle - Wyckoff Avs
+M09,M08,route,150,Knickerbocker Av,Myrtle - Wyckoff Avs
+M09,M08,route,180,Knickerbocker Av,Myrtle - Wyckoff Avs
+M09,M08,route,210,Knickerbocker Av,Myrtle - Wyckoff Avs
+M09,M08,route,240,Knickerbocker Av,Myrtle - Wyckoff Avs
+M09,M08,route,270,Knickerbocker Av,Myrtle - Wyckoff Avs
+M09,M08,route,300,Knickerbocker Av,Myrtle - Wyckoff Avs
+M09,M08,route,330,Knickerbocker Av,Myrtle - Wyckoff Avs
+M09,M08,route,360,Knickerbocker Av,Myrtle - Wyckoff Avs
+M09,M08,route,420,Knickerbocker Av,Myrtle - Wyckoff Avs
+M09,M10,route,120,Knickerbocker Av,Central Av
+M10,M09,route,90,Central Av,Knickerbocker Av
+M10,M11,route,120,Central Av,Myrtle Av
+M10,M11,route,150,Central Av,Myrtle Av
+M10,M11,route,180,Central Av,Myrtle Av
+M10,M11,route,210,Central Av,Myrtle Av
+M10,M11,route,240,Central Av,Myrtle Av
+M11,J30,route,180,Myrtle Av,Gates Av
+M11,J31,route,90,Myrtle Av,Kosciuszko St
+M11,J31,route,120,Myrtle Av,Kosciuszko St
+M11,M10,route,150,Myrtle Av,Central Av
+M11,M12,route,90,Myrtle Av,Flushing Av
+M11,M16,route,240,Myrtle Av,Marcy Av
+M12,M11,route,60,Flushing Av,Myrtle Av
+M12,M11,route,90,Flushing Av,Myrtle Av
+M12,M11,route,120,Flushing Av,Myrtle Av
+M12,M11,route,150,Flushing Av,Myrtle Av
+M12,M11,route,180,Flushing Av,Myrtle Av
+M12,M11,route,210,Flushing Av,Myrtle Av
+M12,M11,route,240,Flushing Av,Myrtle Av
+M12,M13,route,90,Flushing Av,Lorimer St
+M12,M13,route,120,Flushing Av,Lorimer St
+M13,M12,route,90,Lorimer St,Flushing Av
+M13,M14,route,60,Lorimer St,Hewes St
+M13,M14,route,90,Lorimer St,Hewes St
+M14,M13,route,90,Hewes St,Lorimer St
+M14,M16,route,60,Hewes St,Marcy Av
+M14,M16,route,90,Hewes St,Marcy Av
+M14,M16,route,120,Hewes St,Marcy Av
+M14,M16,route,180,Hewes St,Marcy Av
+M16,M11,route,240,Marcy Av,Myrtle Av
+M16,M11,route,270,Marcy Av,Myrtle Av
+M16,M11,route,300,Marcy Av,Myrtle Av
+M16,M11,route,330,Marcy Av,Myrtle Av
+M16,M11,route,390,Marcy Av,Myrtle Av
+M16,M14,route,60,Marcy Av,Hewes St
+M16,M18,route,450,Marcy Av,Essex St
+M16,M18,route,480,Marcy Av,Essex St
+M16,M18,route,510,Marcy Av,Essex St
+M16,M18,route,540,Marcy Av,Essex St
+M16,M18,route,570,Marcy Av,Essex St
+M18,D21,route,180,Essex St,Broadway-Lafayette St
+M18,D21,route,210,Essex St,Broadway-Lafayette St
+M18,D21,route,240,Essex St,Broadway-Lafayette St
+M18,D21,route,270,Essex St,Broadway-Lafayette St
+M18,D21,route,300,Essex St,Broadway-Lafayette St
+M18,F15,transfer,180,Essex St,Delancey St
+M18,M16,route,450,Essex St,Marcy Av
+M18,M16,route,540,Essex St,Marcy Av
+M18,M16,route,570,Essex St,Marcy Av
+M18,M19,route,90,Essex St,Bowery
+M19,M18,route,90,Bowery,Essex St
+M19,M18,route,120,Bowery,Essex St
+M19,M18,route,150,Bowery,Essex St
+M19,M18,route,180,Bowery,Essex St
+M19,M18,route,210,Bowery,Essex St
+M19,M18,route,240,Bowery,Essex St
+M19,M20,route,90,Bowery,Canal St
+M19,M20,route,120,Bowery,Canal St
+M20,639,transfer,180,Canal St,Canal St
+M20,M19,route,120,Canal St,Bowery
+M20,M19,route,150,Canal St,Bowery
+M20,M21,route,90,Canal St,Chambers St
+M20,M21,route,120,Canal St,Chambers St
+M20,M21,route,150,Canal St,Chambers St
+M20,Q01,transfer,180,Canal St,Canal St
+M20,R23,transfer,300,Canal St,Canal St
+M21,640,transfer,180,Chambers St,Brooklyn Bridge - City Hall
+M21,M20,route,120,Chambers St,Canal St
+M21,M22,route,60,Chambers St,Fulton St
+M21,M22,route,90,Chambers St,Fulton St
+M22,229,transfer,300,Fulton St,Fulton St
+M22,418,transfer,300,Fulton St,Fulton St
+M22,A38,transfer,180,Fulton St,Fulton St
+M22,M21,route,90,Fulton St,Chambers St
+M22,M21,route,120,Fulton St,Chambers St
+M22,M23,route,90,Fulton St,Broad St
+M22,M23,route,120,Fulton St,Broad St
+M23,M22,route,90,Broad St,Fulton St
+M23,M22,route,120,Broad St,Fulton St
+N02,N03,route,90,8 Av,Fort Hamilton Pkwy
+N02,R41,route,180,8 Av,59 St
+N02,R41,route,240,8 Av,59 St
+N02,R41,route,300,8 Av,59 St
+N03,N02,route,60,Fort Hamilton Pkwy,8 Av
+N03,N02,route,90,Fort Hamilton Pkwy,8 Av
+N03,N04,route,120,Fort Hamilton Pkwy,New Utrecht Av
+N04,B16,transfer,180,New Utrecht Av,62 St
+N04,N03,route,120,New Utrecht Av,Fort Hamilton Pkwy
+N04,N03,route,150,New Utrecht Av,Fort Hamilton Pkwy
+N04,N05,route,90,New Utrecht Av,18 Av
+N05,N04,route,90,18 Av,New Utrecht Av
+N05,N06,route,90,18 Av,20 Av
+N06,N05,route,60,20 Av,18 Av
+N06,N05,route,90,20 Av,18 Av
+N06,N07,route,90,20 Av,Bay Pkwy
+N07,N06,route,90,Bay Pkwy,20 Av
+N07,N08,route,120,Bay Pkwy,Kings Hwy
+N08,N07,route,120,Kings Hwy,Bay Pkwy
+N08,N09,route,120,Kings Hwy,Avenue U
+N09,N08,route,90,Avenue U,Kings Hwy
+N09,N08,route,120,Avenue U,Kings Hwy
+N09,N10,route,60,Avenue U,86 St
+N09,N10,route,90,Avenue U,86 St
+N09,N10,route,120,Avenue U,86 St
+N09,N10,route,150,Avenue U,86 St
+N09,N10,route,180,Avenue U,86 St
+N09,N10,route,210,Avenue U,86 St
+N09,N10,route,240,Avenue U,86 St
+N09,N10,route,270,Avenue U,86 St
+N09,N10,route,300,Avenue U,86 St
+N09,N10,route,330,Avenue U,86 St
+N09,N10,route,360,Avenue U,86 St
+N09,N10,route,420,Avenue U,86 St
+N09,N10,route,480,Avenue U,86 St
+N10,D43,route,240,86 St,Coney Island - Stillwell Av
+N10,N09,route,60,86 St,Avenue U
+Q01,639,transfer,180,Canal St,Canal St
+Q01,M20,transfer,180,Canal St,Canal St
+Q01,R20,route,240,Canal St,14 St - Union Sq
+Q01,R20,route,270,Canal St,14 St - Union Sq
+Q01,R22,route,120,Canal St,Prince St
+Q01,R23,transfer,180,Canal St,Canal St
+Q01,R30,route,480,Canal St,DeKalb Av
+Q01,R30,route,510,Canal St,DeKalb Av
+Q01,R30,route,540,Canal St,DeKalb Av
+Q01,R30,route,570,Canal St,DeKalb Av
+Q01,R30,route,600,Canal St,DeKalb Av
+Q01,R30,route,660,Canal St,DeKalb Av
+Q01,R31,route,660,Canal St,Atlantic Av - Barclays Ctr
+Q01,R31,route,690,Canal St,Atlantic Av - Barclays Ctr
+Q01,R31,route,720,Canal St,Atlantic Av - Barclays Ctr
+Q01,R31,route,750,Canal St,Atlantic Av - Barclays Ctr
+Q01,R31,route,780,Canal St,Atlantic Av - Barclays Ctr
+Q01,R31,route,810,Canal St,Atlantic Av - Barclays Ctr
+R01,R03,route,90,Astoria - Ditmars Blvd,Astoria Blvd
+R01,R03,route,120,Astoria - Ditmars Blvd,Astoria Blvd
+R03,R01,route,90,Astoria Blvd,Astoria - Ditmars Blvd
+R03,R01,route,120,Astoria Blvd,Astoria - Ditmars Blvd
+R03,R04,route,60,Astoria Blvd,30 Av
+R03,R04,route,90,Astoria Blvd,30 Av
+R04,R03,route,60,30 Av,Astoria Blvd
+R04,R03,route,90,30 Av,Astoria Blvd
+R04,R05,route,90,30 Av,Broadway
+R04,R05,route,120,30 Av,Broadway
+R05,R04,route,90,Broadway,30 Av
+R05,R04,route,120,Broadway,30 Av
+R05,R06,route,90,Broadway,36 Av
+R05,R06,route,120,Broadway,36 Av
+R06,R05,route,90,36 Av,Broadway
+R06,R05,route,120,36 Av,Broadway
+R06,R08,route,60,36 Av,39 Av
+R06,R08,route,90,36 Av,39 Av
+R08,R06,route,60,39 Av,36 Av
+R08,R06,route,90,39 Av,36 Av
+R08,R09,route,120,39 Av,Queensboro Plaza
+R08,R09,route,150,39 Av,Queensboro Plaza
+R08,R09,route,180,39 Av,Queensboro Plaza
+R08,R09,route,210,39 Av,Queensboro Plaza
+R08,R09,route,240,39 Av,Queensboro Plaza
+R08,R09,route,270,39 Av,Queensboro Plaza
+R09,718,transfer,0,Queensboro Plaza,Queensboro Plaza
+R09,R08,route,120,Queensboro Plaza,39 Av
+R09,R11,route,270,Queensboro Plaza,Lexington Av/59 St
+R09,R11,route,300,Queensboro Plaza,Lexington Av/59 St
+R09,R11,route,330,Queensboro Plaza,Lexington Av/59 St
+R11,629,transfer,180,Lexington Av/59 St,59 St
+R11,B08,transfer,300,Lexington Av/59 St,Lexington Av/63 St
+R11,G21,route,330,Lexington Av/59 St,Queens Plaza
+R11,G21,route,360,Lexington Av/59 St,Queens Plaza
+R11,G21,route,390,Lexington Av/59 St,Queens Plaza
+R11,G21,route,420,Lexington Av/59 St,Queens Plaza
+R11,G21,route,450,Lexington Av/59 St,Queens Plaza
+R11,G21,route,480,Lexington Av/59 St,Queens Plaza
+R11,G21,route,510,Lexington Av/59 St,Queens Plaza
+R11,G21,route,540,Lexington Av/59 St,Queens Plaza
+R11,G21,route,570,Lexington Av/59 St,Queens Plaza
+R11,G21,route,600,Lexington Av/59 St,Queens Plaza
+R11,G21,route,630,Lexington Av/59 St,Queens Plaza
+R11,R09,route,270,Lexington Av/59 St,Queensboro Plaza
+R11,R09,route,300,Lexington Av/59 St,Queensboro Plaza
+R11,R09,route,330,Lexington Av/59 St,Queensboro Plaza
+R11,R09,route,360,Lexington Av/59 St,Queensboro Plaza
+R11,R09,route,390,Lexington Av/59 St,Queensboro Plaza
+R11,R09,route,420,Lexington Av/59 St,Queensboro Plaza
+R11,R09,route,450,Lexington Av/59 St,Queensboro Plaza
+R11,R09,route,480,Lexington Av/59 St,Queensboro Plaza
+R11,R09,route,510,Lexington Av/59 St,Queensboro Plaza
+R11,R13,route,90,Lexington Av/59 St,5 Av/59 St
+R11,R13,route,120,Lexington Av/59 St,5 Av/59 St
+R13,R11,route,90,5 Av/59 St,Lexington Av/59 St
+R13,R11,route,120,5 Av/59 St,Lexington Av/59 St
+R13,R14,route,150,5 Av/59 St,57 St - 7 Av
+R13,R14,route,180,5 Av/59 St,57 St - 7 Av
+R13,R14,route,210,5 Av/59 St,57 St - 7 Av
+R13,R14,route,240,5 Av/59 St,57 St - 7 Av
+R13,R14,route,270,5 Av/59 St,57 St - 7 Av
+R13,R14,route,330,5 Av/59 St,57 St - 7 Av
+R14,R13,route,150,57 St - 7 Av,5 Av/59 St
+R14,R13,route,180,57 St - 7 Av,5 Av/59 St
+R14,R15,route,90,57 St - 7 Av,49 St
+R14,R15,route,120,57 St - 7 Av,49 St
+R14,R16,route,150,57 St - 7 Av,Times Sq - 42 St
+R14,R16,route,180,57 St - 7 Av,Times Sq - 42 St
+R15,R14,route,90,49 St,57 St - 7 Av
+R15,R14,route,120,49 St,57 St - 7 Av
+R15,R16,route,90,49 St,Times Sq - 42 St
+R15,R16,route,120,49 St,Times Sq - 42 St
+R16,127,transfer,180,Times Sq - 42 St,Times Sq - 42 St
+R16,725,transfer,180,Times Sq - 42 St,Times Sq - 42 St
+R16,902,transfer,180,Times Sq - 42 St,Times Sq - 42 St
+R16,A27,transfer,300,Times Sq - 42 St,42 St - Port Authority Bus Terminal
+R16,R14,route,150,Times Sq - 42 St,57 St - 7 Av
+R16,R14,route,180,Times Sq - 42 St,57 St - 7 Av
+R16,R15,route,90,Times Sq - 42 St,49 St
+R16,R17,route,90,Times Sq - 42 St,34 St - Herald Sq
+R16,R17,route,120,Times Sq - 42 St,34 St - Herald Sq
+R16,R17,route,150,Times Sq - 42 St,34 St - Herald Sq
+R16,R17,route,180,Times Sq - 42 St,34 St - Herald Sq
+R16,R17,route,210,Times Sq - 42 St,34 St - Herald Sq
+R16,R17,route,240,Times Sq - 42 St,34 St - Herald Sq
+R17,D17,transfer,180,34 St - Herald Sq,34 St - Herald Sq
+R17,R16,route,90,34 St - Herald Sq,Times Sq - 42 St
+R17,R16,route,120,34 St - Herald Sq,Times Sq - 42 St
+R17,R16,route,150,34 St - Herald Sq,Times Sq - 42 St
+R17,R16,route,180,34 St - Herald Sq,Times Sq - 42 St
+R17,R16,route,210,34 St - Herald Sq,Times Sq - 42 St
+R17,R16,route,240,34 St - Herald Sq,Times Sq - 42 St
+R17,R16,route,270,34 St - Herald Sq,Times Sq - 42 St
+R17,R18,route,60,34 St - Herald Sq,28 St
+R17,R20,route,150,34 St - Herald Sq,14 St - Union Sq
+R17,R20,route,180,34 St - Herald Sq,14 St - Union Sq
+R17,R20,route,210,34 St - Herald Sq,14 St - Union Sq
+R18,R17,route,60,28 St,34 St - Herald Sq
+R18,R17,route,90,28 St,34 St - Herald Sq
+R18,R17,route,120,28 St,34 St - Herald Sq
+R18,R17,route,150,28 St,34 St - Herald Sq
+R18,R17,route,180,28 St,34 St - Herald Sq
+R18,R19,route,60,28 St,23 St
+R18,R19,route,90,28 St,23 St
+R19,R18,route,60,23 St,28 St
+R19,R18,route,90,23 St,28 St
+R19,R20,route,90,23 St,14 St - Union Sq
+R19,R20,route,120,23 St,14 St - Union Sq
+R20,635,transfer,180,14 St - Union Sq,14 St - Union Sq
+R20,L03,transfer,180,14 St - Union Sq,Union Sq - 14 St
+R20,Q01,route,240,14 St - Union Sq,Canal St
+R20,Q01,route,270,14 St - Union Sq,Canal St
+R20,Q01,route,300,14 St - Union Sq,Canal St
+R20,Q01,route,360,14 St - Union Sq,Canal St
+R20,R17,route,150,14 St - Union Sq,34 St - Herald Sq
+R20,R17,route,180,14 St - Union Sq,34 St - Herald Sq
+R20,R17,route,210,14 St - Union Sq,34 St - Herald Sq
+R20,R17,route,240,14 St - Union Sq,34 St - Herald Sq
+R20,R17,route,270,14 St - Union Sq,34 St - Herald Sq
+R20,R17,route,300,14 St - Union Sq,34 St - Herald Sq
+R20,R19,route,90,14 St - Union Sq,23 St
+R20,R19,route,120,14 St - Union Sq,23 St
+R20,R21,route,90,14 St - Union Sq,8 St - NYU
+R20,R21,route,120,14 St - Union Sq,8 St - NYU
+R21,R20,route,90,8 St - NYU,14 St - Union Sq
+R21,R20,route,120,8 St - NYU,14 St - Union Sq
+R21,R22,route,90,8 St - NYU,Prince St
+R21,R22,route,120,8 St - NYU,Prince St
+R21,R22,route,150,8 St - NYU,Prince St
+R22,Q01,route,120,Prince St,Canal St
+R22,Q01,route,180,Prince St,Canal St
+R22,Q01,route,240,Prince St,Canal St
+R22,R21,route,90,Prince St,8 St - NYU
+R22,R21,route,120,Prince St,8 St - NYU
+R22,R21,route,150,Prince St,8 St - NYU
+R22,R23,route,90,Prince St,Canal St
+R22,R23,route,150,Prince St,Canal St
+R22,R23,route,210,Prince St,Canal St
+R23,639,transfer,180,Canal St,Canal St
+R23,M20,transfer,300,Canal St,Canal St
+R23,Q01,transfer,180,Canal St,Canal St
+R23,R22,route,90,Canal St,Prince St
+R23,R24,route,150,Canal St,City Hall
+R24,R23,route,150,City Hall,Canal St
+R24,R23,route,180,City Hall,Canal St
+R24,R23,route,210,City Hall,Canal St
+R24,R23,route,240,City Hall,Canal St
+R24,R23,route,270,City Hall,Canal St
+R24,R25,route,120,City Hall,Cortlandt St
+R25,R24,route,90,Cortlandt St,City Hall
+R25,R24,route,120,Cortlandt St,City Hall
+R25,R26,route,60,Cortlandt St,Rector St
+R25,R26,route,90,Cortlandt St,Rector St
+R25,R26,route,120,Cortlandt St,Rector St
+R26,R25,route,60,Rector St,Cortlandt St
+R26,R25,route,90,Rector St,Cortlandt St
+R26,R27,route,120,Rector St,Whitehall St
+R26,R27,route,150,Rector St,Whitehall St
+R26,R27,route,180,Rector St,Whitehall St
+R26,R27,route,210,Rector St,Whitehall St
+R26,R27,route,240,Rector St,Whitehall St
+R27,140,transfer,120,Whitehall St,South Ferry Loop
+R27,R26,route,90,Whitehall St,Rector St
+R27,R26,route,120,Whitehall St,Rector St
+R27,R28,route,210,Whitehall St,Court St
+R27,R28,route,240,Whitehall St,Court St
+R28,232,transfer,180,Court St,Borough Hall
+R28,423,transfer,180,Court St,Borough Hall
+R28,R27,route,210,Court St,Whitehall St
+R28,R27,route,240,Court St,Whitehall St
+R28,R27,route,300,Court St,Whitehall St
+R28,R29,route,120,Court St,Jay St - MetroTech
+R28,R29,route,150,Court St,Jay St - MetroTech
+R29,A41,transfer,90,Jay St - MetroTech,Jay St - MetroTech
+R29,R28,route,90,Jay St - MetroTech,Court St
+R29,R28,route,120,Jay St - MetroTech,Court St
+R29,R30,route,90,Jay St - MetroTech,DeKalb Av
+R29,R30,route,120,Jay St - MetroTech,DeKalb Av
+R29,R30,route,150,Jay St - MetroTech,DeKalb Av
+R29,R30,route,180,Jay St - MetroTech,DeKalb Av
+R29,R30,route,210,Jay St - MetroTech,DeKalb Av
+R29,R30,route,240,Jay St - MetroTech,DeKalb Av
+R29,R30,route,300,Jay St - MetroTech,DeKalb Av
+R30,D22,route,480,DeKalb Av,Grand St
+R30,D22,route,510,DeKalb Av,Grand St
+R30,D22,route,540,DeKalb Av,Grand St
+R30,D24,route,90,DeKalb Av,Atlantic Av - Barclays Ctr
+R30,D24,route,120,DeKalb Av,Atlantic Av - Barclays Ctr
+R30,Q01,route,480,DeKalb Av,Canal St
+R30,Q01,route,510,DeKalb Av,Canal St
+R30,Q01,route,540,DeKalb Av,Canal St
+R30,Q01,route,570,DeKalb Av,Canal St
+R30,Q01,route,600,DeKalb Av,Canal St
+R30,Q01,route,630,DeKalb Av,Canal St
+R30,R29,route,90,DeKalb Av,Jay St - MetroTech
+R30,R29,route,120,DeKalb Av,Jay St - MetroTech
+R30,R31,route,180,DeKalb Av,Atlantic Av - Barclays Ctr
+R30,R31,route,210,DeKalb Av,Atlantic Av - Barclays Ctr
+R30,R31,route,240,DeKalb Av,Atlantic Av - Barclays Ctr
+R30,R31,route,300,DeKalb Av,Atlantic Av - Barclays Ctr
+R31,235,transfer,180,Atlantic Av - Barclays Ctr,Atlantic Av - Barclays Ctr
+R31,D22,route,630,Atlantic Av - Barclays Ctr,Grand St
+R31,D22,route,660,Atlantic Av - Barclays Ctr,Grand St
+R31,D22,route,720,Atlantic Av - Barclays Ctr,Grand St
+R31,D24,transfer,300,Atlantic Av - Barclays Ctr,Atlantic Av - Barclays Ctr
+R31,Q01,route,630,Atlantic Av - Barclays Ctr,Canal St
+R31,Q01,route,660,Atlantic Av - Barclays Ctr,Canal St
+R31,Q01,route,690,Atlantic Av - Barclays Ctr,Canal St
+R31,Q01,route,720,Atlantic Av - Barclays Ctr,Canal St
+R31,Q01,route,750,Atlantic Av - Barclays Ctr,Canal St
+R31,R30,route,180,Atlantic Av - Barclays Ctr,DeKalb Av
+R31,R30,route,210,Atlantic Av - Barclays Ctr,DeKalb Av
+R31,R30,route,240,Atlantic Av - Barclays Ctr,DeKalb Av
+R31,R30,route,270,Atlantic Av - Barclays Ctr,DeKalb Av
+R31,R30,route,300,Atlantic Av - Barclays Ctr,DeKalb Av
+R31,R32,route,120,Atlantic Av - Barclays Ctr,Union St
+R31,R36,route,330,Atlantic Av - Barclays Ctr,36 St
+R31,R36,route,360,Atlantic Av - Barclays Ctr,36 St
+R32,R31,route,120,Union St,Atlantic Av - Barclays Ctr
+R32,R31,route,180,Union St,Atlantic Av - Barclays Ctr
+R32,R31,route,240,Union St,Atlantic Av - Barclays Ctr
+R32,R33,route,90,Union St,9 St
+R33,F23,transfer,180,9 St,4 Av
+R33,R32,route,90,9 St,Union St
+R33,R32,route,120,9 St,Union St
+R33,R34,route,120,9 St,Prospect Av
+R34,R33,route,90,Prospect Av,9 St
+R34,R33,route,120,Prospect Av,9 St
+R34,R35,route,90,Prospect Av,25 St
+R35,R34,route,90,25 St,Prospect Av
+R35,R36,route,90,25 St,36 St
+R35,R36,route,210,25 St,36 St
+R36,B12,route,240,36 St,9 Av
+R36,R31,route,300,36 St,Atlantic Av - Barclays Ctr
+R36,R31,route,330,36 St,Atlantic Av - Barclays Ctr
+R36,R31,route,360,36 St,Atlantic Av - Barclays Ctr
+R36,R35,route,90,36 St,25 St
+R36,R35,route,120,36 St,25 St
+R36,R39,route,120,36 St,45 St
+R36,R39,route,150,36 St,45 St
+R36,R41,route,210,36 St,59 St
+R36,R41,route,270,36 St,59 St
+R36,R41,route,300,36 St,59 St
+R39,R36,route,150,45 St,36 St
+R39,R36,route,270,45 St,36 St
+R39,R40,route,90,45 St,53 St
+R40,R39,route,90,53 St,45 St
+R40,R41,route,90,53 St,59 St
+R40,R41,route,120,53 St,59 St
+R40,R41,route,150,53 St,59 St
+R40,R41,route,180,53 St,59 St
+R40,R41,route,210,53 St,59 St
+R40,R41,route,240,53 St,59 St
+R41,N02,route,180,59 St,8 Av
+R41,R36,route,270,59 St,36 St
+R41,R40,route,90,59 St,53 St
+R41,R42,route,120,59 St,Bay Ridge Av
+R41,R42,route,150,59 St,Bay Ridge Av
+R42,R41,route,120,Bay Ridge Av,59 St
+R42,R41,route,150,Bay Ridge Av,59 St
+R42,R41,route,210,Bay Ridge Av,59 St
+R42,R41,route,240,Bay Ridge Av,59 St
+R42,R43,route,90,Bay Ridge Av,77 St
+R43,R42,route,90,77 St,Bay Ridge Av
+R43,R44,route,120,77 St,86 St
+R43,R44,route,180,77 St,86 St
+R43,R44,route,210,77 St,86 St
+R43,R44,route,240,77 St,86 St
+R43,R44,route,270,77 St,86 St
+R43,R44,route,300,77 St,86 St
+R43,R44,route,360,77 St,86 St
+R44,R43,route,120,86 St,77 St
+R44,R45,route,90,86 St,Bay Ridge - 95 St
+R44,R45,route,120,86 St,Bay Ridge - 95 St
+R45,R44,route,90,Bay Ridge - 95 St,86 St
+R45,R44,route,120,Bay Ridge - 95 St,86 St
+S01,A45,transfer,180,Franklin Av,Franklin Av
+S01,S03,route,120,Franklin Av,Park Pl
+S03,S01,route,120,Park Pl,Franklin Av
+S03,S04,route,90,Park Pl,Botanic Garden
+S04,239,transfer,180,Botanic Garden,Franklin Av
+S04,D26,route,180,Botanic Garden,Prospect Park
+S04,S03,route,120,Botanic Garden,Park Pl
+S09,S10,route,120,Tottenville,Atlantic
+S10,S09,route,120,Atlantic,Tottenville
+S10,S12,route,60,Atlantic,Nassau
+S12,S10,route,60,Nassau,Atlantic
+S12,S13,route,120,Nassau,Richmond Valley
+S13,S12,route,120,Richmond Valley,Nassau
+S13,S14,route,120,Richmond Valley,Pleasant Plains
+S14,S13,route,120,Pleasant Plains,Richmond Valley
+S14,S15,route,120,Pleasant Plains,Prince's Bay
+S15,S14,route,120,Prince's Bay,Pleasant Plains
+S15,S16,route,120,Prince's Bay,Huguenot
+S16,S15,route,120,Huguenot,Prince's Bay
+S16,S17,route,120,Huguenot,Annadale
+S17,S16,route,120,Annadale,Huguenot
+S17,S18,route,120,Annadale,Eltingville
+S18,S17,route,120,Eltingville,Annadale
+S18,S19,route,120,Eltingville,Great Kills
+S19,S18,route,120,Great Kills,Eltingville
+S19,S20,route,120,Great Kills,Bay Terrace
+S20,S19,route,120,Bay Terrace,Great Kills
+S20,S21,route,120,Bay Terrace,Oakwood Heights
+S21,S20,route,120,Oakwood Heights,Bay Terrace
+S21,S22,route,120,Oakwood Heights,New Dorp
+S22,S21,route,120,New Dorp,Oakwood Heights
+S22,S23,route,120,New Dorp,Grant City
+S22,S31,route,660,New Dorp,St George
+S23,S22,route,120,Grant City,New Dorp
+S23,S24,route,60,Grant City,Jefferson Av
+S24,S23,route,60,Jefferson Av,Grant City
+S24,S25,route,120,Jefferson Av,Dongan Hills
+S25,S24,route,120,Dongan Hills,Jefferson Av
+S25,S26,route,120,Dongan Hills,Old Town
+S26,S25,route,120,Old Town,Dongan Hills
+S26,S27,route,120,Old Town,Grasmere
+S27,S26,route,120,Grasmere,Old Town
+S27,S28,route,180,Grasmere,Clifton
+S28,S27,route,180,Clifton,Grasmere
+S28,S29,route,120,Clifton,Stapleton
+S29,S28,route,120,Stapleton,Clifton
+S29,S30,route,120,Stapleton,Tompkinsville
+S30,S29,route,120,Tompkinsville,Stapleton
+S30,S31,route,180,Tompkinsville,St George
+S31,S19,route,840,St George,Great Kills
+S31,S22,route,660,St George,New Dorp
+S31,S30,route,180,St George,Tompkinsville
+S31,140,route,1500,St George,South Ferry Loop

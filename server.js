@@ -18,7 +18,8 @@ const {
 	getMtaEdges,
 	getMtaRoutes,
 	getMtaStopsRoutes,
-	getColors
+	getColors,
+	getEdgesNames
 } = require('./circuit/circuit.controller');
 
 app.use(bodyParser.json());
@@ -41,6 +42,7 @@ app.get('/mtaedges', getMtaEdges);
 app.get('/mtaroutes', getMtaRoutes);
 app.get('/mtastopsroutes', getMtaStopsRoutes);
 app.get('/mtacolors', getColors);
+app.get('/mtaedgesnames',getEdgesNames);
 
 let server;
 

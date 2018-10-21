@@ -5,6 +5,7 @@ const MtaEdges = require('../model/mtaEdges.model');
 const MtaRoutes = require('../model/mtaRoutes.model');
 const MtaStopsRoutes = require('../model/mtaStopsRoutes.model');
 const MtaColors = require('../model/mtaColors.model');
+const MtaEdgesNames = require('../model/mtaEdgesNames.model');
 const { lowerKeysAndReplaceSpaceWithDash } = require('./utils');
 
 exports.getCircuitData = (req, res) => {
@@ -72,5 +73,14 @@ exports.getColors = (req,res) => {
 	.exec((err, data) => {
 		if(err) {console.log(err)};
 		return res.json(data);
+	})
+}
+
+exports.getEdgesNames = (req, res) => {
+	MtaEdgesNames.find()
+	.lean()
+	.exec((err, data) => {
+		if(err) {console.log(err)};
+		return res.json(data); 
 	})
 }
