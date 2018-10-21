@@ -1,4 +1,5 @@
 # Prototyping Functionality
+[Delpoyed app](https://prototyping-functionality.herokuapp.com/)
 
 ## Technology Stack
 - Database: [MongoDB](https://www.mongodb.com/) database hosted on [mLab](https://mlab.com/), using [Mongoose](https://mongoosejs.com/) interface.
@@ -15,12 +16,15 @@
 - [x] Select javascript library for rendering interactive circuits.
 - [x] Render network nodes using different icons.
 	- [x] Icons should be rendered according to train service availability on nodes. 
-- [ ] Render network edges using different colors.
-	- [ ] Edges should be highlighted according to train service availability on edges.
-- [ ] Render network edges using different stroke patterns.
-- [ ] Render network edges using different stroke widths.
-- [ ] Show alert after clicking on a feature.
-- [ ] Show tooltip/popup after clicking on a feature.
+- [x] Render network edges using different colors.
+	- [x] Edges should be highlighted according to train service availability on edges.
+- [x] Render network edges using different stroke patterns.
+	- [x] Staten Island shuttle line rendered in dashed lines.
+- [x] Render network edges using different stroke widths.
+	- [x] After an edge has been clicked on, the line is 'highlighted' by being rendered wider. It returns to default line width when another edge has been clicked and 'highlighted'.
+- [x] Show alert after clicking on a feature.
+	- [x] Alert on clicking node.
+	- [x] Alert on clicking edge.
 - [x] Find ways to let user move positions of network nodes.
 	- Note: Cytoscape has abstracted this functionality into a style attribute that can be specified in one line.
 
