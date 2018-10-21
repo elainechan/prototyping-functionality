@@ -1,4 +1,6 @@
 'use strict';
+//const cytoscape = require('cytoscape');
+
 function handleCircuitButton() {
 	let circuit = document.querySelector('#subway-circuit');
 	if (circuit.style.visibility === 'visible') {
@@ -16,7 +18,7 @@ const getStops = fetch('/mtastops')
 				let id = val.station_id;
 				let idstring = id.toString();
 				let line = idstring.charAt(0);
-				console.log(`line: ${line}`)
+				//console.log(`line: ${line}`)
 				let entry = {
 					group: 'nodes',
 					data: {
@@ -50,6 +52,9 @@ const getEdges =
 					id: 'e' + (i+1).toString(),
 					source: 'n' + val.source_id,
 					target: 'n' + val.target_id,
+				},
+				style: {
+					'width': 5
 				}
 			};
 			edges.push(entry);
@@ -63,21 +68,40 @@ const getRoutes =
 	fetch('/mtaroutes')
 	.then(res => res.json())
 	.then(data => {
+		//console.log(`getRoutes: ${JSON.stringify(data)}`);
 	});
 
 const getStopsRoutes = 
 	fetch('/mtastopsroutes')
 	.then(res => res.json())
 	.then(data => {
-		console.log(`getStopsRoutes: ${JSON.stringify(data)}`)
+		//console.log(`getStopsRoutes: ${JSON.stringify(data)}`);
 	});
 
+const colors = []
+const getColors = fetch('/mtacolors')
+	.then(res => res.json())
+	.then(data => {
+		console.log(`getColors: ${JSON.stringify(data)}`);
+		data.map(val => {
+			let lineString = val.line_name.toString();
+			let entry = {
+				line_name: lineString,
+				hexcolor: val.hexcolor
+			}
+			colors.push(entry);
+		});
+		console.log(`colors: ${JSON.stringify(colors)}`);
+		return colors;
+	})
+
 // Fetch data then initiate Cytoscape instance
-Promise.all([getStops, getEdges]).then(initCy);
+Promise.all([getStops, getEdges, getColors]).then(initCy);
 // Renders network graph
 function initCy(then) {
 	let nodes = then[0];
 	let edges = then[1];
+	let colors = then[2];
 	const cy = window.cy = cytoscape({
 		container: document.getElementById('subway-circuit'),
 		elements: nodes.concat(edges),
@@ -94,23 +118,73 @@ function initCy(then) {
 		]
 	});
 // Adds icons to nodes
-	cy.nodes().forEach(ele => {
-		let id = ele.data('line');
+	cy.nodes().forEach(node => {
+		let id = node.data('line');
 		let regex = /[a-zA-Z]/i;
 		if (id === '9') {
 			id = 7;
 		} else if (id.match(regex)) {
 			id = id.toLowerCase();
-			ele.style({
+			node.style({
 				'background-image': `./icons/mta/${id}.png`
 			});
 		}
-		ele.style({
+		node.style({
 			'background-image': `./icons/mta/${id}.png`
 		});
 	})
+	// Renders edges in colors according to train lines
+	cy.edges().forEach(edge => {
+		let line = edge.data('source')[1];
+		if (line === 'S') {
+			line = 'GS';
+		}
+		//console.log(`edge line: ${line}`);
+		colors.forEach((val, i) => {
+			if (line === val.line_name) {
+				//console.log(`line: ${line}, val.line_name: ${val.line_name}, val.hexcolor: ${val.hexcolor}`);
+				let hex = '#' + val.hexcolor;
+				edge.style({
+					'line-color': hex
+				});
+				/*
+				if (line === 'A') { // renders A line wider
+					edge.style({
+						'width': 10
+					});
+				}
+				*/
+				if (line === 'GS') { // renders S line dashed
+					edge.style({
+						'line-style': 'dashed'
+					})
+				}
+			}
+		})
+
+	})
+// Alert on click node
+	cy.on('click', 'node', (e) => {
+		let targetNode = e.target;
+		alert(`Clicked node id: ${targetNode.id()}.`);
+	});
+
+	cy.on('click', 'edge', (e) => {
+		let targetEdge = e.target;
+		targetEdge.style({
+			'width': 14
+		})
+		alert(`Clicked edge id: ${targetEdge.id()}.`);
+		cy.edges().forEach(edge => {
+			if (edge.id() !== e.target.id()) {
+				edge.style({
+					'width': 5
+				})
+			}
+		})
+	})
+
 	let nodeArr = cy.nodes().toArray();
 	console.log(`nodeArr: ${nodeArr}`);
 	cy.edges();
 }
-
